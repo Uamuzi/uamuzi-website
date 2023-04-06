@@ -12,7 +12,7 @@ module.exports = {
     title: `Uamuzi Foundation`,
     description: `Uamuzi Foundation is a philanthropic organization, under the umbrella of Uamuzi Group, advocating for social justice with a specific focus on the youth who deserve equal economic, political and social rights.`,
     author: `Uamuzi Foundation`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://uamuzi.org/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -36,7 +36,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/uamuzi-favlogo.png`, // This path is relative to the root of the site.
       },
     },
   ],
