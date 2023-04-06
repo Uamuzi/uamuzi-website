@@ -8,7 +8,8 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+import Header from "./header";
+import Navbar from "./navbar";
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -24,7 +25,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Navbar />
+      {/* <Header siteTitle={data.site.siteMetadata?.title || `Uamuzi Foundation`} /> */}
       <div
         style={{
           margin: `0 auto`,
@@ -39,9 +41,9 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
+          © {new Date().getFullYear()} &middot;
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://www.uamuzi.org">Uamuzi Foundation</a>
         </footer>
       </div>
     </>
