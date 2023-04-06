@@ -1,5 +1,6 @@
 import * as React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
+import Hero from "../components/index/hero"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo";
@@ -9,6 +10,7 @@ import Seo from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <div>
+      <Hero />
      </div>
   </Layout>
 )

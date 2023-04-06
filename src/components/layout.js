@@ -28,11 +28,7 @@ const Layout = ({ children }) => {
       <Navbar />
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Uamuzi Foundation`} /> */}
       <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
-          padding: `var(--size-gutter)`,
-        }}
+        
       >
         <main>{children}</main>
         <footer
