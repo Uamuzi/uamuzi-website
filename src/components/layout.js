@@ -40,10 +40,11 @@ const Layout = ({ children }) => {
             marginTop: `var(--space-5)`,
             fontSize: `var(--font-sm)`,
           }}
+          className="text-center"
         >
           © {new Date().getFullYear()} &middot;
           {` `}
-          <a href="https://www.uamuzi.org">Uamuzi Foundation</a>
+          <a href="https://www.uamuzi.org" >Uamuzi Foundation</a>
         </footer>
       </div>
     </>
