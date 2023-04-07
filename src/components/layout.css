@@ -199,12 +199,33 @@ body {
 /* right hero section */
 figure.ball{
   display: block;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin: 30px auto 0;
-  background: url("../images/uamuzi-favlogo.png");
+  background: url("../images/hero-img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 50%;
-  box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
+  box-shadow: inset -25px -25px 30px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  right: 100px;
+}
+figure.ball::after{
+  background-color: rgba(255,255,255,.5);
+  content:'';
+  height:40%;
+  width: 15%;
+  left:18%;
+  top:0%;
+  position: absolute;
+  border-radius:50%;
+  transform: rotate(45deg);
+}
+hr.kite{
+  width: 100%;
+  height: 30px;
 }
 /* end right hero section */
 
