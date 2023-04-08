@@ -8,6 +8,7 @@
     "bootstrap": "^5.2.3",
     "boxicons": "^2.1.4",
     "gatsby": "^5.8.1",
+    "gatsby-cli": "^5.8.0",
     "gatsby-plugin-image": "^3.8.0",
     "gatsby-plugin-manifest": "^5.8.0",
     "gatsby-plugin-sharp": "^5.8.1",

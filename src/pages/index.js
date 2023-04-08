@@ -4,6 +4,7 @@ import Hero from "../components/index/hero"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo";
+import Events from "../components/index/events";
 
 
 
@@ -11,6 +12,7 @@ const IndexPage = () => (
   <Layout>
     <div>
       <Hero />
+      <Events />
      </div>
   </Layout>
 )

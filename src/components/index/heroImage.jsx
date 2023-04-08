@@ -1,8 +1,8 @@
 import React from 'react'
 
-function HeroImage() {
+function HeroImage({ imgStyle }) {
   return (
-    <figure className='ball'>
+    <figure className='ball' style={ imgStyle }>
 
     </figure>
   )
