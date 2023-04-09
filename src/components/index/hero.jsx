@@ -1,9 +1,9 @@
 import React from 'react';
 import HeroImage from './heroImage';
 import OneImg from "../../images/hero-img-1.jpg"
-import Img1 from "../../images/hero-images/img1.jpg"
-import Img2 from "../../images/hero-images/img2.jpg"
-import Img3 from "../../images/hero-images/img3.jpg"
+import Img1 from "../../images/img1.jpg"
+import Img2 from "../../images/img2.jpg"
+import Img3 from "../../images/img3.jpg"
 
 function Hero() {
     const img1Style = {

@@ -1,5 +1,5 @@
 import React from 'react'
-import OurStoryImg from "../../images/hero-images/our-story.png"
+import OurStoryImg from "../../images/our-story.png"
 
 function OurStory() {
     return (

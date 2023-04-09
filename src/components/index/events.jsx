@@ -1,5 +1,5 @@
 import React from 'react'
-import YesLogo from "../../images/hero-images/YESLogo.png"
+import YesLogo from "../../images/YESLogo.png"
 
 function Events() {
     return (
