@@ -8,8 +8,6 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  // for deploy to gh-pages in dev
-  pathPrefix: "uamuzi-website",
   siteMetadata: {
     title: `Uamuzi Foundation`,
     description: `Uamuzi Foundation is a philanthropic organization, under the umbrella of Uamuzi Group, advocating for social justice with a specific focus on the youth who deserve equal economic, political and social rights.`,
