@@ -9,7 +9,7 @@ function OurStory() {
                 <div className="col-6 col-sm-12 col-md-6 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
                     <img src={OurStoryImg} href="Our story" width={450} height={350} className="our-story-img" />
                 </div>
-                <div className="col-12 col-sm-12 col-md-12 col-lg-12 py-3 our-story-col">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-6 py-3 our-story-col">
                     <p className="h3 text-start event-title mb-3">Who We Are</p>
                     <p className="p">
                         Uamuzi Foundation is a philanthropic organization advocating for social

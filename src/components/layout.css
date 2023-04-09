@@ -313,4 +313,16 @@ figure.ball {
     height: 280px;
   }
 }
+@media screen and (max-width: 480px) {
+  .our-story-img, .yes-img{
+    width: 300px;
+    height: 200px;
+  }
+  .bgCircle {
+    width: 200px;
+    height: 200px;
+    left: 90px;
+    top: 30px;
+  }
+}
 /* end hero section */

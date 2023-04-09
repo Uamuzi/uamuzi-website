@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../images/logo-uamuzi.png"
+import Logo from "../images/logo-uamuzi.png";
 import { Link } from "gatsby"
 
 function Navbar() {
