@@ -296,4 +296,21 @@ figure.ball {
   font-weight: 700;
   
 }
+.our-story-img{
+  float: left;
+}
+.our-story-col{
+  max-width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .our-story-img, .yes-img{
+    width: 300px;
+    height: 200px;
+  }
+  .bgCircle {
+    width: 280px;
+    height: 280px;
+  }
+}
 /* end hero section */
