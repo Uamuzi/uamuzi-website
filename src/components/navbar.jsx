@@ -18,7 +18,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse mx-auto" id="navbarNavAltMarkup">
                     <div className="navbar-nav mx-auto gap-3 ">
                         <Link to="/" className='nav-link active' aria-current="page">Home</Link>
-                        <Link to="/page-2" className='nav-link'>About Us</Link>
+                        <Link to="/about" className='nav-link'>About Us</Link>
                         <Link className="nav-link" to="/">Our Team</Link>
                         <Link className="nav-link" to="/">Pillars</Link>
                         <Link className="nav-link" to="/">Hub</Link>

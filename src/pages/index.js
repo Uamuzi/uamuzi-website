@@ -13,8 +13,8 @@ const IndexPage = () => (
   <Layout>
     <div>
       <Hero />
-      <Events />
       <OurStory />
+      <Events />
      </div>
   </Layout>
 )
