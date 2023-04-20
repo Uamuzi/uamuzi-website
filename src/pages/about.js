@@ -25,6 +25,14 @@ const AboutPage = () => (
                 </div>
             </div>
         </div>
+        <div className="bg-blue position-relative">
+          <div className="top"></div>
+          <p className="py-4 text-center">
+            Our mission is to promote sustainable development and better standards of life; with the vision to build a world where everyone has an equal opportunity to learn and prosper. 
+          </p>
+          <div className="bottom"></div>
+          <div className="bottom-1"></div>
+        </div>
   </Layout>
 )
 
