@@ -6,8 +6,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo";
 import Events from "../components/index/events";
 import OurStory from "../components/index/ourStory";
-import AboutPage from "./about";
-
 
 
 const IndexPage = () => (
