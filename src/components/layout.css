@@ -265,6 +265,7 @@ figure.ball {
 
 .bg-footer a:hover {
   color: #8067AD;
+  transition: .2s ease;
 }
 
 .bg-footer h6 {
@@ -284,12 +285,6 @@ figure.ball {
   flex-direction: column;
 }
 
-.footers {
-  display: flex;
-  justify-content: space-around;
-  gap: 8rem;
-  padding-top: 1rem;
-}
 .tiny{
   width: 15px;
   height:  15px;
@@ -384,5 +379,6 @@ figure.ball {
     left: 90px;
     top: 30px;
   }
+  
 }
 /* end hero section */
