@@ -250,6 +250,41 @@ figure.ball {
 
   opacity: 0.3;
 }
+.bg-footer {
+  background: #212121;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  color: #A0A09F;
+}
+
+.bg-footer a {
+  text-decoration: none;
+  color: #A0A09F;
+}
+
+.bg-footer a:hover {
+  color: #8067AD;
+  transition: .2s ease;
+}
+
+.bg-footer h6 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.bg-footer p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
 .tiny{
   width: 15px;
   height:  15px;
@@ -302,6 +337,23 @@ figure.ball {
   max-width: 100%;
 }
 
+@media screen and (max-width: 780px) {
+  .bg-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .sections {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footers {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .our-story-img, .yes-img{
     width: 300px;
@@ -310,6 +362,10 @@ figure.ball {
   .bgCircle {
     width: 280px;
     height: 280px;
+  }
+  .bg-footer {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 480px) {
@@ -323,5 +379,6 @@ figure.ball {
     left: 90px;
     top: 30px;
   }
+  
 }
 /* end hero section */
