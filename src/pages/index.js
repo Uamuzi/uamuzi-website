@@ -7,7 +7,8 @@ import Seo from "../components/seo";
 import Events from "../components/index/events";
 import OurStory from "../components/index/ourStory";
 import SDGs from "../components/index/sdgs";
-
+import LandingTeam from "../components/index/landingTeam";
+import Technology from "../components/index/technology";
 
 
 const IndexPage = () => (
@@ -17,7 +18,8 @@ const IndexPage = () => (
       <OurStory />
       <Events />
       <SDGs/>
-      
+      <LandingTeam />
+      <Technology />
      </div>
   </Layout>
 )

@@ -26,26 +26,20 @@ function SDGs() {
                             <span className='check-icon'>
                                 <box-icon name='check-circle' size="sm" color="#8067AD" ></box-icon>
                             </span>
-                            <p>Goal 5: <b>Gender Equality</b> - We ensures women full and effective participation and equal opportunities for leadership at all levels of decision making in political, economic and public life.
+                            <p><span className="primary-color" > Goal 5:</span> <b>Gender Equality</b> - We ensures women full and effective participation and equal opportunities for leadership at all levels of decision making in political, economic and public life.
                             </p>
                         </li>
                         <li className="goals d-flex gap-2">
                             <span className='check-icon'>
                                 <box-icon name='check-circle' size="sm" color="#8067AD" ></box-icon>
                             </span>
-                            <p>Goal 5: <b>Gender Equality</b> - We ensures women full and effective participation and equal opportunities for leadership at all levels of decision making in political, economic and public life.
+                            <p><span className="primary-color" > Goal 9:</span> <b>Industry, Innovation and Infrastructure</b> - We significantly increases access to information and communication and strive to provide affordable and equal access to technology for everyone.
                             </p>
                         </li><li className="goals d-flex gap-2">
                             <span className='check-icon'>
                                 <box-icon name='check-circle' size="sm" color="#8067AD"></box-icon>
                             </span>
-                            <p>Goal 5: <b>Gender Equality</b> - We ensures women full and effective participation and equal opportunities for leadership at all levels of decision making in political, economic and public life.
-                            </p>
-                        </li><li className="goals d-flex gap-2">
-                            <span className='check-icon'>
-                                <box-icon name='check-circle' size="sm" color="#8067AD" ></box-icon>
-                            </span>
-                            <p>Goal 5: <b>Gender Equality</b> - We ensures women full and effective participation and equal opportunities for leadership at all levels of decision making in political, economic and public life.
+                            <p><span className="primary-color" > Goal 13:</span> <b> Climate Action</b> - We conduct civic education and raise awareness on climate change mitigation, adaptation, impact reduction and early warning.
                             </p>
                         </li>
                         <button className="hero-read-more d-flex justify-content-center align-items-center">Show More

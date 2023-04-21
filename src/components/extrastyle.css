@@ -3,7 +3,7 @@
     --border-radius: 4px;
     --color-text: #333;
     --color-primary: #8067AD;
-    ;
+    --color-gray:  #A0A09F;
     --color-code-bg: #fff4db;
     --color-code: #8a6534;
     --font-primary: "Poppins";
@@ -32,9 +32,50 @@
     color: var(--color-primary);
 }
 .sdg-paragraph{
-    font-weight: 400 !important;
+    font-weight: 400e;
     line-height: var(--line-height-loose);
 }
 .check-icon{
-    color: var(--color-primary) !important;
+    color: var(--color-primary) ;
+}
+.primary-color{
+    color: var(--color-primary);
+}
+/* .team-member-div{
+    width: 200px;
+    height: auto;
+} */
+.team-inner{
+    width: 200px;
+    height: auto;
+}
+.team-member-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* float: right; */
+}
+.long-purple-line{
+    width: 300px;
+    height: 12px;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    transform: rotate(-50deg);
+    top: 90px;
+    left: -50px;
+    z-index: -1;
+}
+.short-grey-line{
+    width: 40px;
+    height: 12px;
+    background-color: var(--color-gray);
+    border-radius: 10px;
+    transform: rotate(-50deg);
+    top: -15px;
+    left: 140px;
+    z-index: -1;
+}
+.see-all{
+    color: var(--color-primary);
+    text-decoration: none;
 }
