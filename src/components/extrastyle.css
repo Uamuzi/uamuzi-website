@@ -1,0 +1,40 @@
+
+:root {
+    --border-radius: 4px;
+    --color-text: #333;
+    --color-primary: #8067AD;
+    ;
+    --color-code-bg: #fff4db;
+    --color-code: #8a6534;
+    --font-primary: "Poppins";
+    --font-lg: 18px;
+    --font-md: 16px;
+    --font-sm: 14px;
+    --font-sx: 12px;
+    --line-height-loose: 1.75;
+    --line-height-normal: 1.5;
+    --line-height-dense: 1.1;
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 16px;
+    --space-4: 24px;
+    --space-5: 32px;
+    --space-6: 64px;
+    --size-content: 54rem;
+    --size-gutter: var(--space-5);
+    --size-gap: var(--space-6);
+}
+
+.our-sdgs{
+    /* background-color: var(--color-primary) */
+}
+.sdg-top{
+    color: var(--color-primary);
+}
+.sdg-paragraph{
+    font-weight: 400 !important;
+    line-height: var(--line-height-loose);
+}
+.check-icon{
+    color: var(--color-primary) !important;
+}
