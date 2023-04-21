@@ -79,3 +79,34 @@
     color: var(--color-primary);
     text-decoration: none;
 }
+/* start technology section */
+.pictorama{
+    width: 100;
+    min-height: 50vh;
+}
+.uamuzi-home-img{
+    position: absolute;
+    top: 100px;
+    right: -320px;
+    z-index: -1
+}
+.tech-image{
+    width: 150px;
+    height: 150px;
+    background-color:red;
+    border-radius: 50%;
+}
+.tech-image.img1{
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 0px;
+}
+
+.tech-image.img2{
+    width: 200px;
+    height: 200px;
+    left: 50px;
+    bottom: 0px;
+}
+/* end technology section */

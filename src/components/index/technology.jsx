@@ -1,4 +1,8 @@
 import React from 'react'
+import BecomeALeader from "../../images/become-a-leader.jpg";
+import UamuziHome from "../../images/uamuzi-home.jpg";
+import Akimbo from "../../images/akimbo.jpg";
+import Elizeu from "../../images/elizeu.jpg";
 
 function Technology() {
     return (
@@ -7,13 +11,32 @@ function Technology() {
                 Technology
             </p>
             <h2 className="text-capitalize text-center fw-bold">The era of social networking</h2>
-            <div className="pictorama position-relative py-4">
-                <div className="tech-image img1"></div>
-                <div className="tech-image img2"></div>
-                <div className="tech-image img3"></div>
-                <div className="tech-image img4"></div>
-                <div className="tech-image img5"></div>
-                <div className="tech-image img6"></div>
+            <div className="pictorama position-relative d-flex justify-content-center align-items-center overflow-hidden">
+                <div className="tech-image img1 position-absolute"
+                style={{
+                    backgroundImage: `url(${Akimbo})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: 'no-repeat'
+                }}
+                ></div>
+                <div className="tech-image img2 position-absolute"
+                style={{
+                    backgroundImage: `url(${Elizeu})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: 'no-repeat'
+                }}
+                ></div>
+                <div className="tech-image img3 position-absolute"></div>
+                <div className="tech-image img4 position-absolute"></div>
+                <div className="tech-image img5 position-absolute"></div>
+                <div className="tech-image img6 position-absolute"></div>
+                <div className="tech-inner position-relative">
+                    <img src={BecomeALeader} alt="become a leader" className='become-a-leader-img' />
+                    <img src={UamuziHome} alt="uamuzi-home" className='uamuzi-home-img' />
+                </div>
+
 
             </div>
         </div>
