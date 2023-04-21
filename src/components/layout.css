@@ -253,6 +253,7 @@ figure.ball {
 .bg-footer {
   background: #212121;
   display: flex;
+  flex-direction: column;
   border-radius: 16px;
   color: #A0A09F;
 }
@@ -264,6 +265,11 @@ figure.ball {
 
 .bg-footer a:hover {
   color: #8067AD;
+}
+
+.bg-footer h6 {
+  text-align: center;
+  padding-top: 1rem;
 }
 
 .bg-footer p {
@@ -338,6 +344,10 @@ figure.ball {
 
 @media screen and (max-width: 780px) {
   .bg-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .sections {
     display: flex;
     flex-direction: column;
   }
