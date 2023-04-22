@@ -12,7 +12,6 @@ import Technology from "../components/index/technology";
 import Partnerships from "../components/index/partnerships";
 import OurPartners from "../components/index/ourPartners";
 
-
 const IndexPage = () => (
   <Layout>
     <div>
