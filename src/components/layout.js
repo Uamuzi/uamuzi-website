@@ -12,6 +12,7 @@ import Header from "./header";
 import Navbar from "./navbar";
 import "./layout.css";
 import "./extrastyle.css"
+import Footer from "./footer";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -32,7 +33,8 @@ const Layout = ({ children }) => {
         
       >
         <main>{children}</main>
-        <footer
+        <Footer />
+        {/* <footer
           style={{
             marginTop: `var(--space-5)`,
             fontSize: `var(--font-sm)`,
@@ -42,7 +44,7 @@ const Layout = ({ children }) => {
           © {new Date().getFullYear()} &middot;
           {` `}
           <a href="https://www.uamuzi.org" >Uamuzi Foundation</a>
-        </footer>
+        </footer> */}
       </div>
     </>
   )

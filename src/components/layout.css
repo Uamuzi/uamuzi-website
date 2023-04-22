@@ -132,6 +132,61 @@ body {
   background: #8067AD;
 }
 
+.bg-blue {
+  background-color: #8067AD;
+  position: relative;
+  display: flex;
+  color: #fff;
+  padding-top: 6rem;
+  padding-bottom: 9rem;
+  font-size: 32px;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: -1;
+} 
+
+.bg-blue p {
+  width: 65%;
+}
+
+.top {
+  width: 200.93px;
+  height: 201.93px;
+  position: absolute;
+  background: #D9D9D9;
+  border-radius: 50%;
+  top: -60px;
+  /* left: 1543px; */
+  /* overflow: hidden; */
+  right: -60px;
+  z-index: 1000;
+}
+
+.bottom {
+  width: 200.93px;
+  height: 201.93px;
+  position: absolute;
+  background: #D9D9D9;
+  border-radius: 50%;
+  bottom: -60px;
+  left: -60px;
+  z-index: 1000;
+}
+
+.bottom-1 {
+  width: 200.93px;
+  height: 201.93px;
+  position: absolute;
+  border: 6px solid #D9D9D9;
+  border-radius: 50%;
+  bottom: -25px;
+  left: -30px;
+  z-index: 1000;
+}
+
 .nav-link {
   color: var(--color-text);
 }
@@ -211,6 +266,11 @@ body {
   border: 1px solid var(--color-code-bg)
 }
 
+.p-text {
+  color: #8067AD;
+  padding: 0 3px;
+}
+
 /* right hero section */
 figure.ball {
   display: block;
@@ -250,6 +310,41 @@ figure.ball {
 
   opacity: 0.3;
 }
+.bg-footer {
+  background: #212121;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  color: #A0A09F;
+}
+
+.bg-footer a {
+  text-decoration: none;
+  color: #A0A09F;
+}
+
+.bg-footer a:hover {
+  color: #8067AD;
+  transition: .2s ease;
+}
+
+.bg-footer h6 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.bg-footer p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
 .tiny{
   width: 15px;
   height:  15px;
@@ -302,6 +397,23 @@ figure.ball {
   max-width: 100%;
 }
 
+@media screen and (max-width: 780px) {
+  .bg-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .sections {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footers {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .our-story-img, .yes-img{
     width: 300px;
@@ -310,6 +422,10 @@ figure.ball {
   .bgCircle {
     width: 280px;
     height: 280px;
+  }
+  .bg-footer {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 480px) {
@@ -323,5 +439,6 @@ figure.ball {
     left: 90px;
     top: 30px;
   }
+  
 }
 /* end hero section */

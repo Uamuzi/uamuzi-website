@@ -9,7 +9,8 @@ import OurStory from "../components/index/ourStory";
 import SDGs from "../components/index/sdgs";
 import LandingTeam from "../components/index/landingTeam";
 import Technology from "../components/index/technology";
-
+import Partnerships from "../components/index/partnerships";
+import OurPartners from "../components/index/ourPartners";
 
 const IndexPage = () => (
   <Layout>
@@ -20,6 +21,8 @@ const IndexPage = () => (
       <SDGs/>
       <LandingTeam />
       <Technology />
+      <Partnerships />
+      <OurPartners />
      </div>
   </Layout>
 )
