@@ -11,6 +11,7 @@ import LandingTeam from "../components/index/landingTeam";
 import Technology from "../components/index/technology";
 import Partnerships from "../components/index/partnerships";
 import OurPartners from "../components/index/ourPartners";
+import Mobile from "../components/index/mobile";
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +22,7 @@ const IndexPage = () => (
       <SDGs/>
       <LandingTeam />
       <Technology />
+      <Mobile />
       <Partnerships />
       <OurPartners />
      </div>
