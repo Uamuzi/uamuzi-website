@@ -6,11 +6,11 @@ import { Link } from 'gatsby';
 function Footer() {
     return (
         <footer className='mx-5 bg-footer py-5 mb-2'>
-            <div className='d-flex sections'>
-                <div className='py-2 px-2'>
-                    <img src={Logo} alt="Uamuzi logo"/>
+            <div className='d-flex sections p-2'>
+                <div className=''>
+                    <img src={Logo} alt="Uamuzi logo" className='pb-2'/>
                     <h5 className='mx-4'>foundation</h5>
-                    <p className='px-4' style={{color: "#A0A09F", fontSize: "14px"}}>Creating a culture where everyone matters</p><br />
+                    <p className='px-4 pt-2' style={{color: "#A0A09F", fontSize: "14px"}}>Creating a culture where everyone matters</p><br />
                     <img className='mx-4 pt-4' src={playstore} alt='Uamuzi-playstore-logo' />
                 </div>
                 <div className='d-flex footers mx-4 flex-wrap justify-content-around gap-5 w-100'>

@@ -28,10 +28,38 @@ function Technology() {
                     backgroundRepeat: 'no-repeat'
                 }}
                 ></div>
-                <div className="tech-image img3 position-absolute"></div>
-                <div className="tech-image img4 position-absolute"></div>
-                <div className="tech-image img5 position-absolute"></div>
-                <div className="tech-image img6 position-absolute"></div>
+                <div className="tech-image img3 position-absolute" 
+                style={{
+                    backgroundImage: `url(${Elizeu})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: 'no-repeat'
+                }}
+                ></div>
+                <div className="tech-image img4 position-absolute"
+                style={{
+                    backgroundImage: `url(${Elizeu})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: 'no-repeat'
+                }}
+                ></div>
+                <div className="tech-image img5 position-absolute"
+                style={{
+                    backgroundImage: `url(${Elizeu})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: 'no-repeat'
+                }}
+                ></div>
+                <div className="tech-image img6 position-absolute"
+                style={{
+                    backgroundImage: `url(${Elizeu})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: 'no-repeat'
+                }}
+                ></div>
                 <div className="tech-inner position-relative">
                     <img src={BecomeALeader} alt="become a leader" className='become-a-leader-img' />
                     <img src={UamuziHome} alt="uamuzi-home" className='uamuzi-home-img' />
