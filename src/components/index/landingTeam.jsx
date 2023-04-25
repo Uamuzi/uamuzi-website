@@ -42,7 +42,7 @@ function LandingTeam() {
                             <p className="text-capitalize fw-bold">elvis sitati</p>
                             <p className="primary-color text-capitalize">Founder & CEO</p>
                             <span className="primary-color">
-                                <box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon>
+                                <a href="https://www.linkedin.com" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
@@ -61,7 +61,7 @@ function LandingTeam() {
                             <p className="text-capitalize fw-bold">Andrew Bisagaya</p>
                             <p className="primary-color text-capitalize">General counsel</p>
                             <span className="primary-color">
-                                <box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon>
+                                <a href="https://www.linkedin.com" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
@@ -83,7 +83,7 @@ function LandingTeam() {
                             <p className="text-capitalize fw-bold">Sharon Kombe</p>
                             <p className="primary-color text-capitalize">Social affairs</p>
                             <span className="primary-color">
-                                <box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon>
+                                <a href="https://www.linkedin.com" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
@@ -101,7 +101,7 @@ function LandingTeam() {
                             <p className="text-capitalize fw-bold">Novat Matoju</p>
                             <p className="primary-color text-capitalize">Finance Officer</p>
                             <span className="primary-color">
-                                <box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon>
+                                <a href="https://www.linkedin.com" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
@@ -119,7 +119,7 @@ function LandingTeam() {
                             <p className="text-capitalize fw-bold">Sharon Ochieng</p>
                             <p className="primary-color text-capitalize">Programs Officer</p>
                             <span className="primary-color">
-                                <box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon>
+                                <a href="https://www.linkedin.com" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
