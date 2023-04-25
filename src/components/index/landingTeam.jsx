@@ -1,9 +1,9 @@
 import React from 'react'
 import Elvis from "../../images/Elvis.jpg"
-import Andrew from "../../images/Andrew.jpg"
+import Andrew from "../../images/Bisagaya.jpg"
 import SharonK from "../../images/SharonK.jpg"
 import Novat from "../../images/Novat.jpg"
-import SharonO from "../../images/SharonO.jpg"
+import SharonO from "../../images/Ochieng.jpg"
 import { Link } from 'gatsby';
 
 function LandingTeam() {
