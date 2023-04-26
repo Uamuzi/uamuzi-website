@@ -230,6 +230,37 @@ form input {
   padding: 10px;
  }
 
+ .vector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .contact {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid lightgray;
+  padding-top: 20px;
+ }
+
+ .contact_form{
+  width: 50%;
+ }
+
+ .contacts {
+  width: 50%;
+ }
+ .our_c {
+  display: flex;
+  width: 100%;
+ }
+
+ .borders {
+  height: 500px;
+  width: 1px;
+  background: lightgray;
+ }
+
 .bg-blue p {
   width: 65%;
 }
@@ -513,6 +544,25 @@ figure.ball {
   .bg-footer {
     display: flex;
     flex-direction: column;
+  }
+  .our_c {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact_form {
+    width: 100%;
+  }
+
+  .contacts {
+    width: 100%;
+  }
+
+  .borders {
+    width: 450px;
+    height: 1px;
+    margin-right: 1rem;
   }
 }
 @media screen and (max-width: 480px) {
