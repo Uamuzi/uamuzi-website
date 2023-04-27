@@ -6,7 +6,7 @@ import Elvis from '../images/Elvis.jpg'
 import bisagaya from '../images/Bisagaya.jpg'
 import SharonO from '../images/SharonO.jpg'
 import Novat from '../images/Novat.jpg'
-
+import TeamMember from "../components/team/teamMember";
 
 const TeamPage = () => (
   <Layout>
@@ -15,7 +15,7 @@ const TeamPage = () => (
         <p className="text-center h3 event-title">Meet The Team</p>
         <p className="text-center p">Our leadership team drives the strategy and direction of our work to deliver impact at scale for the most vulnerable.</p>
     </div>
-    <div className="container team">
+    <div className="container team py-4">
         <div className="team-inner m-0 p-0 position-relative">
             <div className="team-member-image position-relative" style={{
                 backgroundImage: `url(${Elvis})`,
@@ -143,24 +143,10 @@ const TeamPage = () => (
                 </span>
             </div>
         </div>
-        <div className="team-inner m-0 p-0 position-relative">
-            <div className="team-member-image position-relative" style={{
-                backgroundImage: `url(${Elvis})`,
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                backgroundRepeat: 'no-repeat'
-            }}>
-                <div className="long-purple-line position-absolute"></div>
-                <div className="short-grey-line position-absolute"></div>
-            </div>
-            <div className="team-member-info text-center py-2">
-                <p className="text-capitalize fw-bold">Michael Munavu</p>
-                <p className="primary-color text-capitalize">Lead Engineer</p>
-                <span className="primary-color">
-                    <a href="https://www.linkedin.com/in/michael-munavu/" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
-                </span>
-            </div>
-        </div>
+        <TeamMember imageUrl={bisagaya} fullName={"Monicah Kimani"} position={"Operations Officer"} linkedinUsername={"monicah-kimani-561a1b69"}/>
+        <TeamMember imageUrl={bisagaya} fullName={"Antony Gakuru"} position={"Lead DevOps Engineer"} linkedinUsername={"muriithigakuru"}/>
+
+        
     </div>
   </Layout>
 )
