@@ -487,6 +487,12 @@ figure.ball {
   border-radius: 18px;
   padding: 1rem;
 }
+
+.team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .tiny{
   width: 15px;
   height:  15px;
@@ -559,6 +565,11 @@ figure.ball {
     flex-direction: column; 
     gap: 20px;
   }
+
+  .team {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -597,6 +608,14 @@ figure.ball {
   .my_row {
     display: flex;
     flex-direction: column;
+  }
+  .team {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 480px) {
