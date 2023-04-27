@@ -458,6 +458,41 @@ figure.ball {
   flex-direction: column;
 }
 
+.btn-primary {
+  border: 1px solid #8067AD;
+  border-radius: 5px;
+  display: flex;
+  padding: 6px;
+  background: transparent;
+  color: #8067AD;
+}
+
+.btn-secondary {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  padding: 6px;
+  background: transparent;
+  color: #fff;
+}
+
+.my_row {
+  display: flex;
+  gap: 1rem;
+}
+
+.pillar_section {
+  background: #8067AD;
+  color: #fff;
+  border-radius: 18px;
+  padding: 1rem;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .tiny{
   width: 15px;
   height:  15px;
@@ -530,6 +565,11 @@ figure.ball {
     flex-direction: column; 
     gap: 20px;
   }
+
+  .team {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -563,6 +603,20 @@ figure.ball {
     width: 450px;
     height: 1px;
     margin-right: 1rem;
+  }
+
+  .my_row {
+    display: flex;
+    flex-direction: column;
+  }
+  .team {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 480px) {
