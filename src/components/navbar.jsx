@@ -19,7 +19,7 @@ function Navbar() {
                     <div className="navbar-nav mx-auto gap-3 ">
                         <Link to="/" className='nav-link active' aria-current="page">Home</Link>
                         <Link to="/about" className='nav-link'>About Us</Link>
-                        <Link className="nav-link" to="/">Our Team</Link>
+                        <Link className="nav-link" to="/team">Our Team</Link>
                         <Link className="nav-link" to="/">Pillars</Link>
                         <Link className="nav-link" to="/">Hub</Link>
                         <Link className="nav-link" to="/volunteers">Volunteers</Link>

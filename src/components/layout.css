@@ -611,6 +611,7 @@ figure.ball {
   }
   .team {
     display: grid;
+    place-items: center;
     grid-template-columns: 1fr;
     justify-content: center;
     grid-template-rows: auto;
