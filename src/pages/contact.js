@@ -7,12 +7,11 @@ import vector from '../images/Vector.png'
 
 const ContactPage = () => (
   <Layout>
-     <div className="container">
+     <div className="container pt-2 mb-4">
         <div className="d-flex vector">
             <h3 className="h3 text-start event">CONTACT US</h3>
             <img src={vector} width={100} height={100} alt="vector" />
         </div>
-     </div>
      <div className="container d-flex gap-4 our_c">
         <form className="contact_form">
             <p className="h3 text-start event-title">Get In Touch</p>
@@ -27,7 +26,7 @@ const ContactPage = () => (
             </div>
             <div className="text">
                 <label>Message</label>
-                <textarea className="pt-4" />
+                <textarea className="p-1" />
             </div>
             <button className="join">Send Mesage</button>
         </form>
@@ -71,6 +70,8 @@ const ContactPage = () => (
             </div>
         </div>
      </div>
+     </div>
+
   </Layout>
 )
 

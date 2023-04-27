@@ -12,6 +12,7 @@ import Technology from "../components/index/technology";
 import Partnerships from "../components/index/partnerships";
 import OurPartners from "../components/index/ourPartners";
 import Mobile from "../components/index/mobile";
+import VolunteersPage from "./volunteers";
 
 const IndexPage = () => (
   <Layout>
