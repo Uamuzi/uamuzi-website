@@ -1,0 +1,5 @@
+--- 
+deployment: 
+     tasks: 
+          - export DEPLOYPATH=/home/uamuzior/site.uamuzi.org/
+          - /bin/cp -R public/* $DEPLOYPATH
