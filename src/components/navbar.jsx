@@ -21,6 +21,7 @@ function Navbar() {
                         <Link to="/about" className='nav-link'>About Us</Link>
                         <Link className="nav-link" to="/team">Our Team</Link>
                         <Link className="nav-link" to="/pillars">Pillars</Link>
+                        <Link className="nav-link" to="/innovation">Innovation</Link>
                         <Link className="nav-link" to="/hub">Hub</Link>
                         <Link className="nav-link" to="/volunteers">Volunteers</Link>
                         <Link to="/contact" className="nav-link">Contact Us</Link>
