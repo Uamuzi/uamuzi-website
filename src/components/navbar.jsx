@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from "../images/logo-uamuzi.png";
 import { Link } from "gatsby"
 
 function Navbar() {
+    const [open, setOpen] = useState(false)
+    const handleOpen = () => {
+        setOpen(!open);
+    }
     return (
         <nav className="navbar navbar-expand-md bg-body-tertiary mx-auto ">
             <div className="container">
@@ -21,8 +25,20 @@ function Navbar() {
                         <Link to="/about" className='nav-link'>About Us</Link>
                         <Link className="nav-link" to="/team">Our Team</Link>
                         <Link className="nav-link" to="/pillars">Pillars</Link>
-                        <Link className="nav-link" to="/innovation">Innovation</Link>
-                        <Link className="nav-link" to="/hub">Hub</Link>
+                        {/* <Link className="nav-link" to="/innovation">Innovation</Link> */}
+                        {/* <Link className="nav-link" to="/hub">Hub</Link> */}
+                        <div className='nav-link p-link' style={{position: 'relative'}} onClick={handleOpen}>Hub <box-icon type='solid' name='chevron-down'></box-icon></div>
+                        {open ? (
+                            <div style={{
+                                position: 'absolute',
+                                top: '45px',
+                                left: '60%'
+
+                            }}>
+                                <Link className='nav-link' to='/innovation'>Innovation</Link>
+                                <Link className='nav-link' to='/hub'>Academy</Link>
+                            </div>
+                        ) : null}
                         <Link className="nav-link" to="/volunteers">Volunteers</Link>
                         <Link to="/contact" className="nav-link">Contact Us</Link>
                     </div>
