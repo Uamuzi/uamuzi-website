@@ -155,6 +155,12 @@ body {
   align-items: center;
   gap: 0.6rem;
 }
+.p-borders {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
 
 .volunteer {
   background: #8067AD;
@@ -245,6 +251,33 @@ form input {
 
  .contact_form{
   width: 50%;
+ }
+ .contact_forms {
+  width: 100%;
+ }
+
+ .file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+ }
+
+ .file-input label {
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #03A9F4;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid  #03A9F4;
+  margin-bottom: 1rem;
+  
  }
 
  .contacts {
@@ -491,6 +524,13 @@ figure.ball {
 .team {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.hub {
+  background: #8067AD;
+  color: #fff !important;
+  border-radius: 32px;
+  padding: 2rem;
 }
 
 .tiny{
