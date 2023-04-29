@@ -23,6 +23,7 @@ import JoanGichuhi from "../images/JoanGichuhi.jpg"
 import SamiWafula from "../images/SamiWafula.jpeg"
 import RichardOgola from "../images/RichardOgola.jpg";
 import ObedKertich from "../images/ObedKertich.png";
+import SalvatoLuis from "../images/salvato.png";
 
 const TeamPage = () => (
     <Layout>
@@ -55,7 +56,7 @@ const TeamPage = () => (
                 <TeamMember imageUrl={RichardOgola} fullName={"Richard Ogola"} position={"Blockchain Developer"} linkedinUsername={"muriithigakuru"} />
                 <TeamMember imageUrl={IvySifuma} fullName={"Ivy Sifuma"} position={"Frontend Engineer"} linkedinUsername={"muriithigakuru"} />
                 <TeamMember imageUrl={ObedKertich} fullName={"Obed Kertich"} position={"Frontend Engineer"} linkedinUsername={"muriithigakuru"} />
-                <TeamMember imageUrl={bisagaya} fullName={"Salvato Luice"} position={"Frontend Engineer"} linkedinUsername={"muriithigakuru"} />
+                <TeamMember imageUrl={SalvatoLuis} fullName={"Salvato Luice"} position={"Frontend Engineer"} linkedinUsername={"salvato-luis"} />
 
 
 
