@@ -24,6 +24,7 @@ import SamiWafula from "../images/SamiWafula.jpeg"
 import RichardOgola from "../images/RichardOgola.jpg";
 import ObedKertich from "../images/ObedKertich.png";
 import SalvatoLuis from "../images/salvato.png";
+import empty from "../images/empty.png";
 
 const TeamPage = () => (
     <Layout>
@@ -40,23 +41,22 @@ const TeamPage = () => (
                 <TeamMember imageUrl={EdwardMwangi} fullName={"Edward Mwangi"} position={"Product & Innovations Officer"} linkedinUsername={"edward-mwangi-0148b923a"} />
                 <TeamMember imageUrl={EugeneRaburu} fullName={"Eugine Raburu"} position={"Technology Officer"} linkedinUsername={"eugene-raburu-kf"} />
                 <TeamMember imageUrl={MonicaKimani} fullName={"Monica Kimani"} position={"Operations Officer"} linkedinUsername={"monicah-kimani-561a1b69"} />
-                <TeamMember imageUrl={AntonyGakuru} fullName={"Antony Gakuru"} position={"Lead DevOps Engineer"} linkedinUsername={"muriithigakuru"} />
-                <TeamMember imageUrl={SharonO} fullName={"Sharon Ochieng"} position={"Programs Officer"} linkedinUsername={"sharon-ochieng-2167757a"} />
                 <TeamMember imageUrl={AbbyRita} fullName={"Abby Rita"} position={"Volunteering Officer"} linkedinUsername={"amwakina"} />
+                <TeamMember imageUrl={SharonO} fullName={"Sharon Ochieng"} position={"Programs Officer"} linkedinUsername={"sharon-ochieng-2167757a"} />
                 <TeamMember imageUrl={MichaelMunavu} fullName={"Michael Munavu"} position={"Lead Engineer"} linkedinUsername={"michael-munavu"} />
-                <TeamMember imageUrl={JoanGichuhi} fullName={"Joan Gichuhi"} position={"Lead Designer"} linkedinUsername={"joan-gichuhi"} />
-                <TeamMember imageUrl={KiprotichKimutai} fullName={"Kiprotich Kimutai"} position={"Lead Backend"} linkedinUsername={"kimutai91"} />
                 <TeamMember imageUrl={GraceMuthui} fullName={"Grace Muthui"} position={"Lead Frontend"} linkedinUsername={"grayce-muthui"} />
-                <TeamMember imageUrl={StephenKimoi} fullName={"Stephen Kimoi"} position={"Lead Frontend"} linkedinUsername={"stephen-kimoi"} />
+                <TeamMember imageUrl={AntonyGakuru} fullName={"Antony Gakuru"} position={"Lead DevOps Engineer"} linkedinUsername={"muriithigakuru"} />
+                <TeamMember imageUrl={KiprotichKimutai} fullName={"Kiprotich Kimutai"} position={"Lead Backend"} linkedinUsername={"kimutai91"} />
+                <TeamMember imageUrl={StephenKimoi} fullName={"Stephen Kimoi"} position={"Lead Blockchain"} linkedinUsername={"stephen-kimoi"} />
+                <TeamMember imageUrl={JoanGichuhi} fullName={"Joan Gichuhi"} position={"Lead Designer"} linkedinUsername={"joan-gichuhi"} />
                 <TeamMember imageUrl={NemwelNyandoro} fullName={"Nemwel Boniface"} position={"Co-lead Backend"} linkedinUsername={"nemwel-nyandoro"} />
                 <TeamMember imageUrl={SamiWafula} fullName={"Sami Wafula"} position={"Co-lead Frontend"} linkedinUsername={"sami-wafula"} />
-                <TeamMember imageUrl={bisagaya} fullName={"Njenga Karori"} position={"UI/UX Designer"} linkedinUsername={"njenga-karori-2b9bb6223"} />
-                <TeamMember imageUrl={bisagaya} fullName={"Peter Maturwe"} position={"UI/UX Designer"} linkedinUsername={"peter-o-maturwe-ab860020a"} />
+                <TeamMember imageUrl={empty} fullName={"Njenga Karori"} position={"UI/UX Designer"} linkedinUsername={"njenga-karori-2b9bb6223"} />
+                <TeamMember imageUrl={empty} fullName={"Peter Maturwe"} position={"UI/UX Designer"} linkedinUsername={"peter-o-maturwe-ab860020a"} />
                 <TeamMember imageUrl={RichardOgola} fullName={"Richard Ogola"} position={"Blockchain Developer"} linkedinUsername={"peter-o-maturwe-ab860020a"} />
                 <TeamMember imageUrl={IvySifuma} fullName={"Ivy Sifuma"} position={"Frontend"} linkedinUsername={"ivy-sifuma-496650169"} />
                 <TeamMember imageUrl={ObedKertich} fullName={"Obed Kertich"} position={"Frontend "} linkedinUsername={"obed-kertich"} />
                 <TeamMember imageUrl={SalvatoLuis} fullName={"Salvato Luice"} position={"Frontend "} linkedinUsername={"salvato-luis"} />
-
 
 
 
