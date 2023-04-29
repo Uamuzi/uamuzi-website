@@ -9,8 +9,8 @@ function Footer() {
             <div className='d-flex sections p-2'>
                 <div className=''>
                     <img src={Logo} alt="Uamuzi logo" className='pb-2'/>
-                    <h5 className='mx-4'>foundation</h5>
-                    <p className='px-4 pt-2' style={{color: "#A0A09F", fontSize: "14px"}}>Creating a culture where everyone matters</p><br />
+                    <h5 className='mx-4 fs-2'>foundation</h5>
+                    <p className='px-4 pt-2 text-nowrap' style={{color: "#A0A09F", fontSize: "14px"}}>Creating a culture where everyone matters</p><br />
                     <img className='mx-4 pt-4' src={playstore} alt='Uamuzi-playstore-logo' />
                 </div>
                 <div className='d-flex footers mx-4 flex-wrap justify-content-around gap-5 w-100'>
