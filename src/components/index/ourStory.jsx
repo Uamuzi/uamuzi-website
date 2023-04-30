@@ -1,5 +1,6 @@
 import React from 'react'
 import OurStoryImg from "../../images/our-story.png"
+import {Link} from "gatsby";
 
 function OurStory() {
     return (
@@ -23,9 +24,11 @@ function OurStory() {
                         Policy and Advocacy; Diversity and Inclusion; Transparency and Accountability;
                         Environmental Conservation and Peacebuilding. We aim to open the doors of access and
                         opportunity for everyone. We believe that the youth are the future for the World we want.</p>
-                    <button className="hero-read-more d-flex justify-content-center align-items-center">Find Out More
-                        <box-icon className="hero-icon-btn" name='right-arrow-alt' size="sm" color="#8067AD"></box-icon>
-                    </button>
+                    <Link to="/about" style={{textDecoration: "none"}}>
+                        <button className="hero-read-more d-flex justify-content-center align-items-center">Find Out More
+                            <box-icon className="hero-icon-btn" name='right-arrow-alt' size="sm" color="#8067AD"></box-icon>
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function TeamMember({imageUrl, fullName, position, linkedinUsername}) {
     return (
-        <div className="team-inner m-0 p-0 position-relative">
+        <div className="team-inner m-0 p-0 position-relative py-4">
             <div className="team-member-image position-relative" style={{
                 backgroundImage: `url(${imageUrl})`,
                 backgroundPosition: "center",

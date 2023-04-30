@@ -11,7 +11,7 @@ const VolunteersPage = () => (
   <Layout>
     <div className="container pb-5 pt-3">
     <div className='container bg-light my-4 py-4'>
-        <p className="event">BE PART OF OUR UFV</p>
+        <p className="event">BE PART OF UFV</p>
         <div className="row">
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 about-col">
               <p className="h3 text-start event-title">Volunteer</p>

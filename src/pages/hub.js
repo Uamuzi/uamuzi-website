@@ -12,7 +12,7 @@ const HubPage = () => (
     <>
       <div className="container my-4">
         <p className="event text-center">UAMUZI HUB</p>
-        <p className="h3 text-center event-title">Engineeering Academy</p>
+        <p className="h3 text-center event-title">Engineering Academy</p>
         <p className="text-center">
           Uamuzi Hub is an engineering group with fresh insights, new ideas, and diverse skills learning and working collaboratively and strategically to strengthen our community. The Hub is committed to generating, disseminating, and preserving knowledge, and to working with others to bring to existence some of the best innovations. We are primarily focused on young developers aged below 35 years who are selected through online applications, interviews and boot camps. We accept requests on a rolling basis.
           Intensely curious and driven to explore, our developers value rigorous analytical thinking, ingenuity, hands-on problem solving and big new ideas. Stimulating, supportive, and playful, our Hub is a second home for many engineers.

@@ -4,11 +4,9 @@ import { Link } from "gatsby"
 
 function Navbar() {
     const [open, setOpen] = useState(false)
-    const handleOpen = () => {
-        setOpen(!open);
-    }
+    
     return (
-        <nav className="navbar navbar-expand-md bg-body-tertiary mx-auto ">
+        <nav className="navbar navbar-expand-md bg-body-tertiary mx-auto sticky-top bg-light">
             <div className="container">
                 <Link to="/" className="navbar-brand d-flex flex-column justify-content-start align-items-center gap-0" href="/">
                     <img src={Logo} href="Logo" width="150" height="40" className='m-0' />
@@ -30,8 +28,8 @@ function Navbar() {
                                 Hub
                             </Link>
                             <ul class="dropdown-menu">
-                                <li className='drop-li'><Link class="dropdown-item drop-link" href="/innovation">Innovation</Link></li>
                                 <li className='drop-li'><Link class="dropdown-item drop-link" href="/hub">Academy</Link></li>
+                                <li className='drop-li'><Link class="dropdown-item drop-link" href="/innovation">Innovation</Link></li>
                             </ul>
                         </li>
                         <Link className="nav-link" to="/volunteers">Volunteers</Link>

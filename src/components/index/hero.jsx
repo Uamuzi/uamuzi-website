@@ -75,9 +75,6 @@ function Hero() {
                         and dignity at the center and calls for changes in our development
                         pattern while respecting the environment.
                     </p>
-                    <button className="hero-read-more d-flex justify-content-center align-items-center">Read More
-                        <box-icon className="hero-icon-btn" name='right-arrow-alt' size="sm" color="#8067AD"></box-icon>
-                    </button>
                     <figure className='tiny tiny-2'></figure>
                     <figure className='tiny tiny-2-1'></figure>
 

@@ -41,8 +41,9 @@ function LandingTeam() {
                         <div className="team-member-info text-center py-2">
                             <p className="text-capitalize fw-bold">elvis sitati</p>
                             <p className="primary-color text-capitalize">Founder & CEO</p>
-                            <span className="primary-color">
-                                <a href="https://www.linkedin.com" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
+                            <span className="primary-color d-flex gap-3 flex-nowrap justify-content-center align-items-center">
+                                <a href="https://www.linkedin.com/in/elvis-sitati-2a282b79" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
+                                <a href="mailto:elvis.sitati@uamuzi.org"><box-icon name='envelope' type='solid' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
@@ -61,14 +62,14 @@ function LandingTeam() {
                             <p className="text-capitalize fw-bold">Andrew Bisagaya</p>
                             <p className="primary-color text-capitalize">General counsel</p>
                             <span className="primary-color">
-                                <a href="https://www.linkedin.com" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
+                                <a href="https://www.linkedin.com/in/bisagaya-andrew-309b9497" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
                     </div>
                 </div>
                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 d-flex gap-5 justify-content-center align-items-center flex-wrap pt-5 ">
-                    <Link to="/about" className="see-all fw-bold text-capitalize d-flex justify-content-center align-items-center">See all members <span ><box-icon name='right-arrow-alt' color="#8067AD" className="rogue"></box-icon></span></Link>
+                    {/* <Link to="/about" className="see-all fw-bold text-capitalize d-flex justify-content-center align-items-center">See all members <span ><box-icon name='right-arrow-alt' color="#8067AD" className="rogue"></box-icon></span></Link> */}
                     <div className="team-inner m-0 p-0 position-relative">
                         <div className="team-member-image position-relative" style={{
                             backgroundImage: `url(${SharonK})`,
@@ -80,10 +81,10 @@ function LandingTeam() {
                             <div className="short-grey-line position-absolute"></div>
                         </div>
                         <div className="team-member-info text-center py-2">
-                            <p className="text-capitalize fw-bold">Sharon Kombe</p>
+                            <p className="text-capitalize fw-bold">Sharon Nechesa</p>
                             <p className="primary-color text-capitalize">Social affairs</p>
                             <span className="primary-color">
-                                <a href="https://www.linkedin.com" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
+                                <a href="https://www.linkedin.com/in/nechesa-oyuchi-llb-hons-dip-ksl-79053978" rel="noreferrer noopener" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
@@ -101,7 +102,7 @@ function LandingTeam() {
                             <p className="text-capitalize fw-bold">Novat Matoju</p>
                             <p className="primary-color text-capitalize">Finance Officer</p>
                             <span className="primary-color">
-                                <a href="https://www.linkedin.com" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
+                                <a href="https://www.linkedin.com/in/novatmatoju" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
@@ -119,11 +120,12 @@ function LandingTeam() {
                             <p className="text-capitalize fw-bold">Sharon Ochieng</p>
                             <p className="primary-color text-capitalize">Programs Officer</p>
                             <span className="primary-color">
-                                <a href="https://www.linkedin.com" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
+                                <a href="https://www.linkedin.com/in/sharon-ochieng-2167757a" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
                     </div>
+                    <Link to="/team" className="see-all fw-bold text-capitalize d-flex justify-content-center align-items-center"><span ><box-icon name='left-arrow-alt' color="#8067AD" className="rogue"></box-icon></span> See all members </Link>
                 </div>
             </div>
         </div>

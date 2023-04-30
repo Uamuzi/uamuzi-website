@@ -10,7 +10,7 @@ const Innovationpage = () => (
         <>
             <div className="container my-4">
                 <p className="event text-center">UAMUZI HUB</p>
-                <p className="h3 text-center event-title">Inovation Lab</p>
+                <p className="h3 text-center event-title">Innovation Lab</p>
                 <p className="text-center">
                     Our lab is an incubator and a springboard for new ideas and data-driven innovations which addresses some of the societal and business challenges. Our rich experience in integrating innovations into corporate businesses allows us to introduce cutting-edge methodologies, innovative solutions and bold practices for development of projects. We execute some of the best digital solutions and build technologies of the future. We provide: world class engineering, award winning design, end-to-end solutions, innovative approach & new technologies
                 </p>
@@ -25,10 +25,19 @@ const Innovationpage = () => (
                         <p className="p py-2">
                             We partner with startups that have potential winning products in Artificial Intelligence and Machine Learning, FinTech, HealthTech, FoodTech, EdTech, AgriTech, InsurTech, BioTech, Entertainment, Media, Software, Internet, E-commerce, Cryptocurrency and Cyber security, at different stages of development (early, growth and scale-up). We help in raising capital, technical and business development, starting the business, entering new markets, and getting matched with investors and mentors.
                         </p>
-                        <div className="p-bordes"><p><box-icon name='check-circle' color="#8067AD"></box-icon> </p><p><b>Concept</b> - The team begins by having a deep understanding of the innovation.</p></div>
-                        <div className="p-bordes"><p><box-icon name='check-circle' color="#8067AD"></box-icon> </p><p><b>Brainstorming</b> - The team then conducts a brainstorming session with the founders on enhancing the concept of the product with a business plan.</p></div>
-                        <div className="p-bordes"><p><box-icon name='check-circle' color="#8067AD"></box-icon> </p><p><b>Roadmap</b> - The team develops a detailed plan of action that lays out the process of product development, Beta testing, User acquisition and fundraising.</p></div>
-                        <div className="p-bordes"><p><box-icon name='check-circle' color="#8067AD"></box-icon> </p><p><b>Evaluation</b> -Once all the stages have been finished successfully, we finally evaluate how the teams will work together to actualize the product.</p></div>
+                        
+                        <p className="p d-flex">
+                            <span className="d-flex"><box-icon size="sm" name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Concept </p> </span> - The team begins by having a deep understanding of the innovation.
+                        </p>
+                        <p className="p d-flex">
+                            <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Brainstorming </p> </span> - The team then conducts a brainstorming session with the founders on enhancing the concept of the product with a business plan.
+                        </p>
+                        <p className="p d-flex">
+                            <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Roadmap </p> </span> - The team develops a detailed plan of action that lays out the process of product development, Beta testing, User acquisition and fundraising.
+                        </p>
+                        <p className="p d-flex">
+                            <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Evaluation </p> </span> - Once all the stages have been finished successfully, we finally evaluate how the teams will work together to actualize the product.
+                        </p>
                     </div>
                 </div>
             </div>

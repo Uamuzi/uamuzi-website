@@ -10,9 +10,9 @@ import pilars3 from '../images/pillars3.png'
 const PllarsPage = () => (
   <Layout>
     <div className="pillar-head">
-        <p className="event text-center">LOREM IPSUM</p>
+        <p className="event text-center text-uppercase">pillars</p>
         <p className="h3 text-center event-title">Our Pillars</p>
-        <p className="p text-center">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+        <p className="p text-center">These are our pillars.</p>
     </div>
     <div className="container my-4">
         <div className="row">
