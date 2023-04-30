@@ -66,7 +66,7 @@ const ContactPage = () => (
                         <div>
                             <p className="event">SOCIALS</p>
                             <p className="p d-flex justify-content-center align-items-center gap-2" style={{textDecoration: 'none'}}>
-                                <a className="primary-color" target="_blank" rel="noopener noreferrer" href='/https://www.facebook.com/profile.php?id=100090904118726'>Facebook</a>
+                                <a className="primary-color" target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/profile.php?id=100090904118726'>Facebook</a>
                                 <a className="primary-color" target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/uamuziapp/'>Instagram</a>
                                 <a className="primary-color" target="_blank" rel="noopener noreferrer" href='https://twitter.com/UamuziApp'>Twitter</a>
                                 <a className="primary-color" target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/company/uamuzi'>Linkedin</a>
