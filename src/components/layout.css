@@ -485,6 +485,7 @@ figure.ball {
   display: flex;
   flex-direction: column;
   border-radius: 16px;
+  margin: 1rem;
   color: #A0A09F;
 }
 

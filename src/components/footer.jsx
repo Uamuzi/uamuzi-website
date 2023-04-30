@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 
 function Footer() {
     return (
-        <footer className='mx-5 bg-footer py-5 mb-2'>
+        <footer className='bg-footer py-5 mb-2'>
             <div className='d-flex sections p-2 gap-0'>
                 <div className=''>
                     <img src={Logo} alt="Uamuzi logo" className='pb-2' width="150" height="50"/>
@@ -39,7 +39,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <h6>&copy; Copyright | All Rights Reserved | <span style={{color: '/8067AD'}} >Uamuzi Foundation</span></h6>
+            <h6>&copy; Copyright | All Rights Reserved | <span>Uamuzi Foundation</span></h6>
         </footer>
     )
 }
