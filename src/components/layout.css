@@ -148,6 +148,23 @@ body {
   z-index: -1;
 } 
 
+.p-link {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* .my-nav {
+  position: relative;
+} */
+/* 
+.dropdown {
+  width: 80%;
+  position: absolute;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  top: 20px;
+} */
+
 .p-border {
   border-bottom:  1px solid #d6cece;
   color: #212121;
@@ -658,6 +675,7 @@ figure.ball {
   }
   .team {
     display: grid;
+    place-items: center;
     grid-template-columns: 1fr;
     justify-content: center;
     grid-template-rows: auto;

@@ -3,7 +3,7 @@ import React from 'react'
 function SDGs() {
     return (
         <div className="container py-5">
-            <div className="row">
+            <div className="row px-3">
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 our-sdgs p-0">
                     <p className="p text-uppercase fs-6 py-2 sdg-top fw-bold">
                         Sustainable development goals (SDGs)
