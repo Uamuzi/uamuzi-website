@@ -12,7 +12,6 @@ const PllarsPage = () => {
 
     if(showModal) {
         return (
-            <Layout>
                 <div className="flex py-12" style={{
                     height: '100%',
                     alignItems: 'center',
@@ -44,7 +43,6 @@ const PllarsPage = () => {
                         </div>
                     </div>
                 </div>
-            </Layout>
         )
     }
   return (
