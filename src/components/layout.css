@@ -538,6 +538,37 @@ figure.ball {
   padding: 1rem;
 }
 
+.my-modal {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background-image: url('../images/civic1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.close {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  float: right;
+  text-align: right;
+}
+
+.close button {
+  width: 184px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 8px;
+  background: #8067AD;
+  border: none;
+  cursor: pointer;
+}
+
 .team {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -627,6 +658,11 @@ figure.ball {
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
   }
+  .my-modal {
+    width: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -674,6 +710,11 @@ figure.ball {
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
+  }
+  .my-modal {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 @media screen and (max-width: 480px) {
