@@ -1,6 +1,24 @@
 import React from 'react'
+import Layout from '../layout'
 
 function SDGs() {
+    const [open, setOpen] = React.useState(false);
+
+    // if (open) {
+    //     return (
+    //             <div className="pop_up">
+    //                 <div className="icon">
+    //                     <box-icon style={{cursor: 'pointer'}} onClick={() => setOpen(false)} color='#8067AD' name='x'></box-icon>
+    //                 </div>
+    //                 <div className="line" />
+    //                 <h5 className="event text-center py-2">Civic Engagement</h5>
+                    
+    //                 <div className="close">
+    //                     <button onClick={() => setOpen(false)}>Close</button>
+    //                 </div>
+    //             </div>
+    //     )
+    // }
     return (
         <div className="container py-5">
             <div className="row px-3">

@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo";
-import vector from '../images/Vector.png'
+import vector from '../images/airplane1.png'
 
 
 const ContactPage = () => (

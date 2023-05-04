@@ -603,6 +603,21 @@ figure.ball {
   width: 140px;
 }
 
+.line {
+  background: lightgray;
+  width: 100%;
+  height: 2px;
+  margin-top: 0.7rem;
+  margin-bottom: 1.7rem;
+}
+
+.my_bg {
+  background-image: url('../images/quote1.png');
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .tiny{
   width: 15px;
   height:  15px;

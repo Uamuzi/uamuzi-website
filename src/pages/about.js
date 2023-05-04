@@ -8,7 +8,7 @@ import values from '../images/about-values.png'
 
 const AboutPage = () => (
   <Layout>
-     <div className='container bg-light my-4'>
+     <div className='container my-4'>
             <p className="event">Our Aim</p>
             <div className="row">
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 about-col">
@@ -33,10 +33,10 @@ const AboutPage = () => (
           <div className="bottom"></div>
           <div className="bottom-1"></div>
         </div>
-        <div className="container bg-light my-4">
+        <div className="container my-4">
         <div className="row">
           <div className="col-6 col-sm-12 col-md-6 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-              <img src={values} href="" width={350} height={400} className="" />
+              <img src={values} href="" width={300} height={350} className="" />
           </div>
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 about-col">
               <p className="event">OUR VALUES</p>
