@@ -8,6 +8,17 @@ import pilars3 from '../images/pillars3.png'
 
 
 const PllarsPage = () => {
+    const [open, setOpen] = React.useState(false);
+
+    if (open) {
+        return (
+            <Layout>
+                <div className="">
+                    
+                </div>
+            </Layout>
+        )
+    }
     return (
         <Layout>
             <div className="pillar-head">
