@@ -550,6 +550,41 @@ figure.ball {
   padding: 2rem;
 }
 
+.pop_up {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-image: url('../images//bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 350px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pop_up .icon {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+
+.pop_up .close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close button {
+  border: none;
+  outline: none;
+  background: #8067AD;
+  border-radius: 6px;
+  padding: 8px;
+  color: #fff;
+  width: 140px;
+}
+
 .tiny{
   width: 15px;
   height:  15px;
