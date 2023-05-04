@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 
 function Footer() {
     return (
-        <footer className='mx-5 bg-footer py-5 mb-2'>
+        <footer className='mx-2 bg-footer py-5 mb-2'>
             <div className='d-flex sections p-2 gap-0'>
                 <div className=''>
                     <img src={Logo} alt="Uamuzi logo" className='pb-2' width="150" height="50"/>
@@ -17,10 +17,10 @@ function Footer() {
                     <div className='footer-section'>
                         <p>Contact details</p>
                         <Link to='mailto:info@uamuzi.org' style={{display: 'flex', gap: '1rem'}}><box-icon color='#A0A09F' name='envelope'></box-icon>info@uamuzi.org</Link>
-                        <Link to='tel:+25400000000' style={{display: 'flex', gap: '1rem'}} className='py-2'><box-icon color='#A0A09F' name='phone-call' ></box-icon> +25400000000</Link>
+                        <Link to='tel:+25400000000' style={{display: 'flex', gap: '1rem'}} className='py-2'><box-icon color='#A0A09F' name='phone-call' ></box-icon> +254731301009</Link>
                         <Link to='/' style={{display: 'flex', gap: '1rem'}}><box-icon color='#A0A09F' type='solid' name='user-rectangle'></box-icon> 25167-00100 Nairobi, Kenya</Link>
                         
-                        <Link to='/' style={{display: 'flex', gap: '1rem'}} className="py-2"><box-icon color='#A0A09F' type='solid' name='briefcase'></box-icon> Monday - Friday 8am - 6pm</Link>
+                        <Link to='/' style={{display: 'flex', gap: '1rem'}} className="py-2"><box-icon color='#A0A09F' name='briefcase'></box-icon> Monday - Friday 8am - 6pm</Link>
 
                     </div>
                     <div className='footer-section'>
