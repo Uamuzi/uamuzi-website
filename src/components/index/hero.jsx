@@ -75,6 +75,7 @@ function Hero() {
                         and dignity at the center and calls for changes in our development
                         pattern while respecting the environment.
                     </p>
+                    <button className='button-primary'>Read More <box-icon name='right-arrow-alt' color='#fff'></box-icon></button>
                     <figure className='tiny tiny-2'></figure>
                     <figure className='tiny tiny-2-1'></figure>
 

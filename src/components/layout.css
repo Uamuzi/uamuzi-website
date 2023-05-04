@@ -352,6 +352,8 @@ form input {
 
 .nav-link {
   color: var(--color-text);
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .nav-link.active {
@@ -526,6 +528,22 @@ figure.ball {
   color: #fff;
 }
 
+.button-primary {
+  border: none;
+  color: #fff;
+  background: #8067AD;
+  border-radius: 6px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .my_row {
   display: flex;
   gap: 1rem;
@@ -662,6 +680,10 @@ figure.ball {
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
   }
+
+  .pop_up {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -709,6 +731,11 @@ figure.ball {
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
+  }
+  .pop_up {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 @media screen and (max-width: 480px) {

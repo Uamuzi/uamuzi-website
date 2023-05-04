@@ -13,7 +13,7 @@ function Events() {
                         This year <b>EnergyNet is hosting YES! (The Youth Energy Summit)</b> a large-scale youth and early-career focused initiative to build human capital in Africa’s energy sector, with the overarching goal of making energy projects more likely to fully succeed. YES! is investing in learning, networking and partnerships that will provide Africa’s students, entrepreneurs, educators and early career professionals the opportunities they need to thrive in the energy sector. They are recruiting from corporates, foundations, NGOs, universities and other initiatives.
                     </p>
                     <Link to="https://www.youth-energy-summit.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
-                        <button className="hero-read-more d-flex justify-content-center align-items-center">Find Out More
+                        <button className='btn-primary'>Find Out More
                             <box-icon className="hero-icon-btn" name='right-arrow-alt' size="sm" color="#8067AD"></box-icon>
                         </button>
                     </Link>

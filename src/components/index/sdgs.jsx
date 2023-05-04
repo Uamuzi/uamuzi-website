@@ -42,7 +42,7 @@ function SDGs() {
                             <p><span className="primary-color" > Goal 13:</span> <b> Climate Action</b> - We conduct civic education and raise awareness on climate change mitigation, adaptation, impact reduction and early warning.
                             </p>
                         </li>
-                        <button className="hero-read-more d-flex justify-content-center align-items-center">Show More
+                        <button className="btn-primary">Show More
                             <box-icon className="hero-icon-btn" name='right-arrow-alt' size="sm" color="#8067AD"></box-icon>
                         </button>
                     </ul>
