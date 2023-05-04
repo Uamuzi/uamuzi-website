@@ -61,7 +61,7 @@ We also encourage them to participate in public policy formulation, planning and
                         <p className="h3 text-start event-title">Civic Education</p>
                         <p className="p">
                             One way of encouraging participation of young people in governance is by conducting civic education on their rights, responsibilities and their electoral power. Knowledge of these will form a starting point in addressing the problems of poor participation of the youth in political leadership. For an election to be successful and democratic, the youth must understand their rights and responsibilities. They should be sufficiently knowledgeable and well informed to cast ballots that are legally valid in the participation of a meaningful voting process. Civic education is even more critical in post-election circumstances where political situations may be volatile and elections have an unprecedented impact on the countries’ future.                </p>
-                        <button className="btn-primary">Read More <box-icon style={{color: "#8067AD"}} name='right-arrow-alt' color='#8067AD'></box-icon></button>
+                        <button className="btn-primary" onClick={() => setOpen(true)}>Read More <box-icon style={{color: "#8067AD"}} name='right-arrow-alt' color='#8067AD'></box-icon></button>
                     </div>
                 </div>
             </div>
