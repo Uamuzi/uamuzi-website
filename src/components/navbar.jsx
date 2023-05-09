@@ -23,9 +23,9 @@ function Navbar() {
                         <Link className="nav-link" to="/team">Our Team</Link>
                         <Link className="nav-link" to="/pillars">Pillars</Link>
                         <li className="nav-item dropdown">
-                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Hub
-                            </Link>
+                            </a>
                             <ul className="dropdown-menu">
                                 <li className='drop-li'><Link className="dropdown-item drop-link" to="/hub">Academy</Link></li>
                                 <li className='drop-li'><Link className="dropdown-item drop-link" to="/innovation">Innovation</Link></li>
