@@ -23,7 +23,7 @@ function Navbar() {
                         <Link className="nav-link" to="/team">Our Team</Link>
                         <Link className="nav-link" to="/pillars">Pillars</Link>
                         <li className="nav-item dropdown">
-                            <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Hub
                             </Link>
                             <ul className="dropdown-menu">
