@@ -352,6 +352,8 @@ form input {
 
 .nav-link {
   color: var(--color-text);
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .nav-link.active {
@@ -526,6 +528,22 @@ figure.ball {
   color: #fff;
 }
 
+.button-primary {
+  border: none;
+  color: #fff;
+  background: #8067AD;
+  border-radius: 6px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .my_row {
   display: flex;
   gap: 1rem;
@@ -548,6 +566,56 @@ figure.ball {
   color: #fff !important;
   border-radius: 32px;
   padding: 2rem;
+}
+
+.pop_up {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-image: url('../images//bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 350px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pop_up .icon {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+
+.pop_up .close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close button {
+  border: none;
+  outline: none;
+  background: #8067AD;
+  border-radius: 6px;
+  padding: 8px;
+  color: #fff;
+  width: 140px;
+}
+
+.line {
+  background: lightgray;
+  width: 100%;
+  height: 2px;
+  margin-top: 0.7rem;
+  margin-bottom: 1.7rem;
+}
+
+.my_bg {
+  background-image: url('../images/quote1.png');
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .tiny{
@@ -627,6 +695,10 @@ figure.ball {
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
   }
+
+  .pop_up {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -674,6 +746,11 @@ figure.ball {
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
+  }
+  .pop_up {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 @media screen and (max-width: 480px) {
