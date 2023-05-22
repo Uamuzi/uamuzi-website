@@ -47,7 +47,7 @@ const ContactPage = () => (
                         </div>
                         <div>
                             <p className="event">PHONE</p>
-                            <p className="p">+254731301009</p>
+                            <p className="p">+254112729843</p>
                         </div>
                     </div>
                     <div className="contact">

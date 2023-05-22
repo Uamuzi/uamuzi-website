@@ -16,7 +16,7 @@ function Footer() {
                     <div className='footer-section'>
                         <p>Contact details</p>
                         <a to='mailto:info@uamuzi.org' style={{display: 'flex', gap: '1rem'}}><box-icon color='#A0A09F' name='envelope'></box-icon>info@uamuzi.org</a>
-                        <a to='tel:+25400000000' style={{display: 'flex', gap: '1rem'}} className='py-2'><box-icon color='#A0A09F' name='phone-call' ></box-icon> +254731301009</a>
+                        <a to='tel:+254112729843' style={{display: 'flex', gap: '1rem'}} className='py-2'><box-icon color='#A0A09F' name='phone-call' ></box-icon> +254112729843</a>
                         <Link to='/' style={{display: 'flex', gap: '1rem'}}><box-icon color='#A0A09F' type='solid' name='user-rectangle'></box-icon> 25167-00100 Nairobi, Kenya</Link>
                         
                         <Link to='/' style={{display: 'flex', gap: '1rem'}} className="py-2"><box-icon color='#A0A09F' name='briefcase'></box-icon> Monday - Friday 8am - 6pm</Link>
