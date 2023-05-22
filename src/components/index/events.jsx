@@ -4,7 +4,7 @@ import {Link} from "gatsby";
 
 function Events() {
     return (
-        <div className='container bg-light mt-5 py-5'>
+        <div className='container mt-5 py-5'>
             <p className="h5 event">Events</p>
             <div className="row pt-4">
                 <div className="col-12 col-md-6 py-3">

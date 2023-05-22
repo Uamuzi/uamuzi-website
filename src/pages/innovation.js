@@ -27,16 +27,16 @@ const Innovationpage = () => (
                         </p>
                         
                         <p className="p d-flex">
-                            <span className="d-flex"><box-icon size="sm" name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Concept </p> </span> - The team begins by having a deep understanding of the innovation.
+                            <span className="d-flex"><box-icon size='sm' name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Concept  - <span className="text-black">The team begins by having a deep understanding of the innovation</span>.</p> </span>
                         </p>
                         <p className="p d-flex">
-                            <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Brainstorming </p> </span> - The team then conducts a brainstorming session with the founders on enhancing the concept of the product with a business plan.
+                            <span className="d-flex"><box-icon size='sm' className='text-xl' name='check-circle' color="#8067AD"></box-icon>  <p className="p-text">Brainstorming  - <span className="text-black">The team then conducts a brainstorming session with the founders on enhancing the concept of the product with a business plan</span>.</p></span>
                         </p>
                         <p className="p d-flex">
-                            <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Roadmap </p> </span> - The team develops a detailed plan of action that lays out the process of product development, Beta testing, User acquisition and fundraising.
+                            <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Roadmap - <span className="text-black">The team develops a detailed plan of action that lays out the process of product development, Beta testing, User acquisition and fundraising.</span></p> </span> 
                         </p>
                         <p className="p d-flex">
-                            <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Evaluation </p> </span> - Once all the stages have been finished successfully, we finally evaluate how the teams will work together to actualize the product.
+                            <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Evaluation  - <span className="text-black">Once all the stages have been finished successfully, we finally evaluate how the teams will work together to actualize the product</span></p> </span>
                         </p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const Innovationpage = () => (
             <div className="container hub">
                 <p className="h3 event-title">Why Join Our Network</p>
                 <p className="p">
-                    Once you join our network, we will save you the trouble of finding a technical team. We will cater for the costs of development and will continuously support the product for any modifications and improvements that might be required. You will have access to potential investors who will be ready to invest in your startup at any stage of development. We are ready to work with you on building your dream product.
+                    Once you join our network, we will save you the trouble of finding a technical team. We will c~ater for the costs of development and will continuously support the product for any modifications and improvements that might be required. You will have access to potential investors who will be ready to invest in your startup at any stage of development. We are ready to work with you on building your dream product.
                 </p>
             </div>
             <div className="container my-4">

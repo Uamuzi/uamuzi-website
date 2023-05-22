@@ -21,7 +21,7 @@ const AboutPage = () => (
                     </p>
                 </div>
                 <div className="col-6 col-sm-12 col-md-6 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                    <img src={about} href="" width={400} height={300} className="" />
+                    <img src={about} href="" width={420} height={350} className="" />
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@ const AboutPage = () => (
         <div className="container my-4">
         <div className="row">
           <div className="col-6 col-sm-12 col-md-6 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-              <img src={values} href="" width={300} height={350} className="" />
+              <img src={values} href="" width={330} height={400} className="" />
           </div>
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 about-col">
               <p className="event">OUR VALUES</p>
@@ -45,19 +45,19 @@ const AboutPage = () => (
                   The values that govern all aspects of our work and operations include: 
                 </p>
                 <p className="p d-flex">
-                  <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Accountability </p> </span> - Be transparent and open in all dealings.
+                  <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Accountability  - <span style={{color: '#000'}}>Be transparent and open in all dealings.</span></p> </span>
                 </p>
                 <p className="p d-flex">
-                  <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Inclusion </p> </span> - Be inclusive and collaborative as we strive to progress and evolve.
+                  <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Inclusion  - <span style={{color: '#000'}}>Be inclusive and collaborative as we strive to progress and evolve.</span></p> </span>
                 </p>
                 <p className="p d-flex">
-                  <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Innovative </p> </span> - Push for breakthrough innovations and explore the possibilities of the future.
+                  <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Innovative  - <span style={{color: '#000'}}>Push for breakthrough innovations and explore the possibilities of the future.</span></p> </span>
                 </p>
                 <p className="p d-flex">
-                  <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Integrity </p> </span> - Be ethical and honest in all dealings and responsibility for our actions.
+                  <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Integrity - <span style={{color: '#000'}}>Be ethical and honest in all dealings and responsibility for our actions.</span></p> </span>
                 </p>
                 <p className="p d-flex">
-                  <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Passion </p> </span> - Set a culture for continuous improvement and excellence while attracting and developig the best talent.
+                  <span className="d-flex" style={{color: '#000'}}><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Passion   - <span style={{color: '#000'}}>Set a culture for continuous improvement and excellence while attracting and developig the best talent.</span></p></span>
                 </p>
             </div>
         </div>
