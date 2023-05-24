@@ -4,28 +4,28 @@ import Layout from "../components/layout"
 import Seo from "../components/seo";
 import Elvis from '../images/Elvis.jpg'
 import bisagaya from '../images/Bisagaya.jpg'
-import SharonO from '../images/SharonO.jpg'
+import SharonO from '../images/SharonO.png'
 import Novat from '../images/Novat.jpg';
 import GraceMuthui from "../images/GraceMuthui.jpg"
 import TeamMember from "../components/team/teamMember";
 import MichaelMunavu from "../images/MichaelMunavu.png"
-import EugeneRaburu from "../images/EugeneRaburu.jpg";
+import EugeneRaburu from "../images/EugeneRaburu.png";
 import MonicaKimani from "../images/MonicaKimani.jpg";
 import AntonyGakuru from "../images/AntonyGakuru.jpeg";
-import StephenKimoi from "../images/StephenKimoi.jpg";
-import SharonKombe from "../images/SharonKombe.jpg";
-import IvySifuma from "../images/IvySifuma.jpeg";
+import StephenKimoi from "../images/StephenKimoi.png";
+import SharonKombe from "../images/SharonK.jpg";
+import IvySifuma from "../images/IvySifuma.png";
 import KiprotichKimutai from "../images/KiprotichKimutai.jpg";
-import NemwelNyandoro from "../images/NemwelNyandoro.jpg";
+import NemwelNyandoro from "../images/NemwelBonface.jpg";
 import EdwardMwangi from "../images/EdwardMwangi.jpg"
 import AbbyRita from "../images/AbbyRita.jpg";
 import JoanGichuhi from "../images/JoanGichuhi.jpg"
-import SamiWafula from "../images/SamiWafula.jpeg"
+import SamiWafula from "../images/SamiWafula.png"
 import RichardOgola from "../images/RichardOgola.jpg";
 import ObedKertich from "../images/ObedKertich.png";
 import SalvatoLuis from "../images/salvato.png";
 import empty from "../images/empty.png";
-import NjengaKarori from "../images/NjengaKarori.jpg"
+import NjengaKarori from "../images/NjengaKarori.png"
 
 const TeamPage = () => (
     <Layout>
@@ -38,12 +38,12 @@ const TeamPage = () => (
                 <TeamMember imageUrl={Elvis} fullName={"elvis sitati"} position={"Founder & CEO"} linkedinUsername={"elvis-sitati-2a282b79"} />
                 <TeamMember imageUrl={bisagaya} fullName={"Andrew bisagaya"} position={"General Counsel"} linkedinUsername={"bisagaya-andrew-309b9497"} />
                 <TeamMember imageUrl={SharonKombe} fullName={"Sharon Nechesa"} position={"Social Affairs"} linkedinUsername={"nechesa-oyuchi-llb-hons-dip-ksl-79053978"} />
-                <TeamMember imageUrl={Novat} fullName={"Novat Matoju"} position={"Finance Officer"} linkedinUsername={"novatmatoju"} />
-                <TeamMember imageUrl={EdwardMwangi} fullName={"Edward Mwangi"} position={"Product & Innovations Officer"} linkedinUsername={"edward-mwangi-0148b923a"} />
-                <TeamMember imageUrl={EugeneRaburu} fullName={"Eugine Raburu"} position={"Technology Officer"} linkedinUsername={"eugene-raburu-kf"} />
-                <TeamMember imageUrl={MonicaKimani} fullName={"Monica Kimani"} position={"Operations Officer"} linkedinUsername={"monicah-kimani-561a1b69"} />
-                <TeamMember imageUrl={AbbyRita} fullName={"Abby Rita"} position={"Volunteering Officer"} linkedinUsername={"amwakina"} />
-                <TeamMember imageUrl={SharonO} fullName={"Sharon Ochieng"} position={"Programs Officer"} linkedinUsername={"sharon-ochieng-2167757a"} />
+                <TeamMember imageUrl={Novat} fullName={"Novat Matoju"} position={"Finance"} linkedinUsername={"novatmatoju"} />
+                <TeamMember imageUrl={EdwardMwangi} fullName={"Edward Mwangi"} position={"Product & Innovations"} linkedinUsername={"edward-mwangi-0148b923a"} />
+                <TeamMember imageUrl={EugeneRaburu} fullName={"Eugine Raburu"} position={"Technology"} linkedinUsername={"eugene-raburu-kf"} />
+                <TeamMember imageUrl={MonicaKimani} fullName={"Monica Kimani"} position={"Operations"} linkedinUsername={"monicah-kimani-561a1b69"} />
+                <TeamMember imageUrl={AbbyRita} fullName={"Abby Rita"} position={"Volunteering"} linkedinUsername={"amwakina"} />
+                <TeamMember imageUrl={SharonO} fullName={"Sharon Ochieng"} position={"Programs"} linkedinUsername={"sharon-ochieng-2167757a"} />
                 <TeamMember imageUrl={MichaelMunavu} fullName={"Michael Munavu"} position={"Lead Engineer"} linkedinUsername={"michael-munavu"} />
                 <TeamMember imageUrl={GraceMuthui} fullName={"Grace Muthui"} position={"Lead Frontend"} linkedinUsername={"grayce-muthui"} />
                 <TeamMember imageUrl={AntonyGakuru} fullName={"Eng. Antony Gakuru"} position={"Lead DevOps & Security"} linkedinUsername={"muriithigakuru"} />

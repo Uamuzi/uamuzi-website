@@ -602,6 +602,12 @@ figure.ball {
   color: #fff;
   width: 140px;
 }
+.top-right {
+  transform: rotate(-45deg) rotateX(10deg) skewX(2deg);
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
 
 .line {
   background: lightgray;

@@ -10,7 +10,7 @@ import volunteer3 from "../images/volunteer3.png"
 const VolunteersPage = () => (
   <Layout>
     <div className="container pb-5 pt-3">
-    <div className='container bg-light my-4 py-4'>
+    <div className='container my-4 py-4'>
         <p className="event">BE PART OF UFV</p>
         <div className="row">
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 about-col">
@@ -23,7 +23,7 @@ const VolunteersPage = () => (
                 </p>
             </div>
             <div className="col-6 col-sm-12 col-md-6 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                <img src={volunteer1} href="" width={400} height={300} className="" />
+                <img src={volunteer1} href="" width={450} height={250} className="" />
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@ const VolunteersPage = () => (
                 </p>
             </div>
             <div className="col-6 col-sm-12 col-md-6 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-                <img src={volunteer3} href="" width={400} height={450} className="" />
+                <img src={volunteer3} href="" width={375} height={450} className="" />
             </div>
         </div>
     </div>

@@ -125,7 +125,9 @@ function LandingTeam() {
 
                         </div>
                     </div>
-                    <Link to="/team" className="see-all members align-items-center fw-bold text-capitalize d-flex justify-content-center align-items-center"> See all members <box-icon name='right-arrow-alt' color="#8067AD" className="rogue"></box-icon></Link>
+                    <Link to="/team" className="see-all members align-items-center fw-bold text-capitalize d-flex justify-content-center align-items-center"> See all members <div className='top-right'>
+                        <box-icon name='right-arrow-alt' color="#8067AD" className="rogue top-right"></box-icon>
+                    </div></Link>
                 </div>
             </div>
         </div>
