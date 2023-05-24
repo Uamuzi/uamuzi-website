@@ -24,6 +24,10 @@ const Layout = ({ children }) => {
       }
     }
   `)
+  let siteTitle = '';
+  if(siteTitle === 'Home'){
+    console.log("home is home...")
+  }
 
   return (
     <>

@@ -1,16 +1,16 @@
 import React from 'react';
 import HeroImage from './heroImage';
-import OneImg from "../../images/hero-img-1.jpg"
-import Img1 from "../../images/img1.jpg"
-import Img2 from "../../images/img2.jpg"
-import Img3 from "../../images/img3.jpg"
+import hero1 from "../../images/hero-1.png"
+import hero2 from "../../images/hero-2.png"
+import hero3 from "../../images/hero-3.png"
+import hero4 from "../../images/hero-4.png"
 
 function Hero() {
     const img1Style = {
         width: "280px",
         height: "280px",
         // margin: "30px auto 0",
-        backgroundImage: `url(${Img1})`,
+        backgroundImage: `url(${hero1})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -24,7 +24,7 @@ function Hero() {
         width: "100px",
         height: "100px",
         // margin: "30px auto 0",
-        backgroundImage: `url(${Img2})`,
+        backgroundImage: `url(${hero4})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -38,7 +38,7 @@ function Hero() {
         width: "100px",
         height: "100px",
         marginRight: "20px",
-        backgroundImage: `url(${Img3})`,
+        backgroundImage: `url(${hero2})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -53,7 +53,7 @@ function Hero() {
         width: "200px",
         height: "200px",
         // margin: "30px auto 0",
-        backgroundImage: `url(${OneImg})`,
+        backgroundImage: `url(${hero3})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -75,6 +75,7 @@ function Hero() {
                         and dignity at the center and calls for changes in our development
                         pattern while respecting the environment.
                     </p>
+                    {/* <button className='button-primary'>Read More <box-icon name='right-arrow-alt' color='#fff'></box-icon></button> */}
                     <figure className='tiny tiny-2'></figure>
                     <figure className='tiny tiny-2-1'></figure>
 
