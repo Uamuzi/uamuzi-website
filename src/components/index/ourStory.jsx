@@ -4,7 +4,7 @@ import {Link} from "gatsby";
 
 function OurStory() {
     return (
-        <div className='container bg-light mt-5 py-5'>
+        <div className='container mt-5 py-5'>
             <div className="row pt-4">
                 <div className="col-6 col-sm-12 col-md-6 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
                     <img src={OurStoryImg} href="Our story" width={450} height={350} className="our-story-img" />

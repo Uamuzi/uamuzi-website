@@ -9,6 +9,29 @@ import pilars3 from '../images/pillars3.png'
 
 const PllarsPage = () => {
     const [open, setOpen] = React.useState(false);
+    const [show, setShow] = React.useState(false);
+
+    if (show) {
+        return (
+            <Layout>
+                <div className="pop_up">
+                    <div className="icon">
+                        <box-icon style={{cursor: 'pointer'}} onClick={() => setShow(false)} color='#8067AD' name='x'></box-icon>
+                    </div>
+                    <div className="line" />
+                    <h5 className="event text-center py-2">Civic Education</h5>
+                    <p className="p py-2">
+                    We advocate for more participation by the youth where they can engage on diverse issues at every level of governance in the Country (Ward, Constituency, County and National). We allow for participation from youth of different backgrounds, communities, tribes, religion, age, abilities, gender and political party affiliation. Some of the most progressive form of civic engagement identified is when diverse people come together to engage with one another, exchange ideas and concerns, and to negotiate an agreed approach to address issues they are confronted with. The participation process is conducted in an independent, unbiased manner and builds a culture of belonging and allows for active contribution by all people.  <div className="py-4" />
+
+We also encourage them to participate in public policy formulation, planning and implementation by offering a range of activities and providing them with meaningful opportunities to participate and stir more of their input. In a world where the legitimacy of public policies and other collective actions rests largely on the democratic credentials of their production processes, it matters a great deal what the youth think, and what actions they consequently support, or are willing to undertake. They can magnify their voice, not only through information consumption and generation, but through active engagement and organizing.
+                    </p>
+                    <div className="close">
+                        <button onClick={() => setShow(false)}>Close</button>
+                    </div>
+                </div>
+            </Layout>
+        )
+    }
 
     if (open) {
         return (
@@ -61,7 +84,7 @@ We also encourage them to participate in public policy formulation, planning and
                         <p className="h3 text-start event-title">Civic Education</p>
                         <p className="p">
                             One way of encouraging participation of young people in governance is by conducting civic education on their rights, responsibilities and their electoral power. Knowledge of these will form a starting point in addressing the problems of poor participation of the youth in political leadership. For an election to be successful and democratic, the youth must understand their rights and responsibilities. They should be sufficiently knowledgeable and well informed to cast ballots that are legally valid in the participation of a meaningful voting process. Civic education is even more critical in post-election circumstances where political situations may be volatile and elections have an unprecedented impact on the countries’ future.                </p>
-                        <button className="btn-primary" onClick={() => setOpen(true)}>Read More <box-icon style={{color: "#8067AD"}} name='right-arrow-alt' color='#8067AD'></box-icon></button>
+                        <button className="btn-primary" onClick={() => setShow(true)}>Read More <box-icon style={{color: "#8067AD"}} name='right-arrow-alt' color='#8067AD'></box-icon></button>
                     </div>
                 </div>
             </div>
