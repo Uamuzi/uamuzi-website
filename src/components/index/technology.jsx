@@ -61,8 +61,8 @@ function Technology() {
                 }}
                 ></div>
                 <div className="tech-inner position-relative">
-                    <img src={BecomeALeader} alt="become a leader" className='become-a-leader-img' />
-                    <img src={UamuziHome} alt="uamuzi-home" className='uamuzi-home-img' />
+                    <img src={BecomeALeader} alt="become a leader" className='uamuzi-home-img' />
+                    <img src={UamuziHome} alt="uamuzi-home" className='become-a-leader-img' />
                 </div>
             </div>
                 <div className="container pt-5 text-center w-75">
