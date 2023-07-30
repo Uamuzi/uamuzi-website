@@ -18,7 +18,7 @@ const IndexPage = () => (
     <div>
       <Hero />
       <OurStory />
-      <Events />
+      {/* <Events /> */}
       <SDGs/>
       <LandingTeam />
       <Technology />
