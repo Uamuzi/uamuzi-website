@@ -32,8 +32,8 @@ function Navbar() {
                                 Hub
                             </a>
                             <ul className="dropdown-menu">
-                                <li className='drop-li'><Link className="dropdown-item drop-link" to="/hub">Academy</Link></li>
-                                <li className='drop-li'><Link className="dropdown-item drop-link" to="/innovation">Innovation</Link></li>
+                                <li className='drop-li'><Link className="dropdown-item drop-link" to="/hub">Engineering Academy</Link></li>
+                                <li className='drop-li'><Link className="dropdown-item drop-link" to="/innovation">Innovation Lab</Link></li>
                             </ul>
                         </li>
                         <Link className="nav-link" activeClassName="active" to="/volunteers">Volunteers</Link>

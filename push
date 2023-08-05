@@ -1,0 +1,2 @@
+#!/bin/bash
+git add . && git commit -m "Made updates on the text contents" && git push --set-upstream fix-technology

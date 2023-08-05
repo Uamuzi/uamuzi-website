@@ -14,7 +14,7 @@ function OurStory() {
                     <p className="h3 text-start event-title mb-3">Who We Are</p>
                     <p className="p">
                         Uamuzi Foundation is a philanthropic organization advocating for social
-                        justice with a specific focus on the youth, women and people with disabilities
+                        justice with a specific focus on the youth, women and persons with disabilities
                         who deserve equal economic, political and social rights; while integrating
                         technology and data. The youth make up the biggest population and the
                         largest voting bloc in our democratic space.
@@ -24,11 +24,11 @@ function OurStory() {
                         Policy and Advocacy; Diversity and Inclusion; Transparency and Accountability;
                         Environmental Conservation and Peacebuilding. We aim to open the doors of access and
                         opportunity for everyone. We believe that the youth are the future for the World we want.</p>
-                    {/* <Link to="/about" style={{textDecoration: "none"}}>
+                    <Link to="/about" style={{textDecoration: "none"}}>
                         <button className="hero-read-more d-flex justify-content-center align-items-center">Find Out More
                             <box-icon className="hero-icon-btn" name='right-arrow-alt' size="sm" color="#8067AD"></box-icon>
                         </button>
-                    </Link> */}
+                    </Link>
                 </div>
             </div>
         </div>

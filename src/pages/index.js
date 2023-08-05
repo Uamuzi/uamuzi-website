@@ -4,7 +4,7 @@ import Hero from "../components/index/hero"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo";
-import Events from "../components/index/events";
+// import Events from "../components/index/events";
 import OurStory from "../components/index/ourStory";
 import SDGs from "../components/index/sdgs";
 import LandingTeam from "../components/index/landingTeam";

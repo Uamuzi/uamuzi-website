@@ -57,9 +57,9 @@ We also encourage them to participate in public policy formulation, planning and
     return (
         <Layout>
             <div className="pillar-head">
-                <p className="event text-center text-uppercase">pillars</p>
+                {/* <p className="event text-center text-uppercase">pillars</p> */}
                 <p className="h3 text-center event-title">Our Pillars</p>
-                <p className="p text-center">These are our pillars.</p>
+                {/* <p className="p text-center">These are our pillars.</p> */}
             </div>
             <div className="container my-4">
                 <div className="row">
