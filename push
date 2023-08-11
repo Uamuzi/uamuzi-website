@@ -1,2 +1,0 @@
-#!/bin/bash
-git add . && git commit -m "Pop up and Button responsive" && git push --set-upstream fix-technology
