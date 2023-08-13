@@ -86,6 +86,14 @@ body {
   margin-top: 0px;
 }
 
+@media (max-width: 767px) {
+  .dropdown-menu {
+    display: none;
+  }
+  .show .dropdown-menu {
+    display: block;
+  }
+}
 
 /* State when the navbar is collapsed */
 

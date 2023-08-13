@@ -5,11 +5,17 @@ import Seo from "../components/seo";
 import hub1 from '../images/hub1.png'
 import hub2 from '../images/hub2.png'
 import hub3 from '../images/hub3.png'
-import michael from '../images/michael.png'
+// import michael from '../images/michael.png'
+import antony from '../images/AntonyGakuru0.png'
 
 
 const HubPage = () => {
   const [open, setOpen] = React.useState(false);
+  
+  const handleReadMore = () => {
+    setOpen(true);
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  };
 
 if (open) {
   return (
@@ -122,7 +128,7 @@ if (open) {
               <p className="p d-flex">
                 <span style={{ paddingRight: '10px' }} className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> </span>Extended Reality (Virtual Reality and Augmented Reality)
               </p>
-              <button className="btn-primary" onClick={() => setOpen(true)}>Read More <box-icon name='right-arrow-alt' color='#8067AD'></box-icon></button>
+              <button className="btn-primary" onClick={handleReadMore}>Read More <box-icon name='right-arrow-alt' color='#8067AD'></box-icon></button>
             </div>
             <div className="col-6 col-sm-12 col-md-6 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
               <img src={hub2} href="" width={400} height={300} className="" />
@@ -133,13 +139,13 @@ if (open) {
           <div className="row align-items-center">
             <div className="col-12 col-sm-12 col-md-6 my_bg col-lg-6 about-col">
               <p className="event text-start">FROM OUR LEAD DEVELOPER</p>
-              <p className="h3 text-start event-title">Michael Munavu</p>
+              <p className="h3 text-start event-title">Antony Gakuru</p>
               <p className="p py-2">
                 “We hire smart engineers for their potential, not their past. Our biggest expectation is that they stay curious, keep learning and take on more responsibility. In return, we’ll equip them to develop into an even more awesome version of themselves”
               </p>
             </div>
             <div className="col-6 col-sm-12 col-md-6 col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-              <img src={michael} href="" width={350} height={400} className="" />
+              <img src={antony} href="" width={350} height={400} className="" />
             </div>
           </div>
         </div>

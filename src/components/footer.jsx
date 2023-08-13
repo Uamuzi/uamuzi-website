@@ -32,9 +32,9 @@ function Footer() {
                     <div className='footer-section'>
                         <p>More</p>
                         <Link to='/'>Privacy policy</Link>
-                        <Link to='/'>Cookie Policy</Link>
+                        <Link to='/'>Blog</Link>
                         <Link to='/'>FAQ</Link>
-                        <Link to='/'>Terms of use</Link>
+                        <Link to='/'>Gallery</Link>
                     </div>
                 </div>
             </div>
