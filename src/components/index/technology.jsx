@@ -1,8 +1,16 @@
 import React from 'react'
 import BecomeALeader from "../../images/become-a-leader.jpg";
 import UamuziHome from "../../images/uamuzi-home.jpg";
-import Akimbo from "../../images/akimbo.jpg";
-import Elizeu from "../../images/elizeu.jpg";
+
+
+import leftSideBottom from "../../images/Ellipse44.png";
+import topLeft from "../../images/Ellipse45.png";
+import topRight from "../../images/Ellipse41.png";
+import rightSideTop from "../../images/Ellipse42.png";
+import rightSideBottom from "../../images/Ellipse43.png";
+import leftSideTop from "../../images/Ellipse40.png";
+// import Elizeu from "../../images/elizeu.jpg";
+// import Elizeu from "../../images/Ellipse 40.png";
 
 function Technology() {
     return (
@@ -14,50 +22,64 @@ function Technology() {
             <div className="pictorama position-relative d-flex justify-content-center align-items-center overflow-hidden">
                 <div className="d-none d-md-block d-lg-block tech-image img1 position-absolute"
                 style={{
-                    backgroundImage: `url(${Akimbo})`,
+                    backgroundImage: `url(${topLeft})`,
                     backgroundPosition: "center",
                     backgroundSize: "cover",
-                    backgroundRepeat: 'no-repeat'
+                    backgroundRepeat: 'no-repeat',
+                    top: 0,
+                    left: 420
                 }}
                 ></div>
                 <div className="d-none d-md-block d-lg-block tech-image img2 position-absolute"
                 style={{
-                    backgroundImage: `url(${Elizeu})`,
+                    backgroundImage: `url(${leftSideTop})`,
                     backgroundPosition: "center",
                     backgroundSize: "cover",
-                    backgroundRepeat: 'no-repeat'
+                    backgroundRepeat: 'no-repeat',
+                    left: 150
                 }}
                 ></div>
                 <div className="d-none d-md-block d-lg-block tech-image img3 position-absolute" 
                 style={{
-                    backgroundImage: `url(${Elizeu})`,
+                    backgroundImage: `url(${leftSideBottom})`,
                     backgroundPosition: "center",
                     backgroundSize: "cover",
-                    backgroundRepeat: 'no-repeat'
+                    backgroundRepeat: 'no-repeat',
+                    left: 200,
+                    bottom: 0,
+                    transform: 'translateY(-50%)'
                 }}
                 ></div>
                 <div className="d-none d-md-block d-lg-block tech-image img4 position-absolute"
                 style={{
-                    backgroundImage: `url(${Elizeu})`,
+                    backgroundImage: `url(${rightSideBottom})`,
                     backgroundPosition: "center",
                     backgroundSize: "cover",
-                    backgroundRepeat: 'no-repeat'
+                    backgroundRepeat: 'no-repeat',
+                    bottom: 0,
+                    right: 60,
+                    transform: 'translateY(-25%)'
                 }}
                 ></div>
                 <div className="d-none d-md-block d-lg-block tech-image img5 position-absolute"
                 style={{
-                    backgroundImage: `url(${Elizeu})`,
+                    backgroundImage: `url(${topRight})`,
                     backgroundPosition: "center",
                     backgroundSize: "cover",
-                    backgroundRepeat: 'no-repeat'
+                    backgroundRepeat: 'no-repeat',
+                    right: 250,
+                    top: 30
                 }}
                 ></div>
                 <div className="d-none d-md-block d-lg-block tech-image img6 position-absolute"
                 style={{
-                    backgroundImage: `url(${Elizeu})`,
+                    backgroundImage: `url(${rightSideTop})`,
                     backgroundPosition: "center",
                     backgroundSize: "cover",
-                    backgroundRepeat: 'no-repeat'
+                    backgroundRepeat: 'no-repeat',
+                    top: '50%',
+                    right: 10,
+                    transform: 'translateY(-50%)'
                 }}
                 ></div>
                 <div className="tech-inner position-relative">
