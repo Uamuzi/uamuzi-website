@@ -58,7 +58,7 @@ const AboutPage = () => (
                   <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Integrity - <span style={{color: '#000'}}>Be ethical and honest in all dealings and responsibility for our actions.</span></p> </span>
                 </p>
                 <p className="p d-flex">
-                  <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Passion   - <span style={{color: '#000'}}>Set a culture for continuous improvement and excellence while attracting and developig the best talent.</span></p></span>
+                  <span className="d-flex"><box-icon name='check-circle' color="#8067AD" style = {{width:'30px'}}></box-icon> <p className="p-text">Passion   - <span style={{color: '#000'}}>Set a culture for continuous improvement and excellence while attracting and developig the best talent.</span></p></span>
                 </p>
             </div>
         </div>

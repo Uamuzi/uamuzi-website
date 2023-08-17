@@ -1,16 +1,12 @@
 import React from 'react'
 import BecomeALeader from "../../images/become-a-leader.jpg";
 import UamuziHome from "../../images/uamuzi-home.jpg";
-
-
 import leftSideBottom from "../../images/Ellipse44.png";
 import topLeft from "../../images/Ellipse45.png";
 import topRight from "../../images/Ellipse41.png";
 import rightSideTop from "../../images/Ellipse42.png";
 import rightSideBottom from "../../images/Ellipse43.png";
 import leftSideTop from "../../images/Ellipse40.png";
-// import Elizeu from "../../images/elizeu.jpg";
-// import Elizeu from "../../images/Ellipse 40.png";
 
 function Technology() {
     return (
