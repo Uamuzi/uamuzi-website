@@ -16,6 +16,7 @@ function Technology() {
             </p>
             <h2 className="text-capitalize text-center fw-bold">The era of social networking</h2>
             <div className="pictorama position-relative d-flex justify-content-center align-items-center overflow-hidden">
+                    {/* topLeft */}
                 <div className="d-none d-md-block d-lg-block tech-image img1 position-absolute"
                 style={{
                     backgroundImage: `url(${topLeft})`,
@@ -26,6 +27,7 @@ function Technology() {
                     left: 420
                 }}
                 ></div>
+                    {/* leftSideTop */}
                 <div className="d-none d-md-block d-lg-block tech-image img2 position-absolute"
                 style={{
                     backgroundImage: `url(${leftSideTop})`,
@@ -35,6 +37,7 @@ function Technology() {
                     left: 150
                 }}
                 ></div>
+                    {/* leftSideBottom */}
                 <div className="d-none d-md-block d-lg-block tech-image img3 position-absolute" 
                 style={{
                     backgroundImage: `url(${leftSideBottom})`,
@@ -46,6 +49,7 @@ function Technology() {
                     transform: 'translateY(-50%)'
                 }}
                 ></div>
+                    {/* rightSideBottom */}
                 <div className="d-none d-md-block d-lg-block tech-image img4 position-absolute"
                 style={{
                     backgroundImage: `url(${rightSideBottom})`,
@@ -57,6 +61,7 @@ function Technology() {
                     transform: 'translateY(-25%)'
                 }}
                 ></div>
+                    {/* topRight */}
                 <div className="d-none d-md-block d-lg-block tech-image img5 position-absolute"
                 style={{
                     backgroundImage: `url(${topRight})`,
@@ -67,6 +72,7 @@ function Technology() {
                     top: 30
                 }}
                 ></div>
+                    {/* rightSideTop */}
                 <div className="d-none d-md-block d-lg-block tech-image img6 position-absolute"
                 style={{
                     backgroundImage: `url(${rightSideTop})`,
