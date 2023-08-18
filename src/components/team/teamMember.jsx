@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TeamMember({imageUrl, fullName, position, linkedinUsername}) {
+function TeamMember({imageUrl, fullName, position, linkedinUsername, email}) {
     return (
         <div className="team-inner m-0 p-0 position-relative py-4">
             <div className="team-member-image position-relative" style={{
@@ -17,6 +17,7 @@ function TeamMember({imageUrl, fullName, position, linkedinUsername}) {
                 <p className="primary-color text-capitalize">{position}</p>
                 <span className="primary-color">
                     <a href={`https://www.linkedin.com/in/${linkedinUsername}`} target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
+                    {/* <a href={`${email}`}><box-icon name='envelope' type='solid' color="#8067AD" ></box-icon></a> */}
                 </span>
             </div>
         </div>
