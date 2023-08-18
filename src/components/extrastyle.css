@@ -107,7 +107,15 @@
 .become-a-leader-img{
     right: -100px;
 }
-
+@media (max-width: 768px) {
+    .become-a-leader-img {
+        display: none; 
+    }
+    .uamuzi-home-img{
+        right: -230px;
+        top: -70px;
+    }
+}
 .tech-image {
     width: 150px;
     height: 150px;
