@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Logo from "../images/logo-uamuzi.png";
 import { Link } from "gatsby";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navbar() {
    const [isNavOpen, setIsNavOpen] = useState(false);
@@ -10,7 +11,7 @@ function Navbar() {
    };
     
     return (
-        <nav className="navbar navbar-expand-md bg-body-tertiary mx-auto sticky-top bg-white">
+        <nav className="navbar navbar-expand-sm bg-body-tertiary mx-auto sticky-top bg-white">
             <div className="container">
                 <Link to="/" className="navbar-brand d-flex flex-column justify-content-start align-items-center gap-0" href="/">
                     <img src={Logo} href="Logo" width="150" height="40" className='m-0' alt='Uamuzi Logo' />

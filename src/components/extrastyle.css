@@ -107,6 +107,7 @@
 .become-a-leader-img{
     right: -100px;
 }
+
 @media (max-width: 768px) {
     .become-a-leader-img {
         display: none; 

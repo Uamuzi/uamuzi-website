@@ -24,7 +24,7 @@ import JoanGichuhi from "../images/JoanGichuhi.jpg"
 // import RichardOgola from "../images/RichardOgola.jpg";
 import ObedKertich from "../images/ObedKertich.png";
 // import SalvatoLuis from "../images/salvato.png";
-import empty from "../images/empty.png";
+// import empty from "../images/empty.png";
 import NjengaKarori from "../images/NjengaKarori.png"
 import GabrielTindi from "../images/GabrielTindi.jpg"
 import ImmanuelKibet from "../images/ImmanuelKibet.jpg"
@@ -32,6 +32,7 @@ import LindaApollo from "../images/LindaApollo.jpg"
 import GeorgeKinyanjui from "../images/GeorgeKinyanjui.png"
 import AnneOgongo from "../images/AnneOgongo.jpg"
 import KashifSaleem from "../images/KashifSaleem.png"
+import JeremyWachira from "../images/JeremyWachira.jpg"
 
 const TeamPage = () => (
     <Layout>
@@ -67,7 +68,7 @@ const TeamPage = () => (
                 <TeamMember imageUrl={Novat} fullName={"Novat Matoju"} position={"Finance"} linkedinUsername={"novatmatoju"} />
                 <TeamMember imageUrl={SharonO} fullName={"Sharon Ochieng"} position={"Programs"} linkedinUsername={"sharon-ochieng-2167757a"} />
                 <TeamMember imageUrl={MonicaKimani} fullName={"Monica Kimani"} position={"Operations"} linkedinUsername={"monicah-kimani-561a1b69"} />
-                <TeamMember imageUrl={empty} fullName={"Jeremy Wachira"} position={"Volunteers"} linkedinUsername={"jeremy-wachira-610a221b1"} />
+                <TeamMember imageUrl={JeremyWachira} fullName={"Jeremy Wachira"} position={"Volunteers"} linkedinUsername={"jeremy-wachira-610a221b1"} />
                 <TeamMember imageUrl={LindaApollo} fullName={"Linda Apollo"} position={"Branding, Marketing, Communication and PR"} linkedinUsername={"linda-apollo"} />
                 <TeamMember imageUrl={AntonyGakuru} fullName={"Antony Gakuru"} position={"Hub"} linkedinUsername={"muriithigakuru"} />
                 <TeamMember imageUrl={EugeneRaburu} fullName={"Eugine Raburu"} position={"Technology"} linkedinUsername={"eugene-raburu-kf"} />
