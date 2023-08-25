@@ -14,7 +14,7 @@ function OurStory() {
                     <p className="h3 text-start event-title mb-3">Who We Are</p>
                     <p className="p">
                         Uamuzi Foundation is a philanthropic organization advocating for social
-                        justice with a specific focus on the youth, women and people with disabilities
+                        justice with a specific focus on the youth, women and persons with disabilities
                         who deserve equal economic, political and social rights; while integrating
                         technology and data. The youth make up the biggest population and the
                         largest voting bloc in our democratic space.
