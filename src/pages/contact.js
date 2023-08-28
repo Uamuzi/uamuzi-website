@@ -61,7 +61,7 @@ const ContactPage = () => (
                     </div>
                     <div className="contact">
                         <div>
-                            <box-icon name='envelope' color='#8067AD'></box-icon>
+                            <box-icon name='message-rounded-dots' color='#8067AD'></box-icon>
                         </div>
                         <div>
                             <p className="event">SOCIALS</p>

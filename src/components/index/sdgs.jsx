@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../layout'
+// import Layout from '../layout'
 
 function SDGs() {
     const [open, setOpen] = React.useState(false);
@@ -87,7 +87,8 @@ function SDGs() {
                             </span>
                             <p><span className="primary-color" > Goal 9:</span> <b>Industry, Innovation and Infrastructure</b> - We significantly increases access to information and communication and strive to provide affordable and equal access to technology for everyone.
                             </p>
-                        </li><li className="goals d-flex gap-2">
+                        </li>
+                        <li className="goals d-flex gap-2">
                             <span className='check-icon'>
                                 <box-icon name='check-circle' size="sm" color="#8067AD"></box-icon>
                             </span>
