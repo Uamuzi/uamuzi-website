@@ -1,12 +1,17 @@
 import React, { useState } from 'react';
 import Logo from "../images/logo-uamuzi.png";
 import { Link } from "gatsby";
+import { animateScroll as scroll} from "react-scroll";
 
 function Navbar() {
    const [isNavOpen, setIsNavOpen] = useState(false);
 
    const handleNavToggle = () => {
      setIsNavOpen(!isNavOpen);
+   };
+
+   const scrollToTop = () => {
+    scroll.scrollToTop();
    };
     
     return (
@@ -24,7 +29,7 @@ function Navbar() {
                 <div className={`collapse navbar-collapse mx-auto ${isNavOpen ? 'show' : ''}`} id="navbarNavAltMarkup">
                     <div className="navbar-nav mx-auto gap-3 ">
                         <Link to="/" className='nav-link' activeClassName="active" aria-current="page" onClick={handleNavToggle}>Home</Link>
-                        <Link to="/about" className='nav-link' activeClassName="active" onClick={handleNavToggle}>About Us</Link>
+                        <Link to="/about" className='nav-link' activeClassName="active" onClick={() => { handleNavToggle(); scrollToTop(); }}>About Us</Link>
                         <Link className="nav-link" activeClassName="active" to="/team" onClick={handleNavToggle}>Our Team</Link>
                         <Link className="nav-link" activeClassName="active" to="/pillars" onClick={handleNavToggle}>Pillars</Link>
                         <li className="nav-item dropdown" activeClassName="active" onClick={handleNavToggle}>
