@@ -5,6 +5,7 @@ import Seo from "../components/seo";
 import pilars1 from '../images/pillars1.png'
 import pilars2 from '../images/pillars2.png'
 import pilars3 from '../images/pillars3.png'
+import Preloader from "../components/preloader";
 
 
 const PllarsPage = () => {
@@ -13,6 +14,7 @@ const PllarsPage = () => {
     const [lead, setLead] = React.useState(false);
     const [env, setEnv] = React.useState(false);
     const [peace, setPeace] = React.useState(false);
+    const [isloading, setIsLoading] = React.useState(false);
 
     const handleCivicEnReadMore = () => {
         setCivic(true);
@@ -26,7 +28,7 @@ const PllarsPage = () => {
 
     const handleLeadReadMore = () => {
         setLead(true);
-        window.scrollTo(0, 0); // Scrolls to the top of the page
+        window.scrollTo(0, 0);
       };
 
     const handleEnvironmentReadMore = () => {
@@ -38,6 +40,15 @@ const PllarsPage = () => {
         setPeace(true);
         window.scrollTo(0, 0); // Scrolls to the top of the page
       };
+
+    const handleButtonClick = () => {
+        setIsLoading(true);
+
+        // Simulated task or page navigation
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 10000);
+    };
 
     if (show) {
         return (
@@ -193,7 +204,10 @@ We also encourage them to participate in public policy formulation, planning and
                         <p className="p">
                             We bring forth a ready audience for leaders made up of their constituents who are eager to engage them. We build effective leadership on solid principles, with an emphasis on areas of development and program components that support them. Involving the youth to be part of leadership recognizes the measurable benefits they have to offer. They draw on the widest range of talents and expertise, not the narrow circles of power. They build on empowerment and engagement, because lasting change only happens if people make it happen. By having the youth to represent them means that their interests are well addressed.
                         </p>
-                        <button className="btn-secondary" onClick={handleLeadReadMore}>Read More <box-icon name='right-arrow-alt' color='#fff'></box-icon></button>
+                        <div>
+                        <button className="btn-secondary" onClick={() => {handleButtonClick();}}>Read More <box-icon name='right-arrow-alt' color='#fff'></box-icon></button>
+                        <Preloader onLoad={() => setIsLoading(false)} />
+                        </div>
                     </div>
                     <div className="about-col pillar_section py-4">
                         <p className="h3 text-start event-title">Environmental Conservation</p>
