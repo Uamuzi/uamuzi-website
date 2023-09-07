@@ -21,6 +21,7 @@ import GeorgeKinyanjui from "../images/GeorgeKinyanjui.png"
 import AnneOgongo from "../images/AnneOgongo.jpg"
 import KashifSaleem from "../images/KashifSaleem.png"
 import JeremyWachira from "../images/JeremyWachira.jpg"
+import MonicaWanjema from "../images/monicahWanjema.png"
 
 const TeamPage = () => (
     <Layout>
@@ -37,8 +38,8 @@ const TeamPage = () => (
                 <TeamMember imageUrl={MonicaKimani} fullName={"Monica Kimani"} position={"Operations"} linkedinUsername={"monicah-kimani-561a1b69"} />
                 <TeamMember imageUrl={JeremyWachira} fullName={"Jeremy Wachira"} position={"Volunteer Coordinator"} linkedinUsername={"jeremy-wachira-610a221b1"} />
                 <TeamMember imageUrl={LindaApollo} fullName={"Linda Apollo"} position={"Branding, Marketing, Communication and PR"} linkedinUsername={"linda-apollo"} />
-                <TeamMember imageUrl={AntonyGakuru} fullName={"Antony Gakuru"} position={"Hub"} linkedinUsername={"muriithigakuru"} />
-                <TeamMember imageUrl={EugeneRaburu} fullName={"Eugine Raburu"} position={"Technology"} linkedinUsername={"eugene-raburu-kf"} />
+                <TeamMember imageUrl={AntonyGakuru} fullName={"Eng. Antony Gakuru"} position={"Hub"} linkedinUsername={"muriithigakuru"} />
+                <TeamMember imageUrl={EugeneRaburu} fullName={"Eugene Raburu"} position={"Technology"} linkedinUsername={"eugene-raburu-kf"} />
                 <TeamMember imageUrl={JoanGichuhi} fullName={"Joan Gichuhi"} position={"Lead Designer"} linkedinUsername={"joan-gichuhi"} />
                 <TeamMember imageUrl={ImmanuelKibet} fullName={"Immanuel Kibet"} position={"Lead Backend"} linkedinUsername={"kibet-immanuel"} />
                 <TeamMember imageUrl={KashifSaleem} fullName={"Kashif Saleem"} position={"Lead Frontend"} linkedinUsername={"kashifsaleemghuman"} style={{height:'50px'}}/>
@@ -47,6 +48,7 @@ const TeamPage = () => (
                 <TeamMember imageUrl={GabrielTindi} fullName={"Gabriel Tindi"} position={"Frontend"} linkedinUsername={"gabrieltindi"}/>
                 <TeamMember imageUrl={GeorgeKinyanjui} fullName={"George Kinyanjui"} position={"Frontend"} linkedinUsername={"georgekinyanjui"}/>
                 <TeamMember imageUrl={ObedKertich} fullName={"Obed Kertich"} position={"Frontend"} linkedinUsername={"obed-kertich"}/>
+                <TeamMember imageUrl={MonicaWanjema} fullName={"Monicah Wanjema"} position={"Backend"} linkedinUsername={"monicah-wanjema"}/>
 
 
 
