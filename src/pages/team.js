@@ -38,7 +38,7 @@ const TeamPage = () => (
                 <TeamMember imageUrl={MonicaKimani} fullName={"Monica Kimani"} position={"Operations"} linkedinUsername={"monicah-kimani-561a1b69"} />
                 <TeamMember imageUrl={JeremyWachira} fullName={"Jeremy Wachira"} position={"Volunteer Coordinator"} linkedinUsername={"jeremy-wachira-610a221b1"} />
                 <TeamMember imageUrl={LindaApollo} fullName={"Linda Apollo"} position={"Branding, Marketing, Communication and PR"} linkedinUsername={"linda-apollo"} />
-                <TeamMember imageUrl={AntonyGakuru} fullName={"Eng. Antony Gakuru"} position={"Hub"} linkedinUsername={"muriithigakuru"} />
+                <TeamMember imageUrl={AntonyGakuru} fullName={"Antony Gakuru"} position={"Lead Engineer(Hub)"} linkedinUsername={"muriithigakuru"} />
                 <TeamMember imageUrl={EugeneRaburu} fullName={"Eugene Raburu"} position={"Technology"} linkedinUsername={"eugene-raburu-kf"} />
                 <TeamMember imageUrl={JoanGichuhi} fullName={"Joan Gichuhi"} position={"Lead Designer"} linkedinUsername={"joan-gichuhi"} />
                 <TeamMember imageUrl={ImmanuelKibet} fullName={"Immanuel Kibet"} position={"Lead Backend"} linkedinUsername={"kibet-immanuel"} />
