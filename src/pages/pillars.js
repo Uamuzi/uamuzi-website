@@ -188,14 +188,14 @@ We also encourage them to participate in public policy formulation, planning and
             </div>
             <div className="container my-4">
                 <div className="my_row">
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-6 about-col pillar_section py-4">
+                    <div className="about-col pillar_section py-4">
                         <p className="h3 text-start event-title">Leadership</p>
                         <p className="p">
                             We bring forth a ready audience for leaders made up of their constituents who are eager to engage them. We build effective leadership on solid principles, with an emphasis on areas of development and program components that support them. Involving the youth to be part of leadership recognizes the measurable benefits they have to offer. They draw on the widest range of talents and expertise, not the narrow circles of power. They build on empowerment and engagement, because lasting change only happens if people make it happen. By having the youth to represent them means that their interests are well addressed.
                         </p>
                         <button className="btn-secondary" onClick={handleLeadReadMore}>Read More <box-icon name='right-arrow-alt' color='#fff'></box-icon></button>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-6 about-col pillar_section py-4">
+                    <div className="about-col pillar_section py-4">
                         <p className="h3 text-start event-title">Environmental Conservation</p>
                         <p className="p">
                             We enhance youth understanding to impact attitudes and help them make environmentally friendly choices. They can access information on environment related topics and participate meaningfully in discussions on environmental policies and laws. This has created a way for them to connect local environmental challenges and solutions to larger scale narratives that affects us as a global community. We advocate for environmental friendly campaigns where leaders use technology to sell their manifestos during elections thus reducing degradation through poster and hand fliers which are left scattered on the environment, hav ...

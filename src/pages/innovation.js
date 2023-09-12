@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo";
-import hub3 from '../images/hub3.png'
+import hub3 from '../images/startups.png'
 import innovation2 from '../images/innovation2.png'
 
 const Innovationpage = () => (

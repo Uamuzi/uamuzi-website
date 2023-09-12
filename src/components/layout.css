@@ -557,6 +557,18 @@ figure.ball {
   gap: 1rem;
 }
 
+@media screen and (max-width: 1200px) {
+  .my_row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+
 .pillar_section {
   background: #8067AD;
   color: #fff;

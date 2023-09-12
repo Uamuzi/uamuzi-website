@@ -6,7 +6,7 @@ import hub1 from '../images/hub1.png'
 import hub2 from '../images/hub2.png'
 import hub3 from '../images/hub3.png'
 // import michael from '../images/michael.png'
-import antony from '../images/AntonyGakuru0.png'
+import antony from '../images/LeadHub.png'
 
 
 const HubPage = () => {
@@ -138,7 +138,7 @@ if (open) {
         <div className='container bg-light my-4 p-4 '>
           <div className="row align-items-center">
             <div className="col-12 col-sm-12 col-md-6 my_bg col-lg-6 about-col">
-              <p className="event text-start">FROM OUR LEAD DEVELOPER</p>
+              <p className="event text-start">FROM HEAD OF HUB</p>
               <p className="h3 text-start event-title">Antony Gakuru</p>
               <p className="p py-2">
                 “We hire smart engineers for their potential, not their past. Our biggest expectation is that they stay curious, keep learning and take on more responsibility. In return, we’ll equip them to develop into an even more awesome version of themselves”
