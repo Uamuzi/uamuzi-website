@@ -10,7 +10,7 @@ function Navbar() {
    };
     
     return (
-        <nav className="navbar navbar-expand-md bg-body-tertiary mx-auto sticky-top bg-light">
+        <nav className="navbar navbar-expand-md bg-body-tertiary mx-auto sticky-top bg-white">
             <div className="container">
                 <Link to="/" className="navbar-brand d-flex flex-column justify-content-start align-items-center gap-0" href="/">
                     <img src={Logo} href="Logo" width="150" height="40" className='m-0' alt='Uamuzi Logo' />
@@ -32,8 +32,8 @@ function Navbar() {
                                 Hub
                             </a>
                             <ul className="dropdown-menu">
-                                <li className='drop-li'><Link className="dropdown-item drop-link" to="/hub">Academy</Link></li>
-                                <li className='drop-li'><Link className="dropdown-item drop-link" to="/innovation">Innovation</Link></li>
+                                <li className='drop-li'><Link className="dropdown-item drop-link" to="/hub">Engineering Academy</Link></li>
+                                <li className='drop-li'><Link className="dropdown-item drop-link" to="/innovation">Innovation Lab</Link></li>
                             </ul>
                         </li>
                         <Link className="nav-link" activeClassName="active" to="/volunteers">Volunteers</Link>
