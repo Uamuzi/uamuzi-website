@@ -32,7 +32,8 @@ function Navbar() {
                         <Link to="/about" className='nav-link' activeClassName="active" onClick={() => { handleNavToggle(); scrollToTop(); }}>About Us</Link>
                         <Link className="nav-link" activeClassName="active" to="/team" onClick={() => { handleNavToggle(); scrollToTop(); }}>Our Team</Link>
                         <Link className="nav-link" activeClassName="active" to="/pillars" onClick={() => { handleNavToggle(); scrollToTop(); }}>Pillars</Link>
-                        <li className="nav-item dropdown" activeClassName="active">
+                        <li className="nav-item dropdown" activeClassName="active" onClick={() => { handleNavToggle(); scrollToTop(); }}>
+                        
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Hub
                             </a>
