@@ -30,9 +30,9 @@ function Navbar() {
                     <div className="navbar-nav mx-auto gap-3 ">
                         <Link to="/" className='nav-link' activeClassName="active" aria-current="page" onClick={handleNavToggle}>Home</Link>
                         <Link to="/about" className='nav-link' activeClassName="active" onClick={() => { handleNavToggle(); scrollToTop(); }}>About Us</Link>
-                        <Link className="nav-link" activeClassName="active" to="/team" onClick={handleNavToggle}>Our Team</Link>
-                        <Link className="nav-link" activeClassName="active" to="/pillars" onClick={handleNavToggle}>Pillars</Link>
-                        <li className="nav-item dropdown" activeClassName="active" onClick={handleNavToggle}>
+                        <Link className="nav-link" activeClassName="active" to="/team" onClick={() => { handleNavToggle(); scrollToTop(); }}>Our Team</Link>
+                        <Link className="nav-link" activeClassName="active" to="/pillars" onClick={() => { handleNavToggle(); scrollToTop(); }}>Pillars</Link>
+                        <li className="nav-item dropdown" activeClassName="active" onClick={() => { handleNavToggle(); scrollToTop(); }}>
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Hub
                             </a>
@@ -41,8 +41,8 @@ function Navbar() {
                                 <li className='drop-li'><Link className="dropdown-item drop-link" to="/innovation">Innovation Lab</Link></li>
                             </ul>
                         </li>
-                        <Link className="nav-link" activeClassName="active" to="/volunteers">Volunteers</Link>
-                        <Link to="/contact" activeClassName="active" className="nav-link">Contact Us</Link>
+                        <Link className="nav-link" activeClassName="active" to="/volunteers" onClick={() => { handleNavToggle(); scrollToTop(); }}>Volunteers</Link>
+                        <Link to="/contact" activeClassName="active" className="nav-link" onClick={() => { handleNavToggle(); scrollToTop(); }}>Contact Us</Link>
                     </div>
                 </div>
             </div>
