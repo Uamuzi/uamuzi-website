@@ -7,9 +7,9 @@ const PolicyPage = () => {
     return (
       <Layout>
         <div className="container my-4">
-          <p className="event text-center">OUR POLICIES</p>
+          <p className="event text-center event-title">OUR POLICIES</p>
           <p className="h3 text-center event-title">Privacy Policy</p>
-          <p className="h6 text-center event-text">Effective Date: 27th September 2023</p>
+          <p className="h6 text-center event-text" style={{color:"#515151"}}><b>Effective Date: 1st October, 2023</b></p>
         </div>
         <div className="container my-4">  
           <p className="text-left">
@@ -78,15 +78,15 @@ const PolicyPage = () => {
         <p className="text-left">
         You have certain rights that you can exercise in relation to any of your Personal Data that we process. These are:
         <ul className="custom-list">
-          <li><p style={{color:'black'}}>the right to be informed of the use to which your Personal Data is to be put;</p></li>
-          <li><p style={{color:'black'}}>the right to object to the processing of all or part of your Personal Data;</p></li>
-          <li><p style={{color:'black'}}>the right to access your Personal Data;</p></li>
-          <li><p style={{color:'black'}}>the right to the correction of any false or misleading parts of your Personal Data;</p></li>
-          <li><p style={{color:'black'}}>the right to the deletion any false or misleading parts of your Personal Data.</p></li>
-          <li><p style={{color:'black'}}>the right to data portability, which is the right to receive your Personal Data in a structured, commonly-used and machine-readable format and to transmit it from us to another data controller or data processor without hindrance;</p></li>
-          <li><p style={{color:'black'}}>the right not to be subjected to a decision based solely on automated processing which produces legal effects that concern or significantly affect you; </p></li>
-          <li><p style={{color:'black'}}>the right to the rectification of any inaccurate, outdated, incomplete or misleading portions or parts of your Personal Data; and </p></li>
-          <li><p style={{color:'black'}}>the right to the erasure or destruction of any portions or parts of your Personal Data that are irrelevant, excessive, unlawfully obtained or that we are no longer authorized to retain.</p></li>
+          <li><p style={{color:'black'}}>The right to be informed of the use to which your Personal Data is to be put;</p></li>
+          <li><p style={{color:'black'}}>The right to object to the processing of all or part of your Personal Data;</p></li>
+          <li><p style={{color:'black'}}>The right to access your Personal Data;</p></li>
+          <li><p style={{color:'black'}}>The right to the correction of any false or misleading parts of your Personal Data;</p></li>
+          <li><p style={{color:'black'}}>The right to the deletion any false or misleading parts of your Personal Data.</p></li>
+          <li><p style={{color:'black'}}>The right to data portability, which is the right to receive your Personal Data in a structured, commonly-used and machine-readable format and to transmit it from us to another data controller or data processor without hindrance;</p></li>
+          <li><p style={{color:'black'}}>The right not to be subjected to a decision based solely on automated processing which produces legal effects that concern or significantly affect you; </p></li>
+          <li><p style={{color:'black'}}>The right to the rectification of any inaccurate, outdated, incomplete or misleading portions or parts of your Personal Data; and </p></li>
+          <li><p style={{color:'black'}}>The right to the erasure or destruction of any portions or parts of your Personal Data that are irrelevant, excessive, unlawfully obtained or that we are no longer authorized to retain.</p></li>
         </ul>
         </p>
         <p className="text-left">
@@ -105,8 +105,60 @@ const PolicyPage = () => {
         </p>
         <p className="event text-left"><b>Contact Us</b></p>
         <p className="text-left">
-        If you would like more information concerning this privacy Notice and how it affects you, please contact the team at Uamuzi through the email address [<a href="mailto:privacy@uamuzi.org" style={{color: '#8067AD'}}>privacy@uamuzi.org</a>]
+        If you would like more information concerning this privacy Notice and how it affects you, please contact the team at Uamuzi through the email address [<a href="mailto:privacy@uamuzi.org" style={{color: '#8067AD'}}>privacy@uamuzi.org</a>].
         </p>
+        </div>
+        
+        <br/>
+
+        <div className="container my-4">
+          <p className="event text-center event-title">TERMS OF USE</p>
+          <p className="h6 text-center event-text"><b>Effective Date: 1st October, 2023</b></p>
+        </div>
+        <div className="container my-4">  
+          <p className="text-left">
+          Please read these Terms of Use ("Terms") carefully before using the Uamuzi website and any associated mobile applications (collectively, the "Service") operated by Uamuzi ("we," "us," or "our").
+          </p>
+          <p className="h5 text-center event-title">Acceptance of Terms</p>
+          <p className="text-left">
+          By accessing or using the Service, you agree to be bound by these Terms and all applicable laws and regulations. If you do not agree with any of these Terms, you are prohibited from using or accessing the Service. The materials contained in the Service are protected by applicable copyright and trademark law.
+          </p>
+          <p className="h5 text-center event-title">Use License</p>
+          Permission is granted to temporarily download one copy of the materials (information or software) on the Service for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title.
+          <p className="text-left">
+          This license shall automatically terminate if you violate any of these restrictions and may be terminated by Uamuzi at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession, whether in electronic or printed format.
+          </p>
+          <p className="h5 text-center event-title">Disclaimer</p>
+          <p className="text-left">
+          The materials on the Service are provided on an "as is" basis. Uamuzi makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further, Uamuzi does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Service or otherwise relating to such materials or on any sites linked to this Service.
+          </p>
+          <p className="h5 text-center event-title">Limitations</p>
+          <p className="text-left">
+          In no event shall Uamuzi or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on the Service, even if Uamuzi or a Uamuzi authorized representative has been notified orally or in writing of the possibility of such damage.
+          </p>
+          <p className="h5 text-center event-title">Revisions and Errata</p>
+          <p className="text-left">
+          The materials appearing on the Service could include technical, typographical, or photographic errors. Uamuzi does not warrant that any of the materials on its Service are accurate, complete, or current. Uamuzi may make changes to the materials contained on its Service at any time without notice. Uamuzi does not, however, make any commitment to update the materials.
+          </p>
+          <p className="h5 text-center event-title">Links</p>
+          <p className="text-left">
+          Uamuzi has not reviewed all of the sites linked to its Service and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Uamuzi of the site. Use of any such linked website is at the user's own risk.
+          </p>
+          <p className="h5 text-center event-title">Modifications</p>
+          <p className="text-left">
+          Uamuzi may revise these Terms at any time without notice. By using the Service, you are agreeing to be bound by the then-current version of these Terms.
+          </p>
+          <p className="h5 text-center event-title">Governing Law</p>
+          <p className="text-left">
+          The use of and the resolution of any claim pertaining to the Service will be subject to the regulations of the Data Protection Act and other applicable laws in Kenya that govern the Service.
+          </p>
+          <p className="event text-left"><b>Contact Us</b></p>
+          <p className="text-left">
+          If you have any questions about these Terms, please contact us at [<a href="mailto:privacy@uamuzi.org" style={{color: '#8067AD'}}>privacy@uamuzi.org</a>].
+          </p>
+          <p className="text-left">
+          By using the Service, you signify your acceptance of these Terms. If you do not agree to these Terms, please do not use our Service.
+          </p>
         </div>
       </Layout>  
     );
