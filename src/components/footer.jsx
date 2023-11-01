@@ -31,7 +31,7 @@ function Footer() {
                     </div>
                     <div className='footer-section'>
                         <p>More</p>
-                        <Link to='/'>Privacy policy</Link>
+                        <Link to='/policy'>Privacy policy</Link>
                         <Link to='/'>Blog</Link>
                         <Link to='/'>FAQ</Link>
                         <Link to='/'>Gallery</Link>
