@@ -14,6 +14,11 @@ module.exports = {
     description: `Uamuzi Foundation is a philanthropic organization, under the umbrella of Uamuzi Group, advocating for social justice with a specific focus on the youth who deserve equal economic, political and social rights.`,
     author: `Uamuzi Foundation`,
     siteUrl: `https://uamuzi.org/`,
+    headers: {
+      '/*': [
+        'Content-Security-Policy: default-src \'self\'; connect-src \'self\'; font-src \'self\'; img-src \'self\'; object-src \'self\'; script-src \'self\'; style-src \'self\';',
+      ],
+    },
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -24,6 +29,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    'gatsby-plugin-netlify',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
