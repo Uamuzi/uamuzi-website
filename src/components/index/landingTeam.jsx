@@ -39,11 +39,11 @@ function LandingTeam() {
                             <div className="short-grey-line position-absolute"></div>
                         </div>
                         <div className="team-member-info text-center py-2">
-                            <p className="text-capitalize fw-bold">elvis sitati</p>
-                            <p className="primary-color text-capitalize">Founder & CEO</p>
+                            <p className="text-capitalize fw-bold">Elvis Sitati</p>
+                            <p className="primary-color text-capitalize">Founder & Chief Executive Officer</p>
                             <span className="primary-color d-flex gap-3 flex-nowrap justify-content-center align-items-center">
                                 <a href="https://www.linkedin.com/in/elvis-sitati-2a282b79" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
-                                <a href="mailto:elvis.sitati@uamuzi.org"><box-icon name='envelope' type='solid' color="#8067AD" ></box-icon></a>
+                                {/* <a href="mailto:elvis.sitati@uamuzi.org"><box-icon name='envelope' type='solid' color="#8067AD" ></box-icon></a> */}
                             </span>
 
                         </div>

@@ -14,7 +14,7 @@ function Technology() {
             <p className="p text-uppercase fs-6 py-2 sdg-top fw-bold text-center">
                 Technology
             </p>
-            <h2 className="text-capitalize text-center fw-bold">The era of social networking</h2>
+            <h2 className="text-capitalize text-center fw-bold">The EHomera of Social Networking</h2>
             <div className="pictorama position-relative d-flex justify-content-center align-items-center overflow-hidden">
                     {/* topLeft */}
                 <div className="d-none d-md-block d-lg-block tech-image img1 position-absolute"
@@ -92,7 +92,7 @@ function Technology() {
                 <div className="container pt-5 text-center w-75">
                     <h2 className="tech-title text-capitalize text-center">Join Us in creating social change</h2>
                     <p className='primary-color fs-6'>
-                    The use of technology has become an important tool in championing for social change around the world. Uamuzi advocates for citizen participation in governance and peacebuilding, with a focus on the youth, women and persons with disabilities.
+                    The use of technology has become an important tool in championing for social change around the world. Uamuzi advocates for citizen participation in governance and peacebuilding, with a focus on the youth, women and persons living with disabilities.
                     </p>
                 </div>
         </div>
