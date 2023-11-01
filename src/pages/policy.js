@@ -6,10 +6,12 @@ import Seo from '../components/seo';
 const PolicyPage = () => {
     return (
       <Layout>
+        <div id="top">
         <div className="container my-4">
           <p className="event text-center event-title">OUR POLICIES</p>
           <p className="h3 text-center event-title">Privacy Policy</p>
           <p className="h6 text-center event-text" style={{color:"#515151"}}><b>Effective Date: 1st October, 2023</b></p>
+        </div>
         </div>
         <div className="container my-4">  
           <p className="text-left">

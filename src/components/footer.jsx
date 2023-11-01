@@ -1,14 +1,8 @@
 import React from 'react'
 import Logo from "../images/logo-uamuzi.png";
 import { Link } from 'gatsby';
-import { animateScroll as scroll} from "react-scroll";
 
 function Footer() {
-
-    const scrollToTop = () => {
-        scroll.scrollToTop();
-       };
-
     return (
         <footer className='mx-2 bg-footer py-5 mb-2'>
             <div className='d-flex sections p-2 gap-0'>
@@ -37,7 +31,7 @@ function Footer() {
                     </div>
                     <div className='footer-section'>
                         <p>More</p>
-                        <Link to='/policy' onClick={scrollToTop()}>Privacy policy</Link>
+                        <Link to='/policy#top'>Privacy policy</Link>
                         <Link to='/'>Blog</Link>
                         <Link to='/'>FAQ</Link>
                         <Link to='/'>Gallery</Link>
