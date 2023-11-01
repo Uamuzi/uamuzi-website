@@ -37,7 +37,7 @@ function SDGs() {
                             <span className='check-icon'>
                                 <box-icon name='check-circle' size="sm" color="#8067AD" ></box-icon>
                             </span>
-                            <p><span className="primary-color" > Goal 16:</span> <b>Peace, Justice and Strong institutions</b> - We conduct civic education and raise awareness on climate change mitigation, adaptation, impact reduction and early warning.
+                            <p><span className="primary-color" > Goal 16:</span> <b>Peace, Justice and Strong institutions</b> - We establish responsive, inclusive, participatory and representative of marginalized groups in decision-making at all levels of governance and promote the rule of law at the local, national and international levels and ensure equity and equality for all.
                             </p>
                         </li>
                         <li className="goals d-flex gap-2">

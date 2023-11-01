@@ -21,7 +21,6 @@ import AnneOgongo from "../images/AnneOgongo.jpg"
 import JeremyWachira from "../images/JeremyWachira.jpg"
 import MonicaWanjema from "../images/monicahWanjema.png"
 import FelixNyamai from "../images/felixNyamai.png"
-import SentahyuBerhanu from "../images/sentahyuBerhanu.png"
 
 const TeamPage = () => (
     <Layout>
@@ -30,7 +29,27 @@ const TeamPage = () => (
             <p className="text-center h3 event-title">Meet The Team</p>
             <p className="text-center p">Our leadership team drives the strategy and direction of our work to deliver impact at scale for the most vulnerable.</p>
             <div className="team py-4">
-                <TeamMember imageUrl={Elvis} fullName={"elvis sitati"} position={"Founder & Chief Executive Officer"} linkedinUsername={"elvis-sitati-2a282b79"} email={"mailto:elvis.sitati@uamuzi.org"}/>
+                {/* <TeamMember imageUrl={Elvis} fullName={"elvis sitati"} position={"Founder & Chief Executive Officer"} linkedinUsername={"elvis-sitati-2a282b79"} email={"mailto:elvis.sitati@uamuzi.org"}/> */}
+                <div className="team-inner m-0 p-0 position-relative">
+                        <div className="team-member-image position-relative" style={{
+                            backgroundImage: `url(${Elvis})`,
+                            backgroundPosition: "center",
+                            backgroundSize: "cover",
+                            backgroundRepeat: 'no-repeat'
+                        }}>
+                            <div className="long-purple-line position-absolute"></div>
+                            <div className="short-grey-line position-absolute"></div>
+                        </div>
+                        <div className="team-member-info text-center py-2">
+                            <p className="text-capitalize fw-bold">Elvis Sitati</p>
+                            <p className="primary-color text-capitalize">Founder & Chief Executive Officer</p>
+                            <span className="primary-color d-flex gap-3 flex-nowrap justify-content-center align-items-center">
+                                <a href="https://www.linkedin.com/in/elvis-sitati-2a282b79" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
+                                <a href="mailto:elvis.sitati@uamuzi.org"><box-icon name='envelope' type='solid' color="#8067AD" ></box-icon></a>
+                            </span>
+
+                        </div>
+                    </div>
                 <TeamMember imageUrl={bisagaya} fullName={"Andrew bisagaya"} position={"General Counsel"} linkedinUsername={"bisagaya-andrew-309b9497"} />
                 <TeamMember imageUrl={SharonKombe} fullName={"Sharon Nechesa"} position={"Social Affairs"} linkedinUsername={"nechesa-oyuchi-llb-hons-dip-ksl-79053978"} />
                 <TeamMember imageUrl={Novat} fullName={"Novat Matoju"} position={"Finance"} linkedinUsername={"novatmatoju"} />
@@ -48,9 +67,6 @@ const TeamPage = () => (
                 <TeamMember imageUrl={GabrielTindi} fullName={"Gabriel Tindi"} position={"Frontend"} linkedinUsername={"gabrieltindi"}/>
                 <TeamMember imageUrl={GeorgeKinyanjui} fullName={"George Kinyanjui"} position={"Frontend"} linkedinUsername={"georgekinyanjui"}/>
                 <TeamMember imageUrl={MonicaWanjema} fullName={"Monicah Wanjema"} position={"Backend"} linkedinUsername={"monicah-wanjema"}/>
-                <TeamMember imageUrl={SentahyuBerhanu} fullName={"Sentahyu Berhanu"} position={"Frontend"} linkedinUsername={"sentayhu-berhanu"}/>
-
-
             </div>
         </div>
     </Layout>
