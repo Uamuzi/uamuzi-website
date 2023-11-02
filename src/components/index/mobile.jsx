@@ -31,7 +31,7 @@ function Mobile() {
       leader,
     }
 
-    fetch("https://jukebox.uamuzi.org/mails/testers", {
+    fetch("https://uamuzi-website-mailer.8976330c374b42f1939e.eastus.aksapp.io/mails/testers", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
