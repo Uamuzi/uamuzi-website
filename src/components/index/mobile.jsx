@@ -31,7 +31,7 @@ function Mobile() {
       leader,
     }
 
-    fetch("http://20.185.73.44/mails/testers", {
+    fetch("https://jukebox.uamuzi.org/mails/testers", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
