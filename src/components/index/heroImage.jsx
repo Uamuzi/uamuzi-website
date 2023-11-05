@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeroImage({ imgStyle }) {
   return (
-    <figure className='ball' style={ imgStyle }>
+    <figure className='hero-image ball' style={ imgStyle }>
 
     </figure>
   )

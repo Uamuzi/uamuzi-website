@@ -5,47 +5,45 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: same-origin
+/static/Vectorwave-b1fa69117b9fb100067c050e50ee3082.png
+  Cache-Control: public, max-age=31536000, immutable
 /static/volunteer1-dc8b1c6fb66cf77cfbbb18c1b33bfdf5.png
   Cache-Control: public, max-age=31536000, immutable
 /static/volunteer2-705fb6e4fdb993daaa81ef311e5796fd.png
   Cache-Control: public, max-age=31536000, immutable
 /static/volunteer3-a7d03e11533702fa850228f0364de963.png
   Cache-Control: public, max-age=31536000, immutable
-/static/Elvis-76b46c5b781a200e8be3f5dc373cd5f1.jpg
+/static/Novat-016a8b47bbcff28f96dcae918785c1fd.jpg
   Cache-Control: public, max-age=31536000, immutable
 /static/Bisagaya-6d483672edcd882ea04b2a0cc3777f6b.jpg
   Cache-Control: public, max-age=31536000, immutable
-/static/SharonO-7890d2d046c5c071b3da3047d8278142.png
-  Cache-Control: public, max-age=31536000, immutable
-/static/Novat-016a8b47bbcff28f96dcae918785c1fd.jpg
-  Cache-Control: public, max-age=31536000, immutable
-/static/EugeneRaburu-084982e512c10924e45f28c4f90d3e97.png
-  Cache-Control: public, max-age=31536000, immutable
-/static/MonicaKimani-194176d6a6ea548feeb5fac5a85b919b.jpg
+/static/SharonK-e5e01e070ece3743958106c901161f9f.jpg
   Cache-Control: public, max-age=31536000, immutable
 /static/AntonyGakuru-9b2bc5f764a0fd00c21489e974c95aed.png
-  Cache-Control: public, max-age=31536000, immutable
-/static/SharonK-e5e01e070ece3743958106c901161f9f.jpg
   Cache-Control: public, max-age=31536000, immutable
 /static/JoanGichuhi-f84581300c9024eedcd0785d04520916.jpg
   Cache-Control: public, max-age=31536000, immutable
 /static/NjengaKarori-25cd55435e8b9bb24bf927cb4b5eda02.png
   Cache-Control: public, max-age=31536000, immutable
-/static/gabrielTindi-6c63e5303b2d2601d2cf83ca774be948.png
+/static/Elvis-76b46c5b781a200e8be3f5dc373cd5f1.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/MonicaKimani-194176d6a6ea548feeb5fac5a85b919b.jpg
   Cache-Control: public, max-age=31536000, immutable
 /static/ImmanuelKibet-a0370f4540459eac4e8ccf7bb954a628.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/gabrielTindi-6c63e5303b2d2601d2cf83ca774be948.png
   Cache-Control: public, max-age=31536000, immutable
 /static/LindaApollo-0b767c8c1444803f09403a27f2f4302d.jpg
   Cache-Control: public, max-age=31536000, immutable
 /static/GeorgeKinyanjui-d4c61cef8886bdd5a750f3e04a19fa05.png
   Cache-Control: public, max-age=31536000, immutable
-/static/AnneOgongo-b02a7458b4b5cc56763c7e8f165a54e1.jpg
-  Cache-Control: public, max-age=31536000, immutable
-/static/JeremyWachira-758f78ca01763d3691d428ce24644ac5.jpg
-  Cache-Control: public, max-age=31536000, immutable
 /static/monicahWanjema-d1d6fc2188ed0e100c1a0cf955090a8f.png
   Cache-Control: public, max-age=31536000, immutable
+/static/AnneOgongo-b02a7458b4b5cc56763c7e8f165a54e1.jpg
+  Cache-Control: public, max-age=31536000, immutable
 /static/felixNyamai-ee83d74467c08eb2f5825ec84ff849a3.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/JeremyWachira-758f78ca01763d3691d428ce24644ac5.jpg
   Cache-Control: public, max-age=31536000, immutable
 /static/pillars1-30c789f78a61e0c20ed7e529bd5f6c29.png
   Cache-Control: public, max-age=31536000, immutable
@@ -59,6 +57,8 @@
   Cache-Control: public, max-age=31536000, immutable
 /static/hub1-9b01e97336a372a6bfc5f73f161d1060.png
   Cache-Control: public, max-age=31536000, immutable
+/static/SharonO-7890d2d046c5c071b3da3047d8278142.png
+  Cache-Control: public, max-age=31536000, immutable
 /static/hub2-08a1df473c90e25de06cdda84a8362df.png
   Cache-Control: public, max-age=31536000, immutable
 /static/hub3-2a43632febd25e50128777413e6a62e3.png
@@ -69,17 +69,17 @@
   Cache-Control: public, max-age=31536000, immutable
 /static/about-values-f8def1a7bd5eb12204ddced662ca5862.png
   Cache-Control: public, max-age=31536000, immutable
+/static/EugeneRaburu-084982e512c10924e45f28c4f90d3e97.png
+  Cache-Control: public, max-age=31536000, immutable
 /static/hero-1-888dc0b5a1ac420ac0d1a1e3fbfc1b92.png
   Cache-Control: public, max-age=31536000, immutable
 /static/hero-2-426ef24dbc7b4cc71cd482e0afe8e544.png
   Cache-Control: public, max-age=31536000, immutable
 /static/hero-3-2cbfe0bf4518766d4115332372d4e071.png
   Cache-Control: public, max-age=31536000, immutable
-/static/our-story-aa78251788356abc4a27d09d0a58febc.png
-  Cache-Control: public, max-age=31536000, immutable
 /static/hero-4-1fba104bdc53596d43e913924bca14e1.png
   Cache-Control: public, max-age=31536000, immutable
-/static/SharonO-bd7c5275577d974096e4724b00644b3c.jpg
+/static/our-story-aa78251788356abc4a27d09d0a58febc.png
   Cache-Control: public, max-age=31536000, immutable
 /static/become-a-leader-6114e63ce2bd8d38ce2fcfbb9be76ef7.jpg
   Cache-Control: public, max-age=31536000, immutable
@@ -101,9 +101,9 @@
   Cache-Control: public, max-age=31536000, immutable
 /static/MS_Startups_FH-4cd504ac22f3281b704458b8e4ad3b21.png
   Cache-Control: public, max-age=31536000, immutable
-/static/Vectorwave-b1fa69117b9fb100067c050e50ee3082.png
-  Cache-Control: public, max-age=31536000, immutable
 /static/phone22-d62a688a286f92a0dc295eb125874966.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/SharonO-bd7c5275577d974096e4724b00644b3c.jpg
   Cache-Control: public, max-age=31536000, immutable
 /styles.a03aa6959ba6394c18d1.css
   Cache-Control: public, max-age=31536000, immutable
@@ -113,6 +113,8 @@
   Cache-Control: public, max-age=31536000, immutable
 /app-ca2bbe83f3a1c0faa397.js
   Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-f3ac8639fb49b8e749b5.js
+  Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-404-js-ea3210e056706934953a.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-about-js-1e87d53b6ea9de4b7ed0.js
@@ -120,6 +122,8 @@
 /component---src-pages-contact-js-b9c915a3ac4f5b3c5a4b.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-hub-js-58bdcd27384d4a6e6b48.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-930a582798211979f460.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-innovation-js-dd85fcb50e71e8584a12.js
   Cache-Control: public, max-age=31536000, immutable
@@ -145,6 +149,8 @@
   Cache-Control: public, max-age=31536000, immutable
 /app-ca2bbe83f3a1c0faa397.js.map
   Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-f3ac8639fb49b8e749b5.js.map
+  Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-404-js-ea3210e056706934953a.js.map
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-about-js-1e87d53b6ea9de4b7ed0.js.map
@@ -152,6 +158,8 @@
 /component---src-pages-contact-js-b9c915a3ac4f5b3c5a4b.js.map
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-hub-js-58bdcd27384d4a6e6b48.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-930a582798211979f460.js.map
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-innovation-js-dd85fcb50e71e8584a12.js.map
   Cache-Control: public, max-age=31536000, immutable
@@ -174,14 +182,6 @@
 /framework-6a525285796fb83f2864.js.map
   Cache-Control: public, max-age=31536000, immutable
 /commons-da34578912d031106844.js.map
-  Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-f3ac8639fb49b8e749b5.js
-  Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-index-js-930a582798211979f460.js
-  Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-f3ac8639fb49b8e749b5.js.map
-  Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-index-js-930a582798211979f460.js.map
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-index-js-1f16dca0a5b1e3b7e999.js.map
   Cache-Control: public, max-age=31536000, immutable

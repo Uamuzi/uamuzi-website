@@ -29,7 +29,7 @@ function LandingTeam() {
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 d-flex gap-5 justify-content-center align-items-center flex-wrap pt-3">
                     <div className="team-inner m-0 p-0 position-relative">
-                        <div className="team-member-image position-relative" style={{
+                        <div className="elvis team-member-image position-relative" style={{
                             backgroundImage: `url(${Elvis})`,
                             backgroundPosition: "center",
                             backgroundSize: "cover",
