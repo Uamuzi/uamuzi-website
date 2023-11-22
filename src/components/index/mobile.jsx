@@ -177,7 +177,7 @@ function Mobile() {
                   style={{border: "2px solid black"}}
                 />
                 <label className="form-check-label" for="exampleCheck1">
-                  Check this if you're am elected or aspiring leader
+                  Check this if you're an elected or aspiring leader
                 </label>
               </div>
               <button type="submit" className="btn btn-primary px-4">
