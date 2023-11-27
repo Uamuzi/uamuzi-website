@@ -31,7 +31,7 @@ function Mobile() {
       leader,
     }
 
-    fetch("http://localhost:8000/mails/testers", {
+    fetch("https://uamuzi.site/mails/testers", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
