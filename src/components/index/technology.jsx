@@ -14,7 +14,7 @@ function Technology() {
             <p className="p text-uppercase fs-6 py-2 sdg-top fw-bold text-center">
                 Technology
             </p>
-            <h2 className="text-capitalize text-center fw-bold">The EHomera of Social Networking</h2>
+            <h2 className="text-capitalize text-center fw-bold">The Era of Social Networking</h2>
             <div className="pictorama position-relative d-flex justify-content-center align-items-center overflow-hidden">
                     {/* topLeft */}
                 <div className="d-none d-md-block d-lg-block tech-image img1 position-absolute"
