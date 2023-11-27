@@ -31,7 +31,7 @@ function Mobile() {
       leader,
     }
 
-    fetch("https://uamuzi.site/mails/testers", {
+    fetch("http://localhost:8000/mails/testers", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -41,14 +41,17 @@ function Mobile() {
     })
       .then(response => {
         if (response.ok) {
-            setMessage(`<p className="beta-message text-success">Success! Keep an eye out in your email for details on how to engage when testing begins</p>`)
+            setMessage(`<p className="beta-message text-success">Success! Keep an eye out in your email for details on how to engage</p>`)
         }
         else{
-            setMessage(`<p className="beta-error text-danger">Error submitting your details. Please try again</p>`)
+            response.json().then(data => {
+              const resMessage = data.email[0]
+              console.log(data.email[0])
+              setMessage(`<p className="beta-error text-danger">${resMessage}</p>`)
+            })
         }
       })
       .catch(error => {
-        console.log(error)
         setMessage(`<p className="beta-error text-danger">Error submitting your details. Please try again</p>`)
       })
   }
