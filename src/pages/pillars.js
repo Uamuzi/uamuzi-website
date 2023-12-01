@@ -94,10 +94,15 @@ We also encourage them to participate in public policy formulation, planning and
                     <div className="line" />
                     <h5 className="event text-center py-2">Leadership</h5>
                     <p className="p py-2">
-                    We bring forth a ready audience for leaders made up of their constituents who are eager to engage them. We build effective leadership on solid principles, with an emphasis on areas of development and program components that support them. Involving the youth to be part of leadership recognizes the measurable benefits they have to offer. They draw on the widest range of talents and expertise, not the narrow circles of power. They build on empowerment and engagement, because lasting change only happens if people make it happen. By having the youth to represent them means that their interests are well addressed.
+                    We bring forth a ready audience for leaders made up of their constituents who are eager to engage them.
+                     We build effective leadership on solid principles, with an emphasis on areas of development and program components 
+                     that support them. Involving the youth to be part of leadership recognizes the measurable benefits they have to offer. 
+                     They draw on the widest range of talents and expertise, not the narrow circles of power. They build on empowerment and 
+                     engagement, because lasting change only happens if people make it happen. By having the youth to represent them means that 
+                     their interests are well addressed.
                     </p>
                     <p className="p py-2">
-                    We also provide an equal opportunity for women and people with disabilities as other competitors thus putting everyone on an equal level playing ground to sell their blueprint agenda (manifesto) to the electorate. We purpose to transform their social, economic and political life in the Country and around the World to avoid further political and social marginalization and offer opportunities for both growth and diversification of their economies. 
+                    We also provide an equal opportunity for women and persons living  with disabilities as other competitors thus putting everyone on an equal level playing ground to sell their blueprint agenda (manifesto) to the electorate. We purpose to transform their social, economic and political life in the Country and around the World to avoid further political and social marginalization and offer opportunities for both growth and diversification of their economies. 
                     </p>
                     <div className="close">
                         <button onClick={() => setLead(false)}>Close</button>
