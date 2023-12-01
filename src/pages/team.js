@@ -16,6 +16,7 @@ import GabrielTindi from "../images/gabrielTindi.png"
 import GeorgeKinyanjui from "../images/GeorgeKinyanjui.png"
 import JeremyWachira from "../images/JeremyWachira.jpg"
 import FelixNyamai from "../images/felixNyamai.png"
+import CollinsOmondi from "../images/CollinsOmondi.jpg"
 
 const TeamPage = () => (
     <Layout>
@@ -58,6 +59,7 @@ const TeamPage = () => (
                 <TeamMember imageUrl={NjengaKarori} fullName={"Njenga Karori"} position={"UI/UX Designer"} linkedinUsername={"njenga-karori-2b9bb6223"} />
                 <TeamMember imageUrl={GabrielTindi} fullName={"Gabriel Tindi"} position={"Frontend"} linkedinUsername={"gabrieltindi"}/>
                 <TeamMember imageUrl={GeorgeKinyanjui} fullName={"George Kinyanjui"} position={"Frontend"} linkedinUsername={"georgekinyanjui"}/>
+                <TeamMember imageUrl={CollinsOmondi} fullName={"Collins Omondi"} position={"Frontend"} linkedinUsername={"c-o-m-o-n"}/>
             </div>
         </div>
     </Layout>
