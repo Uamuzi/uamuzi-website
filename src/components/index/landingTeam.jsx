@@ -2,7 +2,7 @@ import React from 'react'
 import Elvis from "../../images/Elvis.jpg"
 import Andrew from "../../images/Bisagaya.jpg"
 import Novat from "../../images/Novat.jpg"
-import SharonO from "../../images/SharonO.jpg"
+import SharonO from "../../images/SharonO.png"
 import { Link } from 'gatsby';
 import MonicaKimani from "../../images/MonicaKimani.jpg";
 
@@ -60,7 +60,7 @@ function LandingTeam() {
                         </div>
                         <div className="team-member-info text-center py-2">
                             <p className="text-capitalize fw-bold">Andrew Bisagaya</p>
-                            <p className="primary-color text-capitalize">Legal </p>
+                            <p className="primary-color text-capitalize">Legal</p>
                             <span className="primary-color">
                                 <a href="https://www.linkedin.com/in/bisagaya-andrew-309b9497" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
