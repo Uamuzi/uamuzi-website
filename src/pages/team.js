@@ -50,23 +50,19 @@ const TeamPage = () => (
 
                         </div>
                     </div>
-                <TeamMember imageUrl={bisagaya} fullName={"Andrew bisagaya"} position={"General Counsel"} linkedinUsername={"bisagaya-andrew-309b9497"} />
-                <TeamMember imageUrl={SharonKombe} fullName={"Sharon Nechesa"} position={"Social Affairs"} linkedinUsername={"nechesa-oyuchi-llb-hons-dip-ksl-79053978"} />
+                <TeamMember imageUrl={bisagaya} fullName={"Andrew bisagaya"} position={"Legal"} linkedinUsername={"bisagaya-andrew-309b9497"} />
                 <TeamMember imageUrl={Novat} fullName={"Novat Matoju"} position={"Finance"} linkedinUsername={"novatmatoju"} />
                 <TeamMember imageUrl={SharonO} fullName={"Sharon Ochieng"} position={"Programs"} linkedinUsername={"sharon-ochieng-2167757a"} />
-                <TeamMember imageUrl={MonicaKimani} fullName={"Monica Kimani"} position={"Operations"} linkedinUsername={"monicah-kimani-561a1b69"} />
+                <TeamMember imageUrl={MonicaKimani} fullName={"Monica Kimani"} position={"Marketing"} linkedinUsername={"monicah-kimani-561a1b69"} />
                 <TeamMember imageUrl={JeremyWachira} fullName={"Jeremy Wachira"} position={"Volunteer Coordinator"} linkedinUsername={"jeremy-wachira-610a221b1"} />
-                <TeamMember imageUrl={LindaApollo} fullName={"Linda Apollo"} position={"Branding, Marketing, Communication and PR"} linkedinUsername={"linda-apollo"} />
-                <TeamMember imageUrl={AntonyGakuru} fullName={"Antony Gakuru"} position={"Lead Engineer(Hub)"} linkedinUsername={"muriithigakuru"} />
-                <TeamMember imageUrl={EugeneRaburu} fullName={"Eugene Raburu"} position={"Technology"} linkedinUsername={"eugene-raburu-kf"} />
+    <TeamMember imageUrl={EugeneRaburu} fullName={"Eugene Raburu"} position={"Technology"} linkedinUsername={"eugene-raburu-kf"} />
+            
+	<TeamMember imageUrl={AntonyGakuru} fullName={"Antony Gakuru"} position={"Lead Engineer"} linkedinUsername={"muriithigakuru"} />
                 <TeamMember imageUrl={JoanGichuhi} fullName={"Joan Gichuhi"} position={"Lead Designer"} linkedinUsername={"joan-gichuhi"} />
-                <TeamMember imageUrl={ImmanuelKibet} fullName={"Immanuel Kibet"} position={"Lead Backend"} linkedinUsername={"kibet-immanuel"} />
                 <TeamMember imageUrl={FelixNyamai} fullName={"Felix Nyamai"} position={"Lead Frontend"} linkedinUsername={"felixnyamai"} style={{height:'50px'}}/>
-                <TeamMember imageUrl={AnneOgongo} fullName={"Anne Ogongo"} position={"Data Engineer"} linkedinUsername={"anne-ogongo"} />
                 <TeamMember imageUrl={NjengaKarori} fullName={"Njenga Karori"} position={"UI/UX Designer"} linkedinUsername={"njenga-karori-2b9bb6223"} />
                 <TeamMember imageUrl={GabrielTindi} fullName={"Gabriel Tindi"} position={"Frontend"} linkedinUsername={"gabrieltindi"}/>
                 <TeamMember imageUrl={GeorgeKinyanjui} fullName={"George Kinyanjui"} position={"Frontend"} linkedinUsername={"georgekinyanjui"}/>
-                <TeamMember imageUrl={MonicaWanjema} fullName={"Monicah Wanjema"} position={"Backend"} linkedinUsername={"monicah-wanjema"}/>
             </div>
         </div>
     </Layout>
