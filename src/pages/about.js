@@ -12,9 +12,9 @@ const AboutPage = () => (
      <div className='container my-4'>
             <p className="event">Our Aim</p>
             <div className="row">
-                <div className="col-12 col-sm-12 col-md-6 col-lg-6 about-col" style={{fontSize: '13.5px'}}>
+                <div className="col-12 col-sm-12 col-md-6 col-lg-6 about-col" >
                   <p className="h3 text-start event-title">What We Do</p>
-                    <p className="p">
+                    <p className="p ">
                       We bring together diverse voices around innovative ideas to drive progress and tackle problems on social justice. We build communities of support and nurture initiatives to advance the dignity and well-being of the people and planet. 
                     </p>
                     <p className="p">

@@ -26,17 +26,26 @@ const Innovationpage = () => (
                             We partner with startups that have potential winning products in Artificial Intelligence and Machine Learning, FinTech, HealthTech, FoodTech, EdTech, AgriTech, InsurTech, BioTech, Entertainment, Media, Software, Internet, E-commerce, Cryptocurrency and Cyber security, at different stages of development (early, growth and scale-up). We help in raising capital, technical and business development, starting the business, entering new markets, and getting matched with investors and mentors.
                         </p>
                         
+
                         <p className="p d-flex">
-                            <span className="d-flex"><box-icon size='sm' name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Concept  - <span className="text-black">The team begins by having a deep understanding of the innovation</span>.</p> </span>
+                            <span className="d-flex"><box-icon size='sm' className='text-xl' name='check-circle' color="#8067AD"></box-icon>
+                            <p className="p-text">Concept  - <span className="text-black">
+                            The team begins by having a deep understanding of the innovation process, requirements and possible implementations</span>.</p></span>
+                        </p>
+
+
+                        <p className="p d-flex">
+                            <span className="d-flex"><box-icon size='sm' className='text-xl' name='check-circle' color="#8067AD"></box-icon>
+                            <p className="p-text">Brainstorming  - <span className="text-black">The team then conducts a brainstorming session with the founders on enhancing the concept of the product with a business plan</span>.</p></span>
+                        </p>
+
+                        <p className="p d-flex">
+                            <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon>
+                            <p className="p-text">Roadmap - <span className="text-black">The team develops a detailed plan of action that lays out the process of product development, Beta testing, User acquisition and fundraising.</span></p> </span> 
                         </p>
                         <p className="p d-flex">
-                            <span className="d-flex"><box-icon size='sm' className='text-xl' name='check-circle' color="#8067AD"></box-icon>  <p className="p-text">Brainstorming  - <span className="text-black">The team then conducts a brainstorming session with the founders on enhancing the concept of the product with a business plan</span>.</p></span>
-                        </p>
-                        <p className="p d-flex">
-                            <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Roadmap - <span className="text-black">The team develops a detailed plan of action that lays out the process of product development, Beta testing, User acquisition and fundraising.</span></p> </span> 
-                        </p>
-                        <p className="p d-flex">
-                            <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon> <p className="p-text">Evaluation  - <span className="text-black">Once all the stages have been finished successfully, we finally evaluate how the teams will work together to actualize the product</span></p> </span>
+                            <span className="d-flex"><box-icon name='check-circle' color="#8067AD"></box-icon>
+                            <p className="p-text">Evaluation  - <span className="text-black">Once all the stages have been finished successfully, we finally evaluate how the teams will work together to actualize the product</span></p> </span>
                         </p>
                     </div>
                 </div>
