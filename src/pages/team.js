@@ -10,16 +10,11 @@ import TeamMember from "../components/team/teamMember";
 import EugeneRaburu from "../images/EugeneRaburu.png";
 import MonicaKimani from "../images/MonicaKimani.jpg";
 import AntonyGakuru from "../images/AntonyGakuru.png";
-import SharonKombe from "../images/SharonK.jpg";
 import JoanGichuhi from "../images/JoanGichuhi.jpg"
 import NjengaKarori from "../images/NjengaKarori.png"
 import GabrielTindi from "../images/gabrielTindi.png"
-import ImmanuelKibet from "../images/ImmanuelKibet.jpg"
-import LindaApollo from "../images/LindaApollo.jpg"
 import GeorgeKinyanjui from "../images/GeorgeKinyanjui.png"
-import AnneOgongo from "../images/AnneOgongo.jpg"
 import JeremyWachira from "../images/JeremyWachira.jpg"
-import MonicaWanjema from "../images/monicahWanjema.png"
 import FelixNyamai from "../images/felixNyamai.png"
 
 const TeamPage = () => (
