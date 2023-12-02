@@ -3,6 +3,8 @@ import UamuziLogo from "../../images/uamuzi-favlogo.png"
 import playstore from "../../images/playstore-dark.png"
 import phone from "../../images/phone22.png"
 import parse from 'html-react-parser'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Mobile() {
   const [firstName, setFirstName] = useState("")
@@ -11,15 +13,6 @@ function Mobile() {
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
   const [error, setError] = useState('')
-
-//   useEffect(() => {
-//     if(error === 'true'){
-        
-//       }
-//     else if(error === 'false'){
-//     }
-//   }, [setError])
-
   
 
   function handleSubmit(e) {
@@ -31,7 +24,7 @@ function Mobile() {
       leader,
     }
 
-    fetch("https://uamuzi.site/mails/testers", {
+    fetch("http://localhost:8001/mails/testers", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
