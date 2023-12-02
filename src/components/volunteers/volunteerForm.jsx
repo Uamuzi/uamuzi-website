@@ -16,9 +16,7 @@ function VolunteerForm() {
     const [lastName, setLastName] = useState("")
     const [email, setEmail] = useState("")
     const [phoneNumber, setPhoneNumber] = useState("")
-    const localURL = "http://localhost:3000"
     const prodURL = "https://www.uamuzi.online"
-    const localMailerURL = "http://localhost:8001"
     const prodMailerURL = "https://uamuzi.site/mails/volunteers"
 
     fetch(`${prodURL}/api/v1/counties`)
@@ -57,7 +55,7 @@ function VolunteerForm() {
             "phone_number": phoneNumber, country, county, constituency, ward, bio
         }
         console.log(JSON.stringify(payload))
-        fetch(`${localMailerURL}/mails/volunteers`, {
+        fetch(`${prodMailerURL}/mails/volunteers`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
