@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "uamuzi",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Uamuzi Foundation website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Antony Gakuru <antony123muriithi@gmail.com>",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "boxicons": "^2.1.4",
