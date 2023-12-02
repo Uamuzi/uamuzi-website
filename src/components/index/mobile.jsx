@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react"
 import UamuziLogo from "../../images/uamuzi-favlogo.png"
 import playstore from "../../images/playstore-dark.png"
 import phone from "../../images/phone22.png"
-import parse from 'html-react-parser'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -11,7 +10,6 @@ function Mobile() {
   const [lastName, setLastName] = useState("")
   const [leader, setLeader] = useState(false)
   const [email, setEmail] = useState("")
-  const [message, setMessage] = useState("")
   const [error, setError] = useState('')
   
 
@@ -24,7 +22,7 @@ function Mobile() {
       leader,
     }
 
-    fetch("http://localhost:8001/mails/testers", {
+    fetch("https://uamuzi.site/mails/testers", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -34,23 +32,30 @@ function Mobile() {
     })
       .then(response => {
         if (response.ok) {
-            setMessage(`<p className="beta-message text-success">Success! Keep an eye out in your email for details on how to engage</p>`)
+            toast.success(`Hurray! You just signed up for beta testing. Uamuzi starts with ${firstName}`, {
+              position: toast.POSITION.TOP_RIGHT
+            });
         }
         else{
             response.json().then(data => {
               const resMessage = data.email[0]
               console.log(data.email[0])
-              setMessage(`<p className="beta-error text-danger">${resMessage}</p>`)
+              toast.error(`${resMessage}`, {
+                position: toast.POSITION.TOP_RIGHT
+              });
             })
         }
       })
       .catch(error => {
-        setMessage(`<p className="beta-error text-danger">Error submitting your details. Please try again</p>`)
+        toast.error(`Error submitting your details. Please try again later`, {
+          position: toast.POSITION.TOP_RIGHT
+        });
       })
   }
 
   return (
     <section className="container py-5 px-5 mobile-section position-relative">
+      <ToastContainer />
       <div className="vector-wave position-absolute d-none d-md-block d-lg-block"></div>
       <div className="row">
         <div className="col-12 col-md-6 col-lg-6 col-sm-12 mobile-text-col">
@@ -120,7 +125,6 @@ function Mobile() {
             />
             <form className="py-5" onSubmit={handleSubmit}>
               <h3 className="py-4">Join the beta test</h3>
-              {parse(message)}
               <div className="form-group pb-3">
                 <label for="firstName">First Name</label>
                 <input
