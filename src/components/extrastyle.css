@@ -224,3 +224,9 @@
 .drop-link{
     text-decoration: none;
 }
+
+/* volunteer form styling */
+.location-selects select option:hover{
+    background-color: var(--color-primary) !important;
+}
+/* end volunteer form styling */

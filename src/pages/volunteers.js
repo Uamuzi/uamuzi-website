@@ -5,6 +5,7 @@ import Seo from "../components/seo";
 import volunteer1 from "../images/volunteer1.png"
 import volunteer2 from "../images/volunteer2.png"
 import volunteer3 from "../images/volunteer3.png"
+import VolunteerForm from "../components/volunteers/volunteerForm";
 
 
 const VolunteersPage = () => (
@@ -76,52 +77,7 @@ const VolunteersPage = () => (
             </div>
         </div>
     </div>
-    <form className="container justify-content-center vol-form">
-        <h2 className="event">JOIN US</h2>
-        <p className="h3 text-center event-title">Be Part Of Uamuzi Foundation Volunteers (UFV)</p>
-        <p className="p">It starts by filling the form below</p>
-        <div className="d-flex gap-2 py-4">
-            <div className="text-start name1">
-                <label>First Name</label>
-                <input type="text" placeholder="First Name" />
-            </div>
-            <div className="text-start name2">
-                <label>Last Name</label>
-                <input type="text" placeholder="Last Name" />
-            </div>
-        </div>
-        <div className="text-start">
-            <label>Email</label>
-            <input type="email" placeholder="you@company.com" />
-        </div>
-        <div className="text-start py-4">
-            <label>Phone Number</label>
-            <input type="email" placeholder="Enter your phone number" />
-        </div>
-        <div className="d-flex text-start text_input">
-            <div>
-                <label>Country</label>
-                <input type="text" />
-            </div>
-            <div>
-                <label>County</label>
-                <input type="text" />
-            </div>
-            <div>
-                <label>Constituency</label>
-                <input type="text" />
-            </div>
-            <div>
-                <label>Ward</label>
-                <input type="text"  />
-            </div>
-        </div>
-        <div className="text">
-            <label>A little bit about yourself</label>
-            <textarea className="pt-4" />
-        </div>
-        <button className='join' type="submit">Join UFV</button>
-    </form>
+    <VolunteerForm />
     </div>
   </Layout>
 )
