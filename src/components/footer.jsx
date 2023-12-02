@@ -25,8 +25,8 @@ function Footer() {
                     <div className='footer-section'>
                         <p>Let's connect</p>
                         <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/profile.php?id=100090904118726'>Facebook</a>
-                        <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/uamuziapp/'>Instagram</a>
-                        <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/UamuziApp'>Twitter</a>
+                        <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/uamuziorg/'>Instagram</a>
+                        <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/UamuziOrg'>Twitter</a>
                         <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/company/uamuzi'>Linkedin</a>
                     </div>
                     <div className='footer-section'>

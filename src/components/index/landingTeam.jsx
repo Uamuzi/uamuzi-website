@@ -1,10 +1,10 @@
 import React from 'react'
 import Elvis from "../../images/Elvis.jpg"
 import Andrew from "../../images/Bisagaya.jpg"
-import SharonK from "../../images/SharonK.jpg"
 import Novat from "../../images/Novat.jpg"
-import SharonO from "../../images/SharonO.jpg"
+import SharonO from "../../images/SharonO.png"
 import { Link } from 'gatsby';
+import MonicaKimani from "../../images/MonicaKimani.jpg";
 
 function LandingTeam() {
     const teamImages = {
@@ -60,7 +60,7 @@ function LandingTeam() {
                         </div>
                         <div className="team-member-info text-center py-2">
                             <p className="text-capitalize fw-bold">Andrew Bisagaya</p>
-                            <p className="primary-color text-capitalize">General counsel</p>
+                            <p className="primary-color text-capitalize">Legal</p>
                             <span className="primary-color">
                                 <a href="https://www.linkedin.com/in/bisagaya-andrew-309b9497" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
@@ -72,7 +72,7 @@ function LandingTeam() {
                     {/* <Link to="/about" className="see-all fw-bold text-capitalize d-flex justify-content-center align-items-center">See all members <span ><box-icon name='right-arrow-alt' color="#8067AD" className="rogue"></box-icon></span></Link> */}
                     <div className="team-inner m-0 p-0 position-relative">
                         <div className="team-member-image position-relative" style={{
-                            backgroundImage: `url(${SharonK})`,
+                            backgroundImage: `url(${MonicaKimani})`,
                             backgroundPosition: "center",
                             backgroundSize: "cover",
                             backgroundRepeat: 'no-repeat'
@@ -80,11 +80,11 @@ function LandingTeam() {
                             <div className="long-purple-line position-absolute"></div>
                             <div className="short-grey-line position-absolute"></div>
                         </div>
-                        <div className="team-member-info text-center py-2">
-                            <p className="text-capitalize fw-bold">Sharon Nechesa</p>
-                            <p className="primary-color text-capitalize">Social affairs</p>
+    <div className="team-member-info text-center py-2">
+                            <p className="text-capitalize fw-bold">Monicah Kimani</p>
+                            <p className="primary-color text-capitalize">Marketing</p>
                             <span className="primary-color">
-                                <a href="https://www.linkedin.com/in/nechesa-oyuchi-llb-hons-dip-ksl-79053978" rel="noreferrer noopener" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
+                                <a href="https://www.linkedin.com/in/monicah-kimani-561a1b69" rel="noreferrer noopener" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
@@ -100,7 +100,7 @@ function LandingTeam() {
                         </div>
                         <div className="team-member-info text-center py-2">
                             <p className="text-capitalize fw-bold">Novat Matoju</p>
-                            <p className="primary-color text-capitalize">Finance Officer</p>
+                            <p className="primary-color text-capitalize">Finance </p>
                             <span className="primary-color">
                                 <a href="https://www.linkedin.com/in/novatmatoju" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
@@ -118,7 +118,7 @@ function LandingTeam() {
                         </div>
                         <div className="team-member-info text-center py-2">
                             <p className="text-capitalize fw-bold">Sharon Ochieng</p>
-                            <p className="primary-color text-capitalize">Programs Officer</p>
+                            <p className="primary-color text-capitalize">Programs </p>
                             <span className="primary-color">
                                 <a href="https://www.linkedin.com/in/sharon-ochieng-2167757a" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
                             </span>
