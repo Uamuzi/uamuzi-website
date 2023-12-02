@@ -208,7 +208,16 @@ form input {
   border-radius: 6px;
   width: 100%;
 }
+/* volunteer form styling */
+.location-selects select{
+  outline: none;
+  border: 1px solid lightgray;
 
+}
+.location-selects select option:hover{
+  background-color: var(--color-primary) !important;
+}
+/* end volunteer form styling */
 .name1 {
   width: 50%;
 }
@@ -225,7 +234,7 @@ form input {
 }
 .text textarea {
   outline: none;
-  height: 110px;
+  /* height: 110px; */
   border: 1px solid lightgray;
   border-radius: 6px;
   padding: 0;

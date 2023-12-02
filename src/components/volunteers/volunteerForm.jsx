@@ -5,6 +5,7 @@ function VolunteerForm() {
     // const [countyId, setCountyId] = useState(null);
     const [constituencies, setConstituencies] = useState([]);
     const [wards, setWards] = useState([])
+    const [chars, setChars] = useState(500);
     const localURL = "http://localhost:3000"
     const prodURL = "https://www.uamuzi.online"
 
@@ -26,6 +27,9 @@ function VolunteerForm() {
         fetch(`${localURL}/api/v1/wards/${constituencyId}`)
         .then(res => res.json())
         .then(data => setWards(data))
+    }
+    function handleBio(e){
+        setChars(500 - e.target.value.length)
     }
 
   return (
@@ -61,6 +65,7 @@ function VolunteerForm() {
             <div className='form-group'>
                 <label htmlFor='county'>County</label>
                 <select className='form-control' id="county" name="County" onChange={e => handleCounties(e)}>
+                    <option value=''>Select</option>
                     {   counties &&
                         counties.map(county => {
                             return <option key={county.id} className="form-item" value={county.name}>{county.name}</option>;
@@ -95,8 +100,8 @@ function VolunteerForm() {
             </div>
         </div>
         <div className="text">
-            <label>A little bit about yourself</label>
-            <textarea className="pt-4" />
+            <label>A little bit about yourself <span className='ml-auto text-danger'>*{chars}</span></label>
+            <textarea rows={6} cols={200} className="px-2 py-3" maxLength={500} onChange={(e) => handleBio(e)}/>
         </div>
         <button className='join' type="submit">Join UFV</button>
     </form>
