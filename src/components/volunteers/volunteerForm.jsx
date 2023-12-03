@@ -17,7 +17,7 @@ function VolunteerForm() {
     const [email, setEmail] = useState("")
     const [phoneNumber, setPhoneNumber] = useState("")
     const prodURL = "https://www.uamuzi.online"
-    const prodMailerURL = "https://uamuzi.site/mails/volunteers"
+    const prodMailerURL = "https://uamuzi.site"
 
     fetch(`${prodURL}/api/v1/counties`)
     .then(res => res.json())
