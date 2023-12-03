@@ -3,7 +3,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo";
 import vector from '../images/airplane1.png'
-
+import ContactForm from "../components/contactForm";
 
 const ContactPage = () => (
     <Layout>
@@ -13,23 +13,7 @@ const ContactPage = () => (
                 <img src={vector} width={100} height={100} alt="vector" />
             </div>
             <div className="container d-flex gap-4 our_c">
-                <form className="contact_form">
-                    <p className="h3 text-start event-title">Get In Touch</p>
-                    <p className="p">Our friendly team would love to hear from you</p>
-                    <div className="text-start py-4">
-                        <label>Your Name</label>
-                        <input type="email" placeholder="Eg, John Doe" />
-                    </div>
-                    <div className="text-start py-4">
-                        <label>Email</label>
-                        <input type="email" placeholder="example@gmail.com" />
-                    </div>
-                    <div className="text">
-                        <label>Message</label>
-                        <textarea className="p-1" />
-                    </div>
-                    <button className="join">Send Mesage</button>
-                </form>
+                <ContactForm />
                 <div className="borders" />
                 <div className="contacts my-4">
                     <div className="contact">
