@@ -6,6 +6,7 @@ function ContactForm() {
     const [fullName, setFullName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
+    const [text, setText] = useState(1000)
     const BASE_URL = "https://uamuzi.site"
 
     function handleSubmit(e){
@@ -41,22 +42,27 @@ function ContactForm() {
             });
         })
     }
+
+    function handleText(e){
+      setMessage(e.target.value)
+      setText(1000 - e.target.value.length)
+    }
   return (
     <form className="contact_form" onSubmit={e => handleSubmit(e)}>
         <ToastContainer />
       <p className="h3 text-start event-title">Get In Touch</p>
       <p className="p">Our friendly team would love to hear from you</p>
       <div className="text-start py-4">
-        <label>Your Name</label>
-        <input type="text" placeholder="Eg, John Doe" value={fullName} onChange={e => setFullName(e.target.value)} />
+        <label htmlFor="fullName">Full Name</label>
+        <input id="fullName" type="text" placeholder="Eg, John Doe" value={fullName} onChange={e => setFullName(e.target.value)} required/>
       </div>
       <div className="text-start py-4">
-        <label>Email</label>
-        <input type="email" placeholder="example@gmail.com" value={email} onChange={e => setEmail(e.target.value)} />
+        <label htmlFor="email">Email</label>
+        <input id="email" type="email" placeholder="example@gmail.com" value={email} onChange={e => setEmail(e.target.value)} required/>
       </div>
       <div className="text">
-        <label>Message</label>
-        <textarea className="p-1" value={message} onChange={e => setMessage(e.target.value)} />
+        <label htmlFor="message">Message <span className="text-danger">*{text}</span></label>
+        <textarea id="message" className="p-1" value={message} rows={6} maxLength={1000} onChange={(e) => handleText(e)} required/>
       </div>
       <button className="join">Send Mesage</button>
     </form>
