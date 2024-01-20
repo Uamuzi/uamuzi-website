@@ -9,52 +9,111 @@ const PolicyPage = () => {
         <div id="top">
         <div className="container my-4">
           <p className="event text-center event-title">OUR POLICIES</p>
-          <p className="h3 text-center event-title">Privacy Policy</p>
-          <p className="h6 text-center event-text" style={{color:"#515151"}}><b>Effective Date: 1st October, 2023</b></p>
+          <p className="h3 text-center event-title">DATA PROTECTION AND PRIVACY NOTICE</p>
+          <p className="h6 text-center event-text" style={{color:"#515151"}}><b>Effective Date: 1 st February 2024</b></p>
         </div>
         </div>
         <div className="container my-4">  
           <p className="text-left">
-          At Uamuzi Foundation, we know how important privacy is to our customers. We created this Privacy Notice to make sure you understand how we collect 
-          and use your personal information for Uamuzi and its services and features, as listed below and described in this Privacy Notice (collectively, our 
-          “Services”).
-          </p>
-          <p className="text-left">
-          It is important to note that our Privacy Policy, which contains more comprehensive information about how we handle your data, also applies to 
-          your use of our services. You can find detailed information about your rights and how to contact us within our Privacy Policy, as highlighted within this 
-          Privacy Notice. It provides a thorough understanding of our data handling practices and your rights in relation to your personal information. Please read 
-          this Privacy Notice carefully, and note that this Privacy Notice shall always prevail over the Privacy Policy in relation to how we use your information for 
-          our Services.  
+          This Privacy Notice governs the manner in which Uamuzi (&quot;we,&quot;
+&quot;us,&quot; or &quot;our&quot;) collects, uses, maintains, and discloses information
+collected from users (each, a &quot;User&quot;) of the Uamuzi website and any
+associated mobile applications (collectively, the &quot;Service&quot;). This
+Privacy Notice applies to the Service and all products and services
+offered by Uamuzi Foundation.
           </p>
 
         <p className="h5 text-start event-title">1. Information we collect</p>
         <p className="text-left">
-        We may collect personal data from our Users in various ways, including but not  limited to when Users visit our website, register on the website, place an order, fill out a form, respond to a survey, subscribe to the newsletter, and in connection with other activities, services, features, or resources we make available on our Service. Users may be asked for, as appropriate, their name, email address, mailing address, phone number, location, and payment information. We will collect personal identification information from Users only if they voluntarily submit such information to us. Users can always refuse to supply personally identifiable information, except that it may prevent them from engaging in certain Service-related activities.
+        We may collect personal identification information from Users in
+various ways, including but not limited to when Users visit our
+website, register on the website or application, place an order, fill
+out a form, respond to a survey, subscribe to the newsletter, and in
+connection with other activities, services, features, or resources we
+make available on our Service. Users may be asked for, as
+appropriate, their name, email address, phone number, location,
+voting constituency, date of birth and payment information. We
+will collect personal identification information from Users only if
+they voluntarily submit such information to us or as part of a
+fulfillment of a contract entered between you and Us. Users can
+always refuse to supply personally identifiable information, except
+that it may prevent them from engaging in certain Service-related
+activities.
         </p>
         <p className="h5 text-start event-title">2. Non-Personal Identification Information</p>
         <p className="text-left">
-        We may collect non-personal identification information about Users whenever they interact with our Service. Non-personal identification information may include the browser name, the type of computer or device, and technical information about Users' means of connection to our Service, such as the operating system, the Internet service providers utilized, and other similar information.  
+        We may collect non-personal identification information about
+Users whenever they interact with our Service. Non-personal
+identification information may include the browser name, the type
+
+of computer or device, and technical information about Users&#39;
+means of connection to our Service, such as the operating system,
+the Internet service providers utilized, and other similar
+information. This information aids in our marketing work and in
+identifying a particular user service operation need.
         </p>
         <p className="h5 text-start event-title">3. How We Use Collected Information</p>
         <p className="text-left">
-        We may collect and use Users' personal information for the following purposes:
-        <ul className="custom-list">
-          <li><p style={{ color: 'black' }}>To identify and authenticate you so you may securely use our Services;</p></li>
-          <li><p style={{ color: 'black' }}>To provide you with our Services;</p></li>
-          <li><p style={{ color: 'black' }}>To improve customer service - Information provided helps us respond to customer service requests  and support needs more efficiently;</p></li>
-          <li><p style={{ color: 'black' }}>To personalize user experience - We may use information in the aggregate to understand how our   Users as a group use the services and resources provided on our Service;</p></li>
-          <li><p style={{ color: 'black' }}>To process payments - We may use the information Users provide about themselves when they subscribe only to provide service to that subscription. We do not share this information with outside parties except to the extent necessary to provide the service;</p></li>
-          <li><p style={{ color: 'black' }}>To send periodic emails - We may use the email address to send User information and updates pertaining to the service. It may also be used to respond to their inquiries, questions, and/or other requests. If Users decide to opt-in to our mailing list, they will receive emails that may include company news, updates, related product or service information, etc. If at any time the User would like to unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email or the User may contact us via our Service;</p></li>
-          <li><p style={{ color: 'black' }}>To operate, evaluate and improve our Services and our business (including developing new products and services; enhancing and improving our products and services; managing our communications; analyzing our products, services and customer base; conducting market research; performing data analytics; and performing accounting, auditing and other internal functions);</p></li>
-          <li><p style={{ color: 'black' }}>To protect against, identify and prevent fraud and other criminal activity, claims and other liabilities; and</p></li>
-          <li><p style={{ color: 'black' }}>To comply with and enforce applicable legal requirements, relevant industry standards and our policies, including this Privacy Notice and the Privacy Policy.</p></li>
-        </ul>  
+        We may collect and use Users&#39; personal information for the
+following purposes:
+        <ol className="custom-list">
+          <li><p style={{ color: 'black' }}>To offer Uamuzi website and Application Service Offerings:
+Our Application will require your personal information such
+as name, location data, date of birth, email address, and
+mobile number to offer the services as per our website Terms
+and Conditions;</p></li>
+          <li><p style={{ color: 'black' }}>To improve customer service: Information provided helps us
+respond to customer service requests and support needs more
+efficiently;</p></li>
+          <li><p style={{ color: 'black' }}>To personalize user experience: We may use information in
+the aggregate to understand how our Users as a group use the
+services and resources provided on our Service;</p></li>
+          {/* <li><p style={{ color: 'black' }}>To personalize user experience - We may use information in the aggregate to understand how our   Users as a group use the services and resources provided on our Service;</p></li> */}
+          <li><p style={{ color: 'black' }}>To improve our Service: We may use feedback provided to
+improve our products and services;</p></li>
+          <li><p style={{ color: 'black' }}>To process payments: We may use the information Users
+provide about themselves when they subscribe only to provide
+service to that subscription. We do not share this information
+with outside parties except to the extent necessary to provide
+the service;</p></li>
+          <li><p style={{ color: 'black' }}>To send periodic emails: We may use the email address to
+
+send User information and updates pertaining to the service.
+It may also be used to respond to their inquiries, questions,
+and/or other requests. If Users decide to opt-in to our mailing
+list, they will receive emails that may include Organization
+news, updates, related product or service information, etc. If
+at any time the User would like to unsubscribe from receiving
+future emails, we include detailed unsubscribe instructions at
+the bottom of each email or the User may contact us via our
+Service;</p></li>
+          {/* <li><p style={{ color: 'black' }}>To protect against, identify and prevent fraud and other criminal activity, claims and other liabilities; and</p></li>
+          <li><p style={{ color: 'black' }}>To comply with and enforce applicable legal requirements, relevant industry standards and our policies, including this Privacy Notice and the Privacy Policy.</p></li> */}
+        </ol>  
         </p>
         <p className="h5 text-start event-title">4. How We Protect Your Information</p>
         <p className="text-left">
-        We use up-to-date data storage and security systems to hold your Personal Data securely in electronic and physical form to protect your personal information from unauthorized access, improper use or disclosure, unauthorized modification or unlawful destruction or accidental loss. Our IT usage and security Notice is supported by various security standards, processes and procedures. 
+        The security, integrity, and confidentiality of your information are
+extremely important to us. We have implemented technical,
+administrative, and physical security measures that are designed to
+protect personal information from unauthorized access, disclosure,
+use, and modification. We regularly review our security procedures
+to consider appropriate new technology and methods. Please be
+aware that, despite our best efforts, no security measures are
+perfect or impenetrable. We will retain your personal information
+for the length of time needed to fulfill the purposes outlined in this
+privacy notice unless a longer retention period is required or
+permitted by law.
+We operate locally within Kenya and at no time will your data be
+transferred to any third parties locally, or in locations around the
+world. Where your personal information is stored or processed by
+us, we will take reasonable steps to safeguard the privacy of your
+personal information. These steps may include implementing
+standard contractual clauses recognized by law, obtaining your
+consent, or other lawful means of transferring personal
+information. 
         </p>
-        <p className="text-left">
+        {/* <p className="text-left">
         We implement commercially reasonable security measures to help protect against unauthorized access to or unauthorized alteration, disclosure, or destruction of data. Unfortunately, no data transmission over the Internet can be guaranteed to be 100% secure. Accordingly, and despite our efforts, we cannot guarantee or warrant the security of any information you transmit to us, or to or from our online products or services.
         </p>
         <p className="text-left">
@@ -67,47 +126,56 @@ const PolicyPage = () => {
         <p className="h5 text-start event-title" style={{color:'#8067AD'}}><u>WHO DO WE SHARE YOUR INFORMATION WITH?</u></p>
         <p className="text-left">
         We will disclose your information internally within our business and to the following entities, but only for the purposes described above.
-        </p>
-        <ul className="custom-list">
+        </p> */}
+        {/* <ul className="custom-list">
           <li><p style={{color:'black'}}><b>Affiliates:</b> other companies that are part of Uamuzi which we control our own;</p></li>
           <li><p style={{color:'black'}}><b>Business partners:</b> partners who we work with to provide our Services, such as when you link accounts or services with our business partners in order to provide accurate data from the surveys. These business partners control and manage your personal information;</p></li>
           <li><p style={{color:'black'}}><b>Service providers:</b> carefully selected companies that provide services for or on our behalf, such as cloud platform providers who maintain data on our behalf. These providers are also committed to protecting your information and must enter into legal agreements with Uamuzi before we share personal data with them;</p></li>
           <li><p style={{color:'black'}}><b>Other parties when required by law or as necessary to protect the Services:</b> For example, it may be necessary by law, legal process, or court order from governmental authorities to disclose your information. They may also seek your information from us for the purposes of law enforcement, national security, anti-terrorism or other issues that are related to public security;</p></li>
           <li><p style={{color:'black'}}><b>Other parties in connection with corporate transactions:</b> We may disclose your information to a third-party as part of a merger or transfer, acquisition or sale, or in the event of bankruptcy to other data controllers; and</p></li>
           <li><p style={{color:'black'}}><b>Other parties with your consent or at your direction:</b> In addition to the disclosures described in this Privacy Notice, we may share information about you with third parties when you separately consent to or request such sharing.</p></li>
-        </ul>
-        <p className="h5 text-start event-title">6. Your Rights</p>
+        </ul> */}
+        <p className="h5 text-start event-title">6. Your Controls and Your Choices</p>
         <p className="text-left">
-        You have certain rights that you can exercise in relation to any of your Personal Data that we process. These are:
-        <ul className="custom-list">
-          <li><p style={{color:'black'}}>The right to be informed of the use to which your Personal Data is to be put;</p></li>
-          <li><p style={{color:'black'}}>The right to object to the processing of all or part of your Personal Data;</p></li>
-          <li><p style={{color:'black'}}>The right to access your Personal Data;</p></li>
-          <li><p style={{color:'black'}}>The right to the correction of any false or misleading parts of your Personal Data;</p></li>
-          <li><p style={{color:'black'}}>The right to the deletion any false or misleading parts of your Personal Data.</p></li>
-          <li><p style={{color:'black'}}>The right to data portability, which is the right to receive your Personal Data in a structured, commonly-used and machine-readable format and to transmit it from us to another data controller or data processor without hindrance;</p></li>
-          <li><p style={{color:'black'}}>The right not to be subjected to a decision based solely on automated processing which produces legal effects that concern or significantly affect you; </p></li>
-          <li><p style={{color:'black'}}>The right to the rectification of any inaccurate, outdated, incomplete or misleading portions or parts of your Personal Data; and </p></li>
-          <li><p style={{color:'black'}}>The right to the erasure or destruction of any portions or parts of your Personal Data that are irrelevant, excessive, unlawfully obtained or that we are no longer authorized to retain.</p></li>
-        </ul>
+        We provide you the ability to exercise certain controls and choices
+regarding our collection, use and sharing of your information. In
+accordance with applicable law, your controls and choices may
+include:
+        <ol className="custom-list">
+          <li><p style={{color:'black'}}>Correcting, updating, and deleting your registration account;</p></li>
+          <li><p style={{color:'black'}}>Choosing or changing your choices for subscriptions,
+newsletters, and alerts;</p></li>
+          <li><p style={{color:'black'}}>Choosing whether to receive from us offers and promotions
+for our products and services, or products and services that we
+think may be of interest to you;</p></li>
+          <li><p style={{color:'black'}}>Choosing whether we share your personal information with
+other companies or third parties so they can send you offers
+and promotions about their products and services;</p></li>
+          <li><p style={{color:'black'}}>Controlling targeted advertising by clicking on “Do Not Sell or
+Share My Personal Information” or “Manage Your Cookie
+Settings” in our website footers or application settings;</p></li>
+          <li><p style={{color:'black'}}>Requesting removal of your personal information from a
+public forum on one of our sites or application;</p></li>
+          <li><p style={{color:'black'}}>Requesting access to the personal information we hold about
+you and that we amend or delete it.</p></li>
+          {/* <li><p style={{color:'black'}}>The right to the rectification of any inaccurate, outdated, incomplete or misleading portions or parts of your Personal Data; and </p></li>
+          <li><p style={{color:'black'}}>The right to the erasure or destruction of any portions or parts of your Personal Data that are irrelevant, excessive, unlawfully obtained or that we are no longer authorized to retain.</p></li> */}
+        </ol>
         </p>
         <p className="text-left">
-        In the limited circumstances where you may have provided your consent to the collection, processing and transfer of your Personal Data for a specific purpose, you have the right to withdraw your consent for that specific purpose at any time.  Once we receive notification that you withdraw your consent, we will no longer process your information for the purpose or purposes you originally agreed to, unless we have another legitimate basis for doing so in law.
-        </p>
-        <p className="text-left">
-        If you would like to exercise any of these rights, please contact us in writing by emailing [<a href="mailto:privacy@uamuzi.org" style={{color: '#8067AD'}}>privacy@uamuzi.org</a>] 
-        </p>
-        <p className="h5 text-start event-title">7. Changes to our Privacy Policy and this Privacy Notice</p>
-        <p className="text-left">
-        This Privacy Notice may be updated to let you know about changes in how we collect and process your information in our Services or changes in related laws. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this Privacy Notice    periodically and become aware of any such modifications. Registered users will also be made aware to changes in our Privacy Policy through our platforms.
-        </p>
-        <p className="h5 text-start event-title">8. Your Acceptance of These Terms</p>
-        <p className="text-left">
-        By using this Service, you signify your acceptance of to our Privacy Policy as detailed in this Notice. If you do not agree to this   Privacy Notice, please do not use our Service. Your continued use of the Service following the posting of changes to our Privacy Policy will be deemed your acceptance of those changes.  
-        </p>
-        <p className="event text-left"><b>Contact Us</b></p>
-        <p className="text-left">
-        If you would like more information concerning this privacy Notice and how it affects you, please contact the team at Uamuzi through the email address [<a href="mailto:privacy@uamuzi.org" style={{color: '#8067AD'}}>privacy@uamuzi.org</a>].
+        You may exercise these controls by sending an email to:
+        <a href="mailto:privacy@uamuzi.org" style={{color: '#8067AD'}}>privacy@uamuzi.org</a>. 
+Please be aware that if you do not allow us to collect personal
+information from you, we may not be able to deliver certain
+
+experiences, products, and services to you, and some of our services
+may not be able to take account of your interests and preferences. If
+collection of personal information is mandatory, we will make that
+clear at the point of collection so that you can make an informed
+decision whether to participate. If you have questions about the
+specific personal information about you that we process or retain,
+and your rights regarding that personal information, please contact
+insert email:[<a href="mailto:privacy@uamuzi.org" style={{color: '#8067AD'}}>privacy@uamuzi.org</a>].
         </p>
         </div>
         

@@ -50,6 +50,24 @@
     height: auto;
 }
 
+.elvis-inner{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    /* align-items:center; */
+
+    border: 2px solid red;
+}
+.elvis-img-div{
+    width: 200px;
+    height: 200px;
+}
+
+.elvis-img{
+    border-radius: 50%;
+    padding:10px;
+}
+
 .team-member-image {
     width: 200px;
     height: 200px;
@@ -108,6 +126,24 @@
     right: -100px;
 }
 
+.partner-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /* border: 2px solid blue; */
+
+}
+
+.partner-image-container{
+    display: flex;
+    /* border: 2px solid green; */
+}
+.partner-image{
+    /* border: 2px solid red; */
+    border-radius:10px;
+    margin:2px;
+}
 @media (max-width: 768px) {
     .become-a-leader-img {
         display: none; 

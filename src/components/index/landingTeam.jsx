@@ -28,8 +28,14 @@ function LandingTeam() {
                     </p>
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 d-flex gap-5 justify-content-center align-items-center flex-wrap pt-3">
-                    <div className="team-inner m-0 p-0 position-relative">
-                        <div className="team-member-image position-relative" style={{
+                    <div className="elvis-inner m-0 p-0 position-relative">
+                    <div className="elvis-img-div" >
+                        <img src={Elvis} loading="eager"  alt="microsoft logo" width={230} height={230}  className='elvis-img py-3  mx-3 mb-5' />
+                        
+                        <div className="long-purple-line position-absolute"></div>
+                            <div className="short-grey-line position-absolute"></div>
+                        </div>
+                        {/* <div className="team-member-image position-relative" style={{
                             backgroundImage: `url(${Elvis})`,
                             backgroundPosition: "center",
                             backgroundSize: "cover",
@@ -37,9 +43,10 @@ function LandingTeam() {
                         }}>
                             <div className="long-purple-line position-absolute"></div>
                             <div className="short-grey-line position-absolute"></div>
-                        </div>
+                        </div> */}
+                        <br />
                         <div className="team-member-info text-center py-2">
-                            <p className="text-capitalize fw-bold">Elvis Sitati</p>
+                            <p className="text-capitalize fw-bold text-red-500">Elvis Sitati</p>
                             <p className="primary-color text-capitalize">Founder & Chief Executive Officer</p>
                             <span className="primary-color d-flex gap-3 flex-nowrap justify-content-center align-items-center">
                                 <a href="https://www.linkedin.com/in/elvis-sitati-2a282b79" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
@@ -53,6 +60,7 @@ function LandingTeam() {
                             backgroundImage: `url(${Andrew})`,
                             backgroundPosition: "center",
                             backgroundSize: "cover",
+                            
                             backgroundRepeat: 'no-repeat',
                         }}>
                             <div className="long-purple-line position-absolute"></div>
@@ -68,6 +76,7 @@ function LandingTeam() {
                         </div>
                     </div>
                 </div>
+
                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 d-flex gap-5 justify-content-center align-items-center flex-wrap pt-5 ">
                     {/* <Link to="/about" className="see-all fw-bold text-capitalize d-flex justify-content-center align-items-center">See all members <span ><box-icon name='right-arrow-alt' color="#8067AD" className="rogue"></box-icon></span></Link> */}
                     <div className="team-inner m-0 p-0 position-relative">

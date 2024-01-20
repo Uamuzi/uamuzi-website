@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../images/logo-uamuzi.png";
+import Logo from "../images/FoundationLogo.png";
 import { Link } from 'gatsby';
 
 function Footer() {
@@ -7,8 +7,8 @@ function Footer() {
         <footer className='mx-2 bg-footer py-5 mb-2'>
             <div className='d-flex sections p-2 gap-0'>
                 <div className=''>
-                    <img src={Logo} alt="Uamuzi logo" className='pb-2' width="150" height="50"/>
-                    <h5 className='mx-4 fs-4'>foundation</h5>
+                    <img src={Logo} alt="Uamuzi logo" className='m-4' width="150" height="50"/>
+                    {/* <h5 className='mx-4 fs-4'>foundation</h5> */}
                     <p className='px-4 pt-2 text-nowrap' style={{color: "#A0A09F", fontSize: "14px"}}>Creating a culture where everyone matters</p><br />
                     {/* <img className='mx-4 pb-3' src={playstore} alt='Uamuzi-playstore-logo' width="130" height="70" /> */}
                 </div>
