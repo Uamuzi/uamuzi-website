@@ -1,4 +1,5 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo";
@@ -28,15 +29,10 @@ const TeamPage = () => (
             <div className="team py-4">
                 {/* <TeamMember imageUrl={Elvis} fullName={"elvis sitati"} position={"Founder & Chief Executive Officer"} linkedinUsername={"elvis-sitati-2a282b79"} email={"mailto:elvis.sitati@uamuzi.org"}/> */}
                 <div className="team-inner m-0 p-0 position-relative">
-                        <div className="team-member-image position-relative" style={{
-                            backgroundImage: `url(${Elvis})`,
-                            backgroundPosition: "center",
-                            backgroundSize: "cover",
-                            backgroundRepeat: 'no-repeat'
-                        }}>
+                <StaticImage className='team-img' src="../images/Elvis.jpg" placeholder="blurred" />
                             <div className="long-purple-line position-absolute"></div>
                             <div className="short-grey-line position-absolute"></div>
-                        </div>
+                        
                         <div className="team-member-info text-center py-2">
                             <p className="text-capitalize fw-bold">Elvis Sitati</p>
                             <p className="primary-color text-capitalize">Founder & Chief Executive Officer</p>

@@ -7,7 +7,7 @@ const PolicyPage = () => {
     return (
       <Layout>
         <div id="top">
-        <div className="container my-4">
+        <div id="tope" className="container my-4">
           <p className="event text-center event-title">OUR POLICIES</p>
           <p className="h3 text-center event-title">DATA PROTECTION AND PRIVACY NOTICE</p>
           <p className="h6 text-center event-text" style={{color:"#515151"}}><b>Effective Date: 1 st February 2024</b></p>
@@ -87,9 +87,7 @@ at any time the User would like to unsubscribe from receiving
 future emails, we include detailed unsubscribe instructions at
 the bottom of each email or the User may contact us via our
 Service;</p></li>
-          {/* <li><p style={{ color: 'black' }}>To protect against, identify and prevent fraud and other criminal activity, claims and other liabilities; and</p></li>
-          <li><p style={{ color: 'black' }}>To comply with and enforce applicable legal requirements, relevant industry standards and our policies, including this Privacy Notice and the Privacy Policy.</p></li> */}
-        </ol>  
+          </ol>  
         </p>
         <p className="h5 text-start event-title">4. How We Protect Your Information</p>
         <p className="text-left">
@@ -113,29 +111,8 @@ standard contractual clauses recognized by law, obtaining your
 consent, or other lawful means of transferring personal
 information. 
         </p>
-        {/* <p className="text-left">
-        We implement commercially reasonable security measures to help protect against unauthorized access to or unauthorized alteration, disclosure, or destruction of data. Unfortunately, no data transmission over the Internet can be guaranteed to be 100% secure. Accordingly, and despite our efforts, we cannot guarantee or warrant the security of any information you transmit to us, or to or from our online products or services.
-        </p>
-        <p className="text-left">
-        All persons who have access to confidential information (including Personal Data) that we hold, including our partners, staff and third-party service providers are subject to Data Protection and confidentiality obligations.
-        </p>
-        <p className="h5 text-start event-title">5. Sharing Your Personal Information</p>
-        <p className="text-left">
-        We do not sell, trade, or rent Users' personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners, trusted affiliates, and advertisers for the purposes outlined above.
-        </p>
-        <p className="h5 text-start event-title" style={{color:'#8067AD'}}><u>WHO DO WE SHARE YOUR INFORMATION WITH?</u></p>
-        <p className="text-left">
-        We will disclose your information internally within our business and to the following entities, but only for the purposes described above.
-        </p> */}
-        {/* <ul className="custom-list">
-          <li><p style={{color:'black'}}><b>Affiliates:</b> other companies that are part of Uamuzi which we control our own;</p></li>
-          <li><p style={{color:'black'}}><b>Business partners:</b> partners who we work with to provide our Services, such as when you link accounts or services with our business partners in order to provide accurate data from the surveys. These business partners control and manage your personal information;</p></li>
-          <li><p style={{color:'black'}}><b>Service providers:</b> carefully selected companies that provide services for or on our behalf, such as cloud platform providers who maintain data on our behalf. These providers are also committed to protecting your information and must enter into legal agreements with Uamuzi before we share personal data with them;</p></li>
-          <li><p style={{color:'black'}}><b>Other parties when required by law or as necessary to protect the Services:</b> For example, it may be necessary by law, legal process, or court order from governmental authorities to disclose your information. They may also seek your information from us for the purposes of law enforcement, national security, anti-terrorism or other issues that are related to public security;</p></li>
-          <li><p style={{color:'black'}}><b>Other parties in connection with corporate transactions:</b> We may disclose your information to a third-party as part of a merger or transfer, acquisition or sale, or in the event of bankruptcy to other data controllers; and</p></li>
-          <li><p style={{color:'black'}}><b>Other parties with your consent or at your direction:</b> In addition to the disclosures described in this Privacy Notice, we may share information about you with third parties when you separately consent to or request such sharing.</p></li>
-        </ul> */}
-        <p className="h5 text-start event-title">6. Your Controls and Your Choices</p>
+        
+        <p className="h5 text-start event-title">5. Your Controls and Your Choices</p>
         <p className="text-left">
         We provide you the ability to exercise certain controls and choices
 regarding our collection, use and sharing of your information. In
@@ -158,9 +135,7 @@ Settings” in our website footers or application settings;</p></li>
 public forum on one of our sites or application;</p></li>
           <li><p style={{color:'black'}}>Requesting access to the personal information we hold about
 you and that we amend or delete it.</p></li>
-          {/* <li><p style={{color:'black'}}>The right to the rectification of any inaccurate, outdated, incomplete or misleading portions or parts of your Personal Data; and </p></li>
-          <li><p style={{color:'black'}}>The right to the erasure or destruction of any portions or parts of your Personal Data that are irrelevant, excessive, unlawfully obtained or that we are no longer authorized to retain.</p></li> */}
-        </ol>
+          </ol>
         </p>
         <p className="text-left">
         You may exercise these controls by sending an email to:
@@ -177,59 +152,55 @@ specific personal information about you that we process or retain,
 and your rights regarding that personal information, please contact
 insert email:[<a href="mailto:privacy@uamuzi.org" style={{color: '#8067AD'}}>privacy@uamuzi.org</a>].
         </p>
+
+        <p className="h5 text-start event-title">6. Sharing Your Personal Information</p>
+        <p className="text-left">We do not sell, trade, or rent Users&#39; personal identification
+information to others. We may share generic aggregated
+demographic information not linked to any personal identification
+information regarding visitors and users with our business
+partners, trusted affiliates, and advertisers for the purposes
+outlined above.</p>
+
+        <br/>
+<p className="h5 text-start event-title">7. Changes to This Privacy Notice.</p>
+        <p className="text-left">From time to time, we may change this Privacy Notice to
+accommodate new technologies, industry practices, regulatory
+requirements or for other purposes. We will provide notice to you if
+these changes are material and, where required by applicable law,
+we will obtain your consent. Notice may be by email to you at the
+last email address you provided us, by posting notice of such
+changes on our sites and applications, or by other means,
+consistent with applicable law.</p>
+
+<br/>
+<p className="h5 text-start event-title">8. Lawful Processing.</p>
+        <p className="text-left">Our Company depends on various lawful means of processing
+Personal data.</p>
+<ol className="custom-list">
+<li><p style={{color:'black'}}>Consent: For personal data such as website cookies, and
+sharing of personal data for advertising purposes.</p></li>
+
+
+<li><p style={{color:'black'}}>Performance of a Contract: For our service offerings both on
+the website and application as outlined in our Terms and
+Conditions and in the performance of other types of internal
+company contracts.</p></li>
+
+<li><p style={{color:'black'}}>Legal obligation: In adherence to a rule of law as regards a
+data subject personal data.</p></li>
+          </ol>
+          <p className="text-left">By using this Service, you signify that you have read and are aware
+of this Privacy Notice.</p>
+
+<br/>
+<p className="h5 text-start event-title">Contact Us</p>
+        <p className="text-left">If you have any questions about our Privacy Policy, the practices of
+this Service, or your dealings with this Service, please contact us at: 
+<a href="mailto:privacy@uamuzi.org" style={{color: '#8067AD'}}>privacy@uamuzi.org</a>. </p>
         </div>
         
-        <br/>
 
-        <div className="container my-4">
-          <p className="event text-center event-title">TERMS OF USE</p>
-          <p className="h6 text-center event-text"><b>Effective Date: 1st October, 2023</b></p>
-        </div>
-        <div className="container my-4">  
-          <p className="text-left">
-          Please read these Terms of Use ("Terms") carefully before using the Uamuzi website and any associated mobile applications (collectively, the "Service") operated by Uamuzi ("we," "us," or "our").
-          </p>
-          <p className="h5 text-center event-title">Acceptance of Terms</p>
-          <p className="text-left">
-          By accessing or using the Service, you agree to be bound by these Terms and all applicable laws and regulations. If you do not agree with any of these Terms, you are prohibited from using or accessing the Service. The materials contained in the Service are protected by applicable copyright and trademark law.
-          </p>
-          <p className="h5 text-center event-title">Use License</p>
-          Permission is granted to temporarily download one copy of the materials (information or software) on the Service for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title.
-          <p className="text-left">
-          This license shall automatically terminate if you violate any of these restrictions and may be terminated by Uamuzi at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession, whether in electronic or printed format.
-          </p>
-          <p className="h5 text-center event-title">Disclaimer</p>
-          <p className="text-left">
-          The materials on the Service are provided on an "as is" basis. Uamuzi makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further, Uamuzi does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Service or otherwise relating to such materials or on any sites linked to this Service.
-          </p>
-          <p className="h5 text-center event-title">Limitations</p>
-          <p className="text-left">
-          In no event shall Uamuzi or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on the Service, even if Uamuzi or a Uamuzi authorized representative has been notified orally or in writing of the possibility of such damage.
-          </p>
-          <p className="h5 text-center event-title">Revisions and Errata</p>
-          <p className="text-left">
-          The materials appearing on the Service could include technical, typographical, or photographic errors. Uamuzi does not warrant that any of the materials on its Service are accurate, complete, or current. Uamuzi may make changes to the materials contained on its Service at any time without notice. Uamuzi does not, however, make any commitment to update the materials.
-          </p>
-          <p className="h5 text-center event-title">Links</p>
-          <p className="text-left">
-          Uamuzi has not reviewed all of the sites linked to its Service and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Uamuzi of the site. Use of any such linked website is at the user's own risk.
-          </p>
-          <p className="h5 text-center event-title">Modifications</p>
-          <p className="text-left">
-          Uamuzi may revise these Terms at any time without notice. By using the Service, you are agreeing to be bound by the then-current version of these Terms.
-          </p>
-          <p className="h5 text-center event-title">Governing Law</p>
-          <p className="text-left">
-          The use of and the resolution of any claim pertaining to the Service will be subject to the regulations of the Data Protection Act and other applicable laws in Kenya that govern the Service.
-          </p>
-          <p className="event text-left"><b>Contact Us</b></p>
-          <p className="text-left">
-          If you have any questions about these Terms, please contact us at [<a href="mailto:privacy@uamuzi.org" style={{color: '#8067AD'}}>privacy@uamuzi.org</a>].
-          </p>
-          <p className="text-left">
-          By using the Service, you signify your acceptance of these Terms. If you do not agree to these Terms, please do not use our Service.
-          </p>
-        </div>
+        
       </Layout>  
     );
   };

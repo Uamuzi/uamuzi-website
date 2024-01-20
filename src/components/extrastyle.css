@@ -50,20 +50,9 @@
     height: auto;
 }
 
-.elvis-inner{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    /* align-items:center; */
-
-    border: 2px solid red;
-}
-.elvis-img-div{
+.team-img{
     width: 200px;
     height: 200px;
-}
-
-.elvis-img{
     border-radius: 50%;
     padding:10px;
 }
@@ -140,7 +129,9 @@
     /* border: 2px solid green; */
 }
 .partner-image{
-    /* border: 2px solid red; */
+    /* border: 2px solid grey; */
+    /* background-color:grey; */
+    padding:10px;
     border-radius:10px;
     margin:2px;
 }
@@ -151,6 +142,10 @@
     .uamuzi-home-img{
         right: -230px;
         top: -70px;
+    }
+    .partner-image-container{
+        flex-direction:column;
+        /* border: 2px solid green; */
     }
 }
 .tech-image {

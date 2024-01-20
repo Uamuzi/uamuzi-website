@@ -18,7 +18,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-md bg-body-tertiary mx-auto sticky-top bg-white">
             <div className="container">
                 <Link to="/" className="navbar-brand d-flex flex-column justify-content-start align-items-center gap-0" href="/">
-                    <img src={Logo} href="Logo" width="150" height="40" className='m-2' alt='Uamuzi Logo' />
+                    <img src={Logo} href="Logo" width="150" height="50" className='m-2' alt='Uamuzi Logo' />
                     {/* <p className="h4" style={{ color: "#A0A09F" }}>foundation</p> */}
                 </Link>
                 <button className="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around" onClick={handleNavToggle} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
