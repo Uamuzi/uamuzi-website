@@ -1,49 +1,23 @@
 import React from 'react';
 import HeroImage from './heroImage';
-import hero1 from "../../images/hero-1.png"
-import hero2 from "../../images/hero-2.png"
-import hero3 from "../../images/hero-3.png"
-import hero4 from "../../images/hero-4.png"
 
 function Hero() {
     const img1Style = {
-        width: "280px",
-        height: "280px",
-        // margin: "30px auto 0",
-        backgroundImage: `url(${hero1})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        borderRadius: "50 %",
-        // boxShadow: "inset - 25px - 25px 30px rgba(0, 0, 0, 0.7)",
-        position: "absolute",
-        top: "30px",
-        right: "100px",
+        margin: "30px auto 0",
+        zIndex: -1,
     }
     const img2Style = {
         width: "100px",
         height: "100px",
-        // margin: "30px auto 0",
-        backgroundImage: `url(${hero4})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        borderRadius: "50 %",
-        // boxShadow: "inset - 25px - 25px 30px rgba(0, 0, 0, 0.7)",
-        position: "absolute",
         top: "0px",
         right: "0px",
+        zIndex: -1,
     }
     const img3Style = {
         width: "100px",
         height: "100px",
         marginRight: "20px",
-        backgroundImage: `url(${hero2})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
         borderRadius: "50 %",
-        boxShadow: "inset - 25px - 25px 30px rgba(0, 0, 0, 0.7)",
         position: "absolute",
         top: "320px",
         left: "50px",
@@ -52,18 +26,21 @@ function Hero() {
     const img4Style = {
         width: "200px",
         height: "200px",
-        // margin: "30px auto 0",
-        backgroundImage: `url(${hero3})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
         borderRadius: "50 %",
+        margin: "30px auto 0",
         boxShadow: "inset - 25px - 25px 30px rgba(0, 0, 0, 0.7)",
         position: "absolute",
         top: "300px",
         right: "0px",
-        zIndex: 1
+        zIndex: -1
     }
+
+    const hero1 = "hero-1.png"
+    const hero2 = "hero-2.png"
+    const hero3 = "hero-3.png"
+    const hero4 = "hero-4.png"
+
+
     return (
         <div className='container hero-container'>
             <div className="row m-0">
@@ -75,16 +52,29 @@ function Hero() {
                         and dignity at the center and calls for changes in our development
                         pattern while respecting the environment.
                     </p>
-                    {/* <button className='button-primary'>Read More <box-icon name='right-arrow-alt' color='#fff'></box-icon></button> */}
                     <figure className='tiny tiny-2'></figure>
                     <figure className='tiny tiny-2-1'></figure>
 
                 </div>
                 <div className="d-none col d-md-block col-md-8 col-lg-8 left-hero  position-relative">
-                    <HeroImage imgStyle={img1Style} />
-                    <HeroImage imgStyle={img2Style} />
-                    <HeroImage imgStyle={img3Style} />
-                    <HeroImage imgStyle={img4Style} />
+                
+                <div className='hero-img1'>
+                    <HeroImage imageName={hero1} imgStyle={img1Style} />
+                </div>
+
+                <div className='hero-img2'>
+                    <HeroImage imageName={hero4} imgStyle={img2Style} />
+                </div>
+
+                <div className='hero-img3'>
+                    <HeroImage imageName={hero2} imgStyle={img3Style} />
+                </div>
+
+                <div className='hero-img4'>
+                    <HeroImage imageName={hero3} imgStyle={img4Style} />
+                </div>
+
+                   
                     <figure className='tiny tiny-1'></figure>
                     <figure className='tiny tiny-1-1'></figure>
                 </div>

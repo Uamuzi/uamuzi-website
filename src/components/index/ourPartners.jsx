@@ -14,19 +14,19 @@ function OurPartners() {
 
         <div className='partner-image'>
         <a href="https://www.microsoft.com/en-us/startups" target="_blank" rel="noopener noreferrer">
-          <img src={MS_Startups_FH} alt="microsoft logo" width={200} height={150} className='py-3 ' />
+          <img src={MS_Startups_FH} alt="microsoft logo" width={250} height={150} className='py-3 ' />
         </a>
         </div>
 
         <div className='partner-image'>
         <a href="https://careldevstudio.com/" target="_blank" rel="noopener noreferrer">
-          <img src={CarelDevstudio} alt="carel devs tudio logo" width={150} height={150} className='py-3 ' />
+          <img src={CarelDevstudio} alt="carel devs tudio logo" width={170} height={150} className='py-3 ' />
         </a>
         </div>
 
         <div className='partner-image'>
         <a  href="https://nekyadvocates.com/" target="_blank" rel="noopener noreferrer">
-          <img src={GillianNeky} alt="Gillian Neky logo" width={150} height={150} className='py-3 ' />
+          <img src={GillianNeky} alt="Gillian Neky logo" width={130} height={120} className='py-3 my-4' />
         </a>
         </div>
 
@@ -35,7 +35,7 @@ function OurPartners() {
         </div>
 
         <div className='partner-image'>
-                <img src={Naturel} alt="Naturel Neky logo" width={150} height={150} className='py-3 ' />
+                <img src={Naturel} alt="Naturel Neky logo" width={150} height={100} className='py-3 my-4 ' />
         </div>
 
     </div>

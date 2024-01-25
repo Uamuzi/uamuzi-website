@@ -2,20 +2,11 @@ import React from 'react'
 
 import { StaticImage } from "gatsby-plugin-image"
 
-import Elvis from "../../images/Elvis.jpg"
-import Andrew from "../../images/Bisagaya.jpg"
-import Novat from "../../images/Novat.jpg"
-import SharonO from "../../images/SharonO.png"
 import { Link } from 'gatsby';
-import MonicaKimani from "../../images/MonicaKimani.jpg";
+
 
 function LandingTeam() {
-    const teamImages = {
-        backgroundImage: `url(${Elvis})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: 'no-repeat'
-    }
+    
     return (
         <div className='container py-5 px-2'>
             <div className="row">
@@ -42,7 +33,7 @@ function LandingTeam() {
                             <p className="primary-color text-capitalize">Founder & Chief Executive Officer</p>
                             <span className="primary-color d-flex gap-3 flex-nowrap justify-content-center align-items-center">
                                 <a href="https://www.linkedin.com/in/elvis-sitati-2a282b79" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
-                                {/* <a href="mailto:elvis.sitati@uamuzi.org"><box-icon name='envelope' type='solid' color="#8067AD" ></box-icon></a> */}
+                                <a href="mailto:elvis.sitati@uamuzi.org"><box-icon name='envelope' type='solid' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
