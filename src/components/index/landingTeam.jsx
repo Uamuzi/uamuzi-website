@@ -1,18 +1,12 @@
 import React from 'react'
-import Elvis from "../../images/Elvis.jpg"
-import Andrew from "../../images/Bisagaya.jpg"
-import Novat from "../../images/Novat.jpg"
-import SharonO from "../../images/SharonO.png"
+
+import { StaticImage } from "gatsby-plugin-image"
+
 import { Link } from 'gatsby';
-import MonicaKimani from "../../images/MonicaKimani.jpg";
+
 
 function LandingTeam() {
-    const teamImages = {
-        backgroundImage: `url(${Elvis})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: 'no-repeat'
-    }
+    
     return (
         <div className='container py-5 px-2'>
             <div className="row">
@@ -29,35 +23,26 @@ function LandingTeam() {
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 d-flex gap-5 justify-content-center align-items-center flex-wrap pt-3">
                     <div className="team-inner m-0 p-0 position-relative">
-                        <div className="team-member-image position-relative" style={{
-                            backgroundImage: `url(${Elvis})`,
-                            backgroundPosition: "center",
-                            backgroundSize: "cover",
-                            backgroundRepeat: 'no-repeat'
-                        }}>
-                            <div className="long-purple-line position-absolute"></div>
+                        <StaticImage className='team-img' src="../../images/Elvis.jpg" placeholder="blurred" />
+                        <div className="long-purple-line position-absolute"></div>
                             <div className="short-grey-line position-absolute"></div>
-                        </div>
+                       
+                        <br />
                         <div className="team-member-info text-center py-2">
-                            <p className="text-capitalize fw-bold">Elvis Sitati</p>
+                            <p className="text-capitalize fw-bold text-red-500">Elvis Sitati</p>
                             <p className="primary-color text-capitalize">Founder & Chief Executive Officer</p>
                             <span className="primary-color d-flex gap-3 flex-nowrap justify-content-center align-items-center">
                                 <a href="https://www.linkedin.com/in/elvis-sitati-2a282b79" rel="noopener noreferrer" target='_blank'><box-icon name='linkedin-square' type='logo' color="#8067AD" ></box-icon></a>
-                                {/* <a href="mailto:elvis.sitati@uamuzi.org"><box-icon name='envelope' type='solid' color="#8067AD" ></box-icon></a> */}
+                                <a href="mailto:elvis.sitati@uamuzi.org"><box-icon name='envelope' type='solid' color="#8067AD" ></box-icon></a>
                             </span>
 
                         </div>
                     </div>
                     <div className="team-inner m-0 p-0 position-relative">
-                        <div className="team-member-image position-relative" style={{
-                            backgroundImage: `url(${Andrew})`,
-                            backgroundPosition: "center",
-                            backgroundSize: "cover",
-                            backgroundRepeat: 'no-repeat',
-                        }}>
+                    <StaticImage className='team-img' src="../../images/Bisagaya.jpg" placeholder="blurred" />
                             <div className="long-purple-line position-absolute"></div>
                             <div className="short-grey-line position-absolute"></div>
-                        </div>
+                       
                         <div className="team-member-info text-center py-2">
                             <p className="text-capitalize fw-bold">Andrew Bisagaya</p>
                             <p className="primary-color text-capitalize">Legal</p>
@@ -68,18 +53,14 @@ function LandingTeam() {
                         </div>
                     </div>
                 </div>
+
                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 d-flex gap-5 justify-content-center align-items-center flex-wrap pt-5 ">
                     {/* <Link to="/about" className="see-all fw-bold text-capitalize d-flex justify-content-center align-items-center">See all members <span ><box-icon name='right-arrow-alt' color="#8067AD" className="rogue"></box-icon></span></Link> */}
                     <div className="team-inner m-0 p-0 position-relative">
-                        <div className="team-member-image position-relative" style={{
-                            backgroundImage: `url(${MonicaKimani})`,
-                            backgroundPosition: "center",
-                            backgroundSize: "cover",
-                            backgroundRepeat: 'no-repeat'
-                        }}>
+                    <StaticImage className='team-img' src="../../images/MonicaKimani.jpg" placeholder="blurred" />
                             <div className="long-purple-line position-absolute"></div>
                             <div className="short-grey-line position-absolute"></div>
-                        </div>
+                        
     <div className="team-member-info text-center py-2">
                             <p className="text-capitalize fw-bold">Monicah Kimani</p>
                             <p className="primary-color text-capitalize">Marketing</p>
@@ -89,15 +70,10 @@ function LandingTeam() {
 
                         </div>
                     </div><div className="team-inner m-0 p-0 position-relative">
-                        <div className="team-member-image position-relative" style={{
-                            backgroundImage: `url(${Novat})`,
-                            backgroundPosition: "center",
-                            backgroundSize: "cover",
-                            backgroundRepeat: 'no-repeat'
-                        }}>
+                    <StaticImage className='team-img' src="../../images/Novat.jpg" placeholder="blurred" />
                             <div className="long-purple-line position-absolute"></div>
                             <div className="short-grey-line position-absolute"></div>
-                        </div>
+                        
                         <div className="team-member-info text-center py-2">
                             <p className="text-capitalize fw-bold">Novat Matoju</p>
                             <p className="primary-color text-capitalize">Finance </p>
@@ -107,15 +83,10 @@ function LandingTeam() {
 
                         </div>
                     </div><div className="team-inner m-0 p-0 position-relative">
-                        <div className="team-member-image position-relative" style={{
-                            backgroundImage: `url(${SharonO})`,
-                            backgroundPosition: "center",
-                            backgroundSize: "cover",
-                            backgroundRepeat: 'no-repeat'
-                        }}>
+                    <StaticImage className='team-img' src="../../images/SharonO.png" placeholder="blurred" />
                             <div className="long-purple-line position-absolute"></div>
                             <div className="short-grey-line position-absolute"></div>
-                        </div>
+                        
                         <div className="team-member-info text-center py-2">
                             <p className="text-capitalize fw-bold">Sharon Ochieng</p>
                             <p className="primary-color text-capitalize">Programs </p>
