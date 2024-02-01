@@ -13,15 +13,15 @@ function OurStory() {
                     <p className="h5 event">Our Story</p>
                     <p className="h3 text-start event-title mb-3">Who We Are</p>
                     <p className="p">
-                        Uamuzi Foundation is a philanthropic organization advocating for social
+                        Uamuzi Foundation is a social enterpise advocating for social
                         justice with a specific focus on the youth, women and persons living with disabilities
                         who deserve equal economic, political and social rights; while integrating
                         technology and data. The youth make up the biggest population and the
-                        largest voting bloc in our democratic space.
+                        largest voting block in our democratic space.
                     </p>
-                    <p className="p our-paragraph"><strong>Our areas of work include</strong> Civic Engagement; Leadership;
-                        Civic Education; Gender Equality; Disability Inclusion;
-                        Policy and Advocacy; Diversity and Inclusion; Transparency and Accountability;
+                    <p className="p our-paragraph"><strong>Our areas of work include</strong> Civic Engagement, Leadership,
+                        Civic Education, Gender Equality, Disability Inclusion,
+                        Policy and Advocacy, Diversity and Inclusion, Transparency and Accountability,
                         Environmental Conservation and Peacebuilding. We aim to open the doors of access and
                         opportunity for everyone. We believe that the youth are the future for the World we want.</p>
                     <Link to="/about" style={{textDecoration: "none"}}>
