@@ -7,10 +7,7 @@ import ImageDisplay from "../components/team/ImageDisplay";
 const Elvis  = 'Elvis.jpg'
 const CollinsOmondi = 'CollinsOmondi.jpg'
 const SamiWafula = 'SamiWafula.jpeg'
-const FelixNyamai = 'felixNyamai.png'
 const JeremyWachira = 'JeremyWachira.jpg'
-const GeorgeKinyanjui = 'GeorgeKinyanjui.png'
-const GabrielTindi = 'gabrielTindi.png'
 const NjengaKarori = 'NjengaKarori.png'
 const JoanGichuhi = 'JoanGichuhi.jpg'
 const AntonyGakuru = 'AntonyGakuru.png'
@@ -19,6 +16,8 @@ const EugeneRaburu = 'EugeneRaburu.png'
 const Novat = 'Novat.jpg'
 const SharonO = 'SharonO.png'
 const Bisagaya = 'Bisagaya.jpg'
+
+const KarenNgugi = 'KarenNgugi.jpeg'
 
 const TeamPage = () => (
     <Layout>
@@ -37,17 +36,14 @@ const TeamPage = () => (
 
             <ImageDisplay imageName={EugeneRaburu} fullName={"Eugene Raburu"} position={"Technology"} linkedinUsername={"eugene-raburu-kf"} />
             <ImageDisplay imageName={AntonyGakuru} fullName={"Antony Gakuru"} position={"Lead Engeneer"} linkedinUsername={"muriithigakuru"} />
-            <ImageDisplay imageName={JoanGichuhi} fullName={"Joan Gichuhi"} position={"Lead Designer"} linkedinUsername={"joan-gichuhi"}/>
 
-            <ImageDisplay imageName={FelixNyamai} fullName={"Felix Nyamai"} position={"Lead Frontend"} linkedinUsername={"joan-gichuhi"}/>
             <ImageDisplay imageName={NjengaKarori} fullName={"Njenga Karori"} position={"UI/UX Designer"} linkedinUsername={"njenga-karori-2b9bb6223"}/>
-            <ImageDisplay imageName={GabrielTindi} fullName={"Gabriel Tindi"} position={"Frontend"} linkedinUsername={"gabrieltindi"}/>
-
-            <ImageDisplay imageName={GeorgeKinyanjui} fullName={"George Kinyanjui"} position={"Frontend"} linkedinUsername={"georgekinyanjui"}/>
+            <ImageDisplay imageName={JoanGichuhi} fullName={"Joan Gichuhi"} position={"Lead Designer"} linkedinUsername={"joan-gichuhi"}/>
+            
             <ImageDisplay imageName={CollinsOmondi} fullName={"Collins Omondi"} position={"Frontend"} linkedinUsername={"c-o-m-o-n"}/>
-            <ImageDisplay imageName={GabrielTindi} fullName={"Sami Wafula"} position={"Frontend"} linkedinUsername={"sami-wafula"}/>
-
-
+            <ImageDisplay imageName={SamiWafula} fullName={"Sami Wafula"} position={"Frontend"} linkedinUsername={"sami-wafula"}/>
+            <ImageDisplay imageName={KarenNgugi} fullName={"Karen Ngugi"} position={"Cloud and Devops"} linkedinUsername={"karen-ngugi"}/>
+           
                 </div>
         </div>
     </Layout>
