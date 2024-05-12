@@ -20,13 +20,13 @@ function OurPartners() {
 
         <div className='partner-image'>
         <a href="https://careldevstudio.com/" target="_blank" rel="noopener noreferrer">
-          <img src={CarelDevstudio} alt="carel devs tudio logo" width={170} height={150} className='py-3 ' />
+          <img src={CarelDevstudio} alt="carel devs tudio logo" width={150} height={150} className='py-3 ' />
         </a>
         </div>
 
         <div className='partner-image'>
         <a  href="https://nekyadvocates.com/" target="_blank" rel="noopener noreferrer">
-          <img src={GillianNeky} alt="Gillian Neky logo" width={130} height={120} className='py-3 my-4' />
+          <img src={GillianNeky} alt="Gillian Neky logo" width={120} height={120} className='py-3 my-4' />
         </a>
         </div>
 

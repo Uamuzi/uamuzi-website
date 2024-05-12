@@ -116,13 +116,15 @@ function Mobile() {
                 <b>Mulika</b> (peacebuilding)
               </p>
             </li>
+            <a lassName="cursor-pointer hover: border-2 border-red-500" 
+            href="https://play.google.com/store/apps/details?id=com.uamuzi.android&pcampaignid=web_share">
             <img
               className=""
               src={playstore}
               alt="Uamuzi-playstore-logo"
               width={130}
               height={45}
-            />
+            /></a>
             <form className="py-5" onSubmit={handleSubmit}>
               <h3 className="py-4">Join the beta test</h3>
               <div className="form-group pb-3">
@@ -174,13 +176,14 @@ function Mobile() {
                   id="checkLeader"
                   checked={leader}
                   onChange={() => setLeader(!leader)}
-                  style={{border: "2px solid black"}}
+                  style={{border: "2px solid black, backgroundColor: #8067AD"}}
                 />
-                <label className="form-check-label" for="exampleCheck1">
+                <label className="form-check-label " for="exampleCheck1">
                   Check this if you're an elected or aspiring leader
                 </label>
               </div>
-              <button type="submit" className="btn btn-primary px-4">
+              <button type="submit" className="btn  px-4 
+              hero-read-more d-flex justify-content-center align-items-center">
                 Apply
               </button>
             </form>
