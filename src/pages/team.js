@@ -8,6 +8,7 @@ const Elvis  = 'Elvis.jpg'
 const CollinsOmondi = 'CollinsOmondi.jpg'
 const SamiWafula = 'SamiWafula.jpeg'
 const JeremyWachira = 'JeremyWachira.jpg'
+const TimothyMabango = 'TimothyMabango.jpg'
 const NjengaKarori = 'NjengaKarori.png'
 const JoanGichuhi = 'JoanGichuhi.jpg'
 const AntonyGakuru = 'AntonyGakuru.png'
@@ -33,6 +34,7 @@ const TeamPage = () => (
             <ImageDisplay imageName={SharonO} fullName={"Sharon Ochieng"} position={"Programs"} linkedinUsername={"sharon-ochieng-2167757a"} />
             <ImageDisplay imageName={MonicaKimani} fullName={"Monica Kimani"} position={"Marketing"} linkedinUsername={"monicah-kimani-561a1b69"} />
             <ImageDisplay imageName={JeremyWachira} fullName={"Jeremy Wachira"} position={"Volunteer Coordinator"} linkedinUsername={"jeremy-wachira-610a221b1"} />
+            <ImageDisplay imageName={TimothyMabango} fullName={"Timothy Mabango"} position={"Resource Mobilization"} linkedinUsername={"mabango-timothy-capm-972343186/"} />
 
             <ImageDisplay imageName={EugeneRaburu} fullName={"Eugene Raburu"} position={"Technology"} linkedinUsername={"eugene-raburu-kf"} />
             <ImageDisplay imageName={AntonyGakuru} fullName={"Antony Gakuru"} position={"Lead Engeneer"} linkedinUsername={"muriithigakuru"} />
