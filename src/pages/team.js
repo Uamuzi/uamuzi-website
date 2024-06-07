@@ -43,7 +43,6 @@ const TeamPage = () => (
 
                 <ImageDisplay imageName={CollinsOmondi} fullName={"Collins Omondi"} position={"Frontend"} linkedinUsername={"c-o-m-o-n"} />
                 <ImageDisplay imageName={SamiWafula} fullName={"Sami Wafula"} position={"Frontend"} linkedinUsername={"sami-wafula"} />
-                <ImageDisplay imageName={KarenNgugi} fullName={"Karen Ngugi"} position={"Cloud and Devops"} linkedinUsername={"karen-ngugi"} />
                 <ImageDisplay imageName={TimothyMabango} fullName={"Timothy Mabango"} position={"Resource Mobilization"} linkedinUsername={"mabango-timothy-capm-972343186/"} />
 
             </div>
