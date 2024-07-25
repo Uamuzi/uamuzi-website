@@ -18,7 +18,6 @@ const Novat = 'Novat.jpg'
 const SharonO = 'SharonO.png'
 const Bisagaya = 'Bisagaya.jpg'
 
-const KarenNgugi = 'KarenNgugi.jpeg'
 
 const TeamPage = () => (
     <Layout>

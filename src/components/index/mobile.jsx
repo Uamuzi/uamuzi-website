@@ -89,7 +89,8 @@ function Mobile() {
                 ></box-icon>
               </span>
               <p>
-                <b>Baraza</b> (assembly)
+                {/* <b>Baraza</b> (assembly) */}
+                <b>Ubunifu</b> (creativity)
               </p>
             </li>
             <li className="goals d-flex gap-2">
