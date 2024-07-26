@@ -30,7 +30,7 @@ const ImageDisplay = ({ imageName, fullName, position, linkedinUsername, email }
 
   return (
     <div className="team-inner m-0 p-0 position-relative">
-                <Img className='team-img' fluid={image.node.childImageSharp.fluid} alt="Your image description" />;
+                <Img className='team-img' fluid={image.node.childImageSharp.fluid} alt={`Team member, ${fullName}`} />;
                             <div className="long-purple-line position-absolute"></div>
                             <div className="short-grey-line position-absolute"></div>
                         
