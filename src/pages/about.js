@@ -42,7 +42,7 @@ const AboutPage = () => (
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 about-col" style={{fontSize: '13.5px'}}>
               <p className="event">OUR VALUES</p>
               <p className="h3 text-start event-title">What Drives Us</p>
-                <p className="py-2 font-sm">
+                <p className="py-2" style={{"fontSize" : "16px"}}>
                   The values that govern all aspects of our work and operations include: 
                 </p>
                 <p className="p d-flex">
