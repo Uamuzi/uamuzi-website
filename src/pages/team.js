@@ -19,8 +19,8 @@ const EugeneRaburu = "EugeneRaburu.png"
 // const Bisagaya = "Bisagaya.jpg"
 const Monicah = "Monicah.jpg"
 const Muliro = "Muliro.jpg"
-const Kibet = "Kibet.jpg"
-const Immanuel = "Immanuel.jpg"
+const IanKibet = "IanKibet.png"
+const ImmanuelNduthu = "Immanuel.png"
 
 const TeamPage = () => (
   <Layout>
@@ -47,10 +47,16 @@ const TeamPage = () => (
           linkedinUsername={"karen-kurgat-a4b9511b9"}
         /> */}
         <ImageDisplay
-          imageName={Immanuel}
+          imageName={ImmanuelNduthu}
           fullName={"Immanuel Nduthu"}
           position={"Finance"}
           linkedinUsername={"immanuel-nduthu-792535307"}
+        />
+        <ImageDisplay
+          imageName={TimothyMabango}
+          fullName={"Timothy Mabango"}
+          position={"Resource Mobilization"}
+          linkedinUsername={"mabango-timothy-capm-972343186"}
         />
         {/* <ImageDisplay
           imageName={SharonW}
@@ -97,18 +103,6 @@ const TeamPage = () => (
           position={"Lead Frontend"}
           linkedinUsername={"c-o-m-o-n"}
         />
-        <ImageDisplay
-          imageName={SamiWafula}
-          fullName={"Sami Wafula"}
-          position={"Frontend"}
-          linkedinUsername={"sami-wafula"}
-        />
-        <ImageDisplay
-          imageName={TimothyMabango}
-          fullName={"Timothy Mabango"}
-          position={"Resource Mobilization"}
-          linkedinUsername={"mabango-timothy-capm-972343186"}
-        />
         {/* <ImageDisplay
           imageName={RodgersBiwott}
           fullName={"Rodgers Biwott"}
@@ -134,7 +128,7 @@ const TeamPage = () => (
           linkedinUsername={"jan-juma-4a1595229"}
         /> */}
         <ImageDisplay
-          imageName={Kibet}
+          imageName={IanKibet}
           fullName={"Ian Kibet,"}
           position={"Artificial Intelligence and Machine Learning"}
           linkedinUsername={"ian-kibet-"}
