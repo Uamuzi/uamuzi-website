@@ -8,7 +8,6 @@ const Elvis = "Elvis.jpg"
 const CollinsOmondi = "CollinsOmondi.jpg"
 const JeremyWachira = "JeremyWachira.jpg"
 const TimothyMabango = "TimothyMabango.jpg"
-// const NjengaKarori = "NjengaKarori.png"
 const AntonyGakuru = "AntonyGakuru.jpeg"
 const EugeneRaburu = "EugeneRaburu.png"
 const Monicah = "Monicah.jpg"
@@ -99,18 +98,18 @@ const TeamPage = () => (
           linkedinUsername={"dennis-wachira-451786258"}
         /> */}
 
+          {/* <ImageDisplay
+            imageName={RodgersBiwott}
+            fullName={"Rodgers Biwott"}
+            position={"Lead Cloud and DevOps"}
+            linkedinUsername={"rodgersbiwott"}
+          /> */}
         <ImageDisplay
           imageName={CollinsOmondi}
           fullName={"Collins Omondi"}
           position={"Lead Frontend"}
           linkedinUsername={"c-o-m-o-n"}
         />
-        {/* <ImageDisplay
-          imageName={RodgersBiwott}
-          fullName={"Rodgers Biwott"}
-          position={"Lead Cloud and DevOps"}
-          linkedinUsername={"rodgersbiwott"}
-        /> */}
         <ImageDisplay
           imageName={Monicah}
           fullName={"Monicah Ngari"}
@@ -123,18 +122,18 @@ const TeamPage = () => (
           position={"Backend"}
           linkedinUsername={"michael-muliro-064365124"}
         />
-        {/* <ImageDisplay
-          imageName={JanJuma}
-          fullName={"Jan Juma"}
-          position={"Cloud and DevOps"}
-          linkedinUsername={"jan-juma-4a1595229"}
-        /> */}
         <ImageDisplay
           imageName={IanKibet}
           fullName={"Ian Kibet,"}
           position={"Artificial Intelligence and Machine Learning"}
           linkedinUsername={"ian-kibet-"}
         />
+        {/* <ImageDisplay
+            imageName={JanJuma}
+            fullName={"Jan Juma"}
+            position={"Cloud and DevOps"}
+            linkedinUsername={"jan-juma-4a1595229"}
+          /> */}
       </div>
     </div>
   </Layout>
