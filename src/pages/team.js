@@ -10,7 +10,7 @@ const JeremyWachira = "JeremyWachira.jpg"
 const TimothyMabango = "TimothyMabango.jpg"
 const AntonyGakuru = "AntonyGakuru.jpeg"
 const EugeneRaburu = "EugeneRaburu.png"
-const Monicah = "Monicah.jpg"
+const MonicahNgari = "MonicahNgari.jpg"
 const Muliro = "Muliro.jpg"
 const IanKibet = "IanKibet.png"
 const ImmanuelNduthu = "Immanuel.png";
@@ -111,7 +111,7 @@ const TeamPage = () => (
           linkedinUsername={"c-o-m-o-n"}
         />
         <ImageDisplay
-          imageName={Monicah}
+          imageName={MonicahNgari}
           fullName={"Monicah Ngari"}
           position={"Frontend"}
           linkedinUsername={"monicah-ngari-96459321b"}

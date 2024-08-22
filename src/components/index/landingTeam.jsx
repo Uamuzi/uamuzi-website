@@ -60,10 +60,13 @@ function LandingTeam() {
               </span>
             </div>
           </div>
-          {/* <div className="team-inner m-0 p-0 position-relative">
+        </div>
+
+        <div className="col-12 col-sm-12 col-md-12 col-lg-12 d-flex gap-5 justify-content-center align-items-center flex-wrap pt-5 ">
+          <div className="team-inner m-0 p-0 position-relative">
             <StaticImage
               className="team-img"
-              src="../../images/SharonW.jpg"
+              src="../../images/SharonWangui.jpg"
               placeholder="blurred"
             />
             <div className="long-purple-line position-absolute"></div>
@@ -71,43 +74,10 @@ function LandingTeam() {
 
             <div className="team-member-info text-center py-2">
               <p className="text-capitalize fw-bold">Sharon Wangui</p>
-              <p className="primary-color text-capitalize">
-                Administration and Programs
-              </p>
+              <p className="primary-color text-capitalize">Administration and Programs</p>
               <span className="primary-color">
                 <a
                   href="https://www.linkedin.com/in/sharon-wangui-799a67209/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <box-icon
-                    name="linkedin-square"
-                    type="logo"
-                    color="#8067AD"
-                  ></box-icon>
-                </a>
-              </span>
-            </div>
-          </div> */}
-        </div>
-
-        <div className="col-12 col-sm-12 col-md-12 col-lg-12 d-flex gap-5 justify-content-center align-items-center flex-wrap pt-5 ">
-          {/* <Link to="/about" className="see-all fw-bold text-capitalize d-flex justify-content-center align-items-center">See all members <span ><box-icon name='right-arrow-alt' color="#8067AD" className="rogue"></box-icon></span></Link> */}
-          <div className="team-inner m-0 p-0 position-relative">
-            <StaticImage
-              className="team-img"
-              src="../../images/EugeneRaburu.png"
-              placeholder="blurred"
-            />
-            <div className="long-purple-line position-absolute"></div>
-            <div className="short-grey-line position-absolute"></div>
-
-            <div className="team-member-info text-center py-2">
-              <p className="text-capitalize fw-bold">Eugene Raburu</p>
-              <p className="primary-color text-capitalize">Technology</p>
-              <span className="primary-color">
-                <a
-                  href="https://www.linkedin.com/in/eugene-raburu-kf/"
                   rel="noreferrer noopener"
                   target="_blank"
                 >
@@ -120,21 +90,21 @@ function LandingTeam() {
               </span>
             </div>
           </div>
-          <div className="team-inner m-0 p-0 position-relative">
+          <div className="team-inner m-0 p-0 position-relative mb-4">
             <StaticImage
               className="team-img"
-              src="../../images/Monicah.jpg"
+              src="../../images/AntonyGakuru.jpeg"
               placeholder="blurred"
             />
             <div className="long-purple-line position-absolute"></div>
             <div className="short-grey-line position-absolute"></div>
 
             <div className="team-member-info text-center py-2">
-              <p className="text-capitalize fw-bold">Monicah Ngari</p>
-              <p className="primary-color text-capitalize">Frontend </p>
+              <p className="text-capitalize fw-bold">Antony Gakuru</p>
+              <p className="primary-color text-capitalize">Technology </p>
               <span className="primary-color">
                 <a
-                  href="https://www.linkedin.com/in/monicah-ngari-96459321b/"
+                  href="https://www.linkedin.com/in/muriithigakuru/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -164,6 +134,34 @@ function LandingTeam() {
               <span className="primary-color">
                 <a
                   href="https://www.linkedin.com/in/mabango-timothy-capm/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <box-icon
+                    name="linkedin-square"
+                    type="logo"
+                    color="#8067AD"
+                  ></box-icon>
+                </a>
+              </span>
+            </div>
+          </div>
+
+          <div className="team-inner m-0 p-0 position-relative mb-4">
+            <StaticImage
+              className="team-img"
+              src="../../images/MonicahNgari.png"
+              placeholder="blurred"
+            />
+            <div className="long-purple-line position-absolute"></div>
+            <div className="short-grey-line position-absolute"></div>
+
+            <div className="team-member-info text-center py-2">
+              <p className="text-capitalize fw-bold">Monicah Ngari</p>
+              <p className="primary-color text-capitalize">Frontend </p>
+              <span className="primary-color">
+                <a
+                  href="https://www.linkedin.com/in/monicah-ngari-96459321b/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
