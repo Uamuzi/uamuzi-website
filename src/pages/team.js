@@ -6,21 +6,17 @@ import ImageDisplay from "../components/team/ImageDisplay"
 
 const Elvis = "Elvis.jpg"
 const CollinsOmondi = "CollinsOmondi.jpg"
-const SamiWafula = "SamiWafula.jpeg"
 const JeremyWachira = "JeremyWachira.jpg"
 const TimothyMabango = "TimothyMabango.jpg"
 // const NjengaKarori = "NjengaKarori.png"
-// const JoanGichuhi = "JoanGichuhi.jpg"
-const AntonyGakuru = "AntonyGakuru.png"
-// const MonicaKimani = "MonicaKimani.jpg"
+const AntonyGakuru = "AntonyGakuru.jpeg"
 const EugeneRaburu = "EugeneRaburu.png"
-// const Novat = "Novat.jpg"
-// const SharonO = "SharonO.png"
-// const Bisagaya = "Bisagaya.jpg"
 const Monicah = "Monicah.jpg"
 const Muliro = "Muliro.jpg"
 const IanKibet = "IanKibet.png"
-const ImmanuelNduthu = "Immanuel.png"
+const ImmanuelNduthu = "Immanuel.png";
+const JoeSila = "JoeSila.jpg";
+const SharonWangui = "SharonWangui.jpg";
 
 const TeamPage = () => (
   <Layout>
@@ -47,6 +43,12 @@ const TeamPage = () => (
           linkedinUsername={"karen-kurgat-a4b9511b9"}
         /> */}
         <ImageDisplay
+          imageName={SharonWangui}
+          fullName={"Sharon Wangui"}
+          position={"Administration and Programs"}
+          linkedinUsername={"sharon-wangui-799a67209"}
+        />
+        <ImageDisplay
           imageName={ImmanuelNduthu}
           fullName={"Immanuel Nduthu"}
           position={"Finance"}
@@ -58,12 +60,13 @@ const TeamPage = () => (
           position={"Resource Mobilization"}
           linkedinUsername={"mabango-timothy-capm-972343186"}
         />
-        {/* <ImageDisplay
-          imageName={SharonW}
-          fullName={"Sharon Wangui"}
-          position={"Administration and Programs"}
-          linkedinUsername={"sharon-wangui-799a67209"}
-        /> */}
+        <ImageDisplay
+          imageName={JoeSila}
+          fullName={"Joe Sila"}
+          position={"Marketing and Communication"}
+          linkedinUsername={"joe-sila-34823a267"}
+        />
+
         {/* <ImageDisplay
           imageName={JoeSila}
           fullName={"Joe Sila"}
@@ -76,18 +79,17 @@ const TeamPage = () => (
           position={"Volunteer Coordinator"}
           linkedinUsername={"jeremy-wachira-610a221b1"}
         />
-
-        <ImageDisplay
-          imageName={EugeneRaburu}
-          fullName={"Eugene Raburu"}
-          position={"Technology"}
-          linkedinUsername={"eugene-raburu-kf"}
-        />
         <ImageDisplay
           imageName={AntonyGakuru}
           fullName={"Antony Gakuru"}
           position={"Lead Engeneer"}
           linkedinUsername={"muriithigakuru"}
+        />
+        <ImageDisplay
+          imageName={EugeneRaburu}
+          fullName={"Eugene Raburu"}
+          position={"Technology"}
+          linkedinUsername={"eugene-raburu-kf"}
         />
 
         {/* <ImageDisplay
