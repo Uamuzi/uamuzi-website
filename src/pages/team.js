@@ -82,13 +82,13 @@ const TeamPage = () => (
         <ImageDisplay
           imageName={AntonyGakuru}
           fullName={"Antony Gakuru"}
-          position={"Lead Engeneer"}
+          position={"Technology"}
           linkedinUsername={"muriithigakuru"}
         />
         <ImageDisplay
           imageName={EugeneRaburu}
           fullName={"Eugene Raburu"}
-          position={"Technology"}
+          position={"Hub"}
           linkedinUsername={"eugene-raburu-kf"}
         />
 
