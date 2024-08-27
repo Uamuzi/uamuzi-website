@@ -12,10 +12,10 @@ const AntonyGakuru = "AntonyGakuru.jpeg"
 const EugeneRaburu = "EugeneRaburu.png"
 const MonicahNgari = "MonicahNgari.jpg"
 const Muliro = "Muliro.jpg"
-const IanKibet = "IanKibet.png"
-const ImmanuelNduthu = "Immanuel.png";
-const JoeSila = "JoeSila.jpg";
-const SharonWangui = "SharonWangui.jpg";
+const IanKibet = "IanKibet.jpg"
+const ImmanuelNduthu = "Immanuel.png"
+const JoeSila = "JoeSila.jpg"
+const SharonWangui = "SharonWangui.jpg"
 
 const TeamPage = () => (
   <Layout>
@@ -33,7 +33,6 @@ const TeamPage = () => (
           fullName={"Elvis Sitati"}
           position={"Founder & Chief Executive Officer"}
           linkedinUsername={"elvis-sitati-2a282b79"}
-          email={"elvis.sitati@uamuzi.org"}
         />
         {/* <ImageDisplay
           imageName={KarenKurgat}
@@ -56,7 +55,7 @@ const TeamPage = () => (
         <ImageDisplay
           imageName={TimothyMabango}
           fullName={"Timothy Mabango"}
-          position={"Resource Mobilization"}
+          position={"Partnership and Resource Mobilizatio"}
           linkedinUsername={"mabango-timothy-capm-972343186"}
         />
         <ImageDisplay
@@ -98,7 +97,7 @@ const TeamPage = () => (
           linkedinUsername={"dennis-wachira-451786258"}
         /> */}
 
-          {/* <ImageDisplay
+        {/* <ImageDisplay
             imageName={RodgersBiwott}
             fullName={"Rodgers Biwott"}
             position={"Lead Cloud and DevOps"}
