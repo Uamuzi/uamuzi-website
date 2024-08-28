@@ -16,6 +16,8 @@ const IanKibet = "IanKibet.jpg"
 const ImmanuelNduthu = "Immanuel.png"
 const JoeSila = "JoeSila.jpg"
 const SharonWangui = "SharonWangui.jpg"
+const TimothyMurkomen = "Timothy Murkomen.jpg"
+const TrizahNabwire = "Trizah Nabwire.jpg"
 
 const TeamPage = () => (
   <Layout>
@@ -133,6 +135,18 @@ const TeamPage = () => (
             position={"Cloud and DevOps"}
             linkedinUsername={"jan-juma-4a1595229"}
           /> */}
+        <ImageDisplay
+          imageName={TimothyMurkomen}
+          fullName={"Timothy Murkomen,"}
+          position={"Cyber Security and Blockchain"}
+          linkedinUsername={"timoo20"}
+        />
+        <ImageDisplay
+          imageName={TrizahNabwire}
+          fullName={"Trizah Nabwire,"}
+          position={"UI/UX Designer"}
+          linkedinUsername={"nabwiretrizah"}
+        />
       </div>
     </div>
   </Layout>
