@@ -18,6 +18,8 @@ const JoeSila = "JoeSila.jpg"
 const SharonWangui = "SharonWangui.jpg"
 const TimothyMurkomen = "Timothy Murkomen.jpg"
 const TrizahNabwire = "Trizah Nabwire.jpg"
+const JanJuma = "JanJuma.jpg"
+const DennisWachira = "DennisWachira.jpg"
 
 const TeamPage = () => (
   <Layout>
@@ -129,12 +131,12 @@ const TeamPage = () => (
           position={"Artificial Intelligence and Machine Learning"}
           linkedinUsername={"ian-kibet-"}
         />
-        {/* <ImageDisplay
-            imageName={JanJuma}
-            fullName={"Jan Juma"}
-            position={"Cloud and DevOps"}
-            linkedinUsername={"jan-juma-4a1595229"}
-          /> */}
+        <ImageDisplay
+          imageName={JanJuma}
+          fullName={"Jan Juma"}
+          position={"Cloud and DevOps"}
+          linkedinUsername={"jan-juma-4a1595229"}
+        />
         <ImageDisplay
           imageName={TimothyMurkomen}
           fullName={"Timothy Murkomen,"}
@@ -146,6 +148,12 @@ const TeamPage = () => (
           fullName={"Trizah Nabwire,"}
           position={"UI/UX Designer"}
           linkedinUsername={"nabwiretrizah"}
+        />
+        <ImageDisplay
+          imageName={DennisWachira}
+          fullName={"Dennis Wachira,"}
+          position={"Engineering Academy"}
+          linkedinUsername={"dennis-wachira-451786258"}
         />
       </div>
     </div>
