@@ -20,7 +20,6 @@ const TimothyMurkomen = "Timothy Murkomen.jpg"
 const TrizahNabwire = "Trizah Nabwire.jpg"
 const JanJuma = "JanJuma.jpg"
 const DennisWachira = "DennisWachira.jpg"
-
 const TeamPage = () => (
   <Layout>
     <div className="container">
