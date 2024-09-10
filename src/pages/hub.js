@@ -6,7 +6,7 @@ import hub1 from "../images/hub1.png"
 import hub2 from "../images/hub2.png"
 import hub3 from "../images/hub3.png"
 // import michael from '../images/michael.png'
-import Eugene from "../images/LeadHub.jpg"
+import Eugene from "../images/hub.jpg"
 
 const HubPage = () => {
   const [open, setOpen] = React.useState(false)
