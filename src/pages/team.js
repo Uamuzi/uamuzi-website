@@ -20,6 +20,7 @@ const TimothyMurkomen = "Timothy Murkomen.jpg"
 const TrizahNabwire = "Trizah Nabwire.jpg"
 const JanJuma = "JanJuma.jpg"
 const DennisWachira = "DennisWachira.jpg"
+const DanNjuguna = "DanNjuguna.jpg"
 const TeamPage = () => (
   <Layout>
     <div className="container">
@@ -68,12 +69,6 @@ const TeamPage = () => (
           linkedinUsername={"joe-sila-34823a267"}
         />
 
-        {/* <ImageDisplay
-          imageName={JoeSila}
-          fullName={"Joe Sila"}
-          position={"Marketing and Communication"}
-          linkedinUsername={"joe-sila-34823a267"}
-        /> */}
         <ImageDisplay
           imageName={JeremyWachira}
           fullName={"Jeremy Wachira"}
@@ -92,13 +87,6 @@ const TeamPage = () => (
           position={"Hub"}
           linkedinUsername={"eugene-raburu-kf"}
         />
-
-        {/* <ImageDisplay
-          imageName={DennisWachira}
-          fullName={"Dennis Wachira"}
-          position={"Engineering Academy"}
-          linkedinUsername={"dennis-wachira-451786258"}
-        /> */}
 
         {/* <ImageDisplay
             imageName={RodgersBiwott}
@@ -153,6 +141,12 @@ const TeamPage = () => (
           fullName={"Dennis Wachira,"}
           position={"Engineering Academy"}
           linkedinUsername={"dennis-wachira-451786258"}
+        />
+        <ImageDisplay
+          imageName={DanNjuguna}
+          fullName={"Dan Njuguna"}
+          position={"EMachine Learning"}
+          linkedinUsername={"http://dan-njuguna-9a9986269"}
         />
       </div>
     </div>
