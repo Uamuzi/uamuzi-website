@@ -12,11 +12,15 @@ const AntonyGakuru = "AntonyGakuru.jpeg"
 const EugeneRaburu = "EugeneRaburu.png"
 const MonicahNgari = "MonicahNgari.jpg"
 const Muliro = "Muliro.jpg"
-const IanKibet = "IanKibet.png"
-const ImmanuelNduthu = "Immanuel.png";
-const JoeSila = "JoeSila.jpg";
-const SharonWangui = "SharonWangui.jpg";
-
+const IanKibet = "IanKibet.jpg"
+const ImmanuelNduthu = "Immanuel.png"
+const JoeSila = "JoeSila.jpg"
+const SharonWangui = "SharonWangui.jpg"
+const TimothyMurkomen = "Timothy Murkomen.jpg"
+const TrizahNabwire = "Trizah Nabwire.jpg"
+const JanJuma = "JanJuma.jpg"
+const DennisWachira = "DennisWachira.jpg"
+const DanNjuguna = "DanNjuguna.jpg"
 const TeamPage = () => (
   <Layout>
     <div className="container">
@@ -33,7 +37,6 @@ const TeamPage = () => (
           fullName={"Elvis Sitati"}
           position={"Founder & Chief Executive Officer"}
           linkedinUsername={"elvis-sitati-2a282b79"}
-          email={"elvis.sitati@uamuzi.org"}
         />
         {/* <ImageDisplay
           imageName={KarenKurgat}
@@ -56,7 +59,7 @@ const TeamPage = () => (
         <ImageDisplay
           imageName={TimothyMabango}
           fullName={"Timothy Mabango"}
-          position={"Resource Mobilization"}
+          position={"Partnership and Resource Mobilizatio"}
           linkedinUsername={"mabango-timothy-capm-972343186"}
         />
         <ImageDisplay
@@ -66,12 +69,6 @@ const TeamPage = () => (
           linkedinUsername={"joe-sila-34823a267"}
         />
 
-        {/* <ImageDisplay
-          imageName={JoeSila}
-          fullName={"Joe Sila"}
-          position={"Marketing and Communication"}
-          linkedinUsername={"joe-sila-34823a267"}
-        /> */}
         <ImageDisplay
           imageName={JeremyWachira}
           fullName={"Jeremy Wachira"}
@@ -92,13 +89,6 @@ const TeamPage = () => (
         />
 
         {/* <ImageDisplay
-          imageName={DennisWachira}
-          fullName={"Dennis Wachira"}
-          position={"Engineering Academy"}
-          linkedinUsername={"dennis-wachira-451786258"}
-        /> */}
-
-          {/* <ImageDisplay
             imageName={RodgersBiwott}
             fullName={"Rodgers Biwott"}
             position={"Lead Cloud and DevOps"}
@@ -128,12 +118,36 @@ const TeamPage = () => (
           position={"Artificial Intelligence and Machine Learning"}
           linkedinUsername={"ian-kibet-"}
         />
-        {/* <ImageDisplay
-            imageName={JanJuma}
-            fullName={"Jan Juma"}
-            position={"Cloud and DevOps"}
-            linkedinUsername={"jan-juma-4a1595229"}
-          /> */}
+        <ImageDisplay
+          imageName={JanJuma}
+          fullName={"Jan Juma"}
+          position={"Cloud and DevOps"}
+          linkedinUsername={"jan-juma-4a1595229"}
+        />
+        <ImageDisplay
+          imageName={TimothyMurkomen}
+          fullName={"Timothy Murkomen,"}
+          position={"Cyber Security and Blockchain"}
+          linkedinUsername={"timoo20"}
+        />
+        <ImageDisplay
+          imageName={TrizahNabwire}
+          fullName={"Trizah Nabwire,"}
+          position={"UI/UX Designer"}
+          linkedinUsername={"nabwiretrizah"}
+        />
+        <ImageDisplay
+          imageName={DennisWachira}
+          fullName={"Dennis Wachira,"}
+          position={"Engineering Academy"}
+          linkedinUsername={"dennis-wachira-451786258"}
+        />
+        <ImageDisplay
+          imageName={DanNjuguna}
+          fullName={"Dan Njuguna"}
+          position={"EMachine Learning"}
+          linkedinUsername={"http://dan-njuguna-9a9986269"}
+        />
       </div>
     </div>
   </Layout>
