@@ -103,7 +103,7 @@ function LandingTeam() {
 
             <div className="team-member-info text-center py-2">
               <p className="text-capitalize fw-bold">Antony Gakuru</p>
-              <p className="primary-color text-capitalize">Technology </p>
+              <p className="primary-color text-capitalize">Chief Technology Officer </p>
               <span className="primary-color">
                 <a
                   href="https://www.linkedin.com/in/muriithigakuru/"
@@ -160,7 +160,7 @@ function LandingTeam() {
             <div className="team-member-info text-center py-2">
               <p className="text-capitalize fw-bold">Timothy Mabango</p>
               <p className="primary-color text-capitalize">
-                Partnership and Resource Mobilization{" "}
+                Partnerships
               </p>
               <span className="primary-color">
                 <a
