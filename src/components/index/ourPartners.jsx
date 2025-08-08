@@ -4,6 +4,7 @@ import ebu from "../../images/ebu.png";
 import GillianNeky from "../../images/GillianNeky-xs.webp";
 import HadithiFest from "../../images/Hadithi_Fest.png";
 import Naturel from "../../images/Naturel2.png";
+import GDCLogo from "../../images/GDCLogo.jpg";
 
 
 function OurPartners() {
@@ -13,11 +14,15 @@ function OurPartners() {
     <div className='partner-image-container '>
 
         <div className='partner-image'>
-        <a href="https://ebulux.lu/civic-education/" target="_blank" rel="noopener noreferrer">
-          <img src={ebu} alt="microsoft logo"  className='pt-3 w-4' />
+        <a href="https://globaldemocracycoalition.org/" target="_blank" rel="noopener noreferrer">
+          <img src={GDCLogo} alt="GDC logo"  className=' w-1/2' />
         </a>
         </div>
-
+        <div className='partner-image'>
+        <a href="https://ebulux.lu/civic-education/" target="_blank" rel="noopener noreferrer">
+          <img src={ebu} alt="ebu logo"  className='pt-3 w-4' />
+        </a>
+        </div>
         <div className='partner-image'>
         <a href="https://www.microsoft.com/en-us/startups" target="_blank" rel="noopener noreferrer">
           <img src={MS_Startups_FH} alt="microsoft logo" width={250} height={150} className='py-3 ' />
