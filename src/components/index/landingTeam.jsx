@@ -24,7 +24,7 @@ function LandingTeam() {
           <div className="team-inner m-0 p-0 position-relative">
             <StaticImage
               className="team-img"
-              src="../../images/Elvis.jpg"
+              src="../../images/team/Elvis.jpg"
               placeholder="blurred"
             />
             <div className="long-purple-line position-absolute"></div>
@@ -66,18 +66,20 @@ function LandingTeam() {
           <div className="team-inner m-0 p-0 position-relative">
             <StaticImage
               className="team-img"
-              src="../../images/SharonWangui.jpg"
+              src="../../images/team/maxmillan.png"
               placeholder="blurred"
             />
             <div className="long-purple-line position-absolute"></div>
             <div className="short-grey-line position-absolute"></div>
 
             <div className="team-member-info text-center py-2">
-              <p className="text-capitalize fw-bold">Sharon Wangui</p>
-              <p className="primary-color text-capitalize">Administration and Programs</p>
+              <p className="text-capitalize fw-bold">Maxmillan Ochango</p>
+              <p className="primary-color text-capitalize">
+                Chief Operations Officer
+              </p>
               <span className="primary-color">
                 <a
-                  href="https://www.linkedin.com/in/sharon-wangui-799a67209/"
+                  href="https://www.linkedin.com/in/maxmillan-ochango-5000/"
                   rel="noreferrer noopener"
                   target="_blank"
                 >
@@ -93,7 +95,7 @@ function LandingTeam() {
           <div className="team-inner m-0 p-0 position-relative mb-4">
             <StaticImage
               className="team-img"
-              src="../../images/AntonyGakuru.jpeg"
+              src="../../images/team/AntonyGakuru.jpeg"
               placeholder="blurred"
             />
             <div className="long-purple-line position-absolute"></div>
@@ -120,7 +122,36 @@ function LandingTeam() {
           <div className="team-inner m-0 p-0 position-relative">
             <StaticImage
               className="team-img"
-              src="../../images/TimothyMabango.jpg"
+              src="../../images/team/sharon.jpg"
+              placeholder="blurred"
+            />
+            <div className="long-purple-line position-absolute"></div>
+            <div className="short-grey-line position-absolute"></div>
+
+            <div className="team-member-info text-center py-2">
+              <p className="text-capitalize fw-bold">Sharon Wangui</p>
+              <p className="primary-color text-capitalize">
+                Administration and Programs
+              </p>
+              <span className="primary-color">
+                <a
+                  href="https://www.linkedin.com/in/sharon-wangui-799a67209/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <box-icon
+                    name="linkedin-square"
+                    type="logo"
+                    color="#8067AD"
+                  ></box-icon>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div className="team-inner m-0 p-0 position-relative">
+            <StaticImage
+              className="team-img"
+              src="../../images/team/timothy.jpg"
               placeholder="blurred"
             />
             <div className="long-purple-line position-absolute"></div>
@@ -147,33 +178,6 @@ function LandingTeam() {
             </div>
           </div>
 
-          <div className="team-inner m-0 p-0 position-relative mb-4">
-            <StaticImage
-              className="team-img"
-              src="../../images/MonicahNgari.png"
-              placeholder="blurred"
-            />
-            <div className="long-purple-line position-absolute"></div>
-            <div className="short-grey-line position-absolute"></div>
-
-            <div className="team-member-info text-center py-2">
-              <p className="text-capitalize fw-bold">Monicah Ngari</p>
-              <p className="primary-color text-capitalize">Frontend </p>
-              <span className="primary-color">
-                <a
-                  href="https://www.linkedin.com/in/monicah-ngari-96459321b/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <box-icon
-                    name="linkedin-square"
-                    type="logo"
-                    color="#8067AD"
-                  ></box-icon>
-                </a>
-              </span>
-            </div>
-          </div>
           <Link
             to="/team"
             className="see-all members align-items-center fw-bold text-capitalize d-flex justify-content-center align-items-center"
