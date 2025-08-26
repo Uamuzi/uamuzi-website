@@ -106,7 +106,7 @@ const TeamPage = () => (
         />
         <ImageDisplay
           imageName={IanKibet}
-          fullName={"Ian Kibet,"}
+          fullName={"Ian Kibet"}
           position={"Artificial Intelligence and Machine Learning"}
           linkedinUsername={"ian-kibet-"}
         />
