@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ImageDisplay from "../components/team/ImageDisplay"
 
-const ElvisSitati = "team/Elvis.jpg"
+const ElvisSitati = "team/ElvisSitati.jpg"
 const MaxmillanOchango = "team/MaxmillanOchango.png"
 const AntonyGakuru = "team/AntonyGakuru.jpeg"
 const KarenKurgat = "team/KarenKurgat.jpg"
