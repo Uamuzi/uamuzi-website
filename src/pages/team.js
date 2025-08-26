@@ -37,6 +37,7 @@ const TeamPage = () => (
           fullName={"Elvis Sitati"}
           position={"Founder & Chief Executive Officer"}
           linkedinUsername={"elvis-sitati-2a282b79"}
+          email={"elvis.sitati@uamuzi.org"}
         />
         {/* <ImageDisplay
           imageName={KarenKurgat}
