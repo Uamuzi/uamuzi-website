@@ -16,7 +16,11 @@ const IanKibet = "IanKibet.jpg"
 const ImmanuelNduthu = "Immanuel.png"
 const JoeSila = "JoeSila.jpg"
 const SharonWangui = "SharonWangui.jpg"
-
+const TimothyMurkomen = "Timothy Murkomen.jpg"
+const TrizahNabwire = "Trizah Nabwire.jpg"
+const JanJuma = "JanJuma.jpg"
+const DennisWachira = "DennisWachira.jpg"
+const DanNjuguna = "DanNjuguna.jpg"
 const TeamPage = () => (
   <Layout>
     <div className="container">
@@ -106,12 +110,36 @@ const TeamPage = () => (
           position={"Artificial Intelligence and Machine Learning"}
           linkedinUsername={"ian-kibet-"}
         />
-        {/* <ImageDisplay
-            imageName={JanJuma}
-            fullName={"Jan Juma"}
-            position={"Cloud and DevOps"}
-            linkedinUsername={"jan-juma-4a1595229"}
-          /> */}
+        <ImageDisplay
+          imageName={JanJuma}
+          fullName={"Jan Juma"}
+          position={"Cloud and DevOps"}
+          linkedinUsername={"jan-juma-4a1595229"}
+        />
+        <ImageDisplay
+          imageName={TimothyMurkomen}
+          fullName={"Timothy Murkomen,"}
+          position={"Cyber Security and Blockchain"}
+          linkedinUsername={"timoo20"}
+        />
+        <ImageDisplay
+          imageName={TrizahNabwire}
+          fullName={"Trizah Nabwire,"}
+          position={"UI/UX Designer"}
+          linkedinUsername={"nabwiretrizah"}
+        />
+        <ImageDisplay
+          imageName={DennisWachira}
+          fullName={"Dennis Wachira,"}
+          position={"Engineering Academy"}
+          linkedinUsername={"dennis-wachira-451786258"}
+        />
+        <ImageDisplay
+          imageName={DanNjuguna}
+          fullName={"Dan Njuguna"}
+          position={"EMachine Learning"}
+          linkedinUsername={"http://dan-njuguna-9a9986269"}
+        />
       </div>
     </div>
   </Layout>
