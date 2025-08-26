@@ -50,19 +50,9 @@ function LandingTeam() {
                     color="#8067AD"
                   ></box-icon>
                 </a>
-                <a href="mailto:elvis.sitati@uamuzi.org">
-                  <box-icon
-                    name="envelope"
-                    type="solid"
-                    color="#8067AD"
-                  ></box-icon>
-                </a>
               </span>
             </div>
           </div>
-        </div>
-
-        <div className="col-12 col-sm-12 col-md-12 col-lg-12 d-flex gap-5 justify-content-center align-items-center flex-wrap pt-5 ">
           <div className="team-inner m-0 p-0 position-relative">
             <StaticImage
               className="team-img"
@@ -74,7 +64,9 @@ function LandingTeam() {
 
             <div className="team-member-info text-center py-2">
               <p className="text-capitalize fw-bold">Sharon Wangui</p>
-              <p className="primary-color text-capitalize">Administration and Programs</p>
+              <p className="primary-color text-capitalize">
+                Administration and Programs
+              </p>
               <span className="primary-color">
                 <a
                   href="https://www.linkedin.com/in/sharon-wangui-799a67209/"
@@ -90,6 +82,9 @@ function LandingTeam() {
               </span>
             </div>
           </div>
+        </div>
+
+        <div className="col-12 col-sm-12 col-md-12 col-lg-12 d-flex gap-5 justify-content-center align-items-center flex-wrap pt-5 ">
           <div className="team-inner m-0 p-0 position-relative mb-4">
             <StaticImage
               className="team-img"
