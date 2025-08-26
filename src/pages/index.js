@@ -3,15 +3,15 @@ import * as React from "react"
 import Hero from "../components/index/hero"
 
 import Layout from "../components/layout"
-import Seo from "../components/seo";
+import Seo from "../components/seo"
 // import Events from "../components/index/events";
-import OurStory from "../components/index/ourStory";
-import SDGs from "../components/index/sdgs";
-import LandingTeam from "../components/index/landingTeam";
-import Technology from "../components/index/technology";
-import Partnerships from "../components/index/partnerships";
-import OurPartners from "../components/index/ourPartners";
-import Mobile from "../components/index/mobile";
+import OurStory from "../components/index/ourStory"
+import SDGs from "../components/index/sdgs"
+import LandingTeam from "../components/index/landingTeam"
+import Technology from "../components/index/technology"
+import Partnerships from "../components/index/partnerships"
+import OurPartners from "../components/index/ourPartners"
+import Mobile from "../components/index/mobile"
 
 const IndexPage = () => (
   <Layout>
@@ -19,13 +19,13 @@ const IndexPage = () => (
       <Hero />
       <OurStory />
       {/* <Events /> */}
-      <SDGs/>
+      <SDGs />
       <LandingTeam />
       <Technology />
       <Mobile />
       <Partnerships />
       <OurPartners />
-     </div>
+    </div>
   </Layout>
 )
 

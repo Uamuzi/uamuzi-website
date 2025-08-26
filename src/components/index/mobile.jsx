@@ -71,7 +71,7 @@ function Mobile() {
                 <b>Mulika</b> (peacebuilding)
               </p>
             </li>
-            <a lassName="cursor-pointer hover: border-2 border-red-500"
+            <a className="cursor-pointer hover: border-2 border-red-500"
               href="https://play.google.com/store/apps/details?id=com.uamuzi.android&pcampaignid=web_share">
               <img
                 className=""
