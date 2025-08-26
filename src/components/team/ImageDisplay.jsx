@@ -33,7 +33,6 @@ const ImageDisplay = ({
   if (!image) {
     return <div>Image not found</div>
   }
-  console.log(email, "email, who let the dogs out, woof woof")
   return (
     <div className="team-inner m-0 p-0 position-relative">
       <Img
