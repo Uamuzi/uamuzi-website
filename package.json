@@ -1,7 +1,7 @@
 {
   "name": "uamuzi",
   "private": true,
-  "description": "Uamuzi Foundation website",
+  "description": "Uamuzi Foundation Website",
   "version": "0.1.0",
   "author": "Antony Gakuru <antony123muriithi@gmail.com>",
   "dependencies": {
