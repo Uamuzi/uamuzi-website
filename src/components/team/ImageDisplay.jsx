@@ -43,7 +43,6 @@ const ImageDisplay = ({
       />
       <div className="long-purple-line position-absolute"></div>
       <div className="short-grey-line position-absolute"></div>
-
       <div className="team-member-info text-center py-2">
         <p className="text-capitalize fw-bold">{fullName}</p>
         <p className="primary-color text-capitalize">{position}</p>

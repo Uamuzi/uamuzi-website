@@ -4,23 +4,131 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ImageDisplay from "../components/team/ImageDisplay"
 
-const Elvis = "Elvis.jpg"
-const CollinsOmondi = "CollinsOmondi.jpg"
-const JeremyWachira = "JeremyWachira.jpg"
-const TimothyMabango = "TimothyMabango.jpg"
-const AntonyGakuru = "AntonyGakuru.jpeg"
-const EugeneRaburu = "EugeneRaburu.png"
-const MonicahNgari = "MonicahNgari.jpg"
-const Muliro = "Muliro.jpg"
-const IanKibet = "IanKibet.jpg"
-const ImmanuelNduthu = "Immanuel.png"
-const JoeSila = "JoeSila.jpg"
-const SharonWangui = "SharonWangui.jpg"
-const TimothyMurkomen = "Timothy Murkomen.jpg"
-const TrizahNabwire = "Trizah Nabwire.jpg"
-const JanJuma = "JanJuma.jpg"
-const DennisWachira = "DennisWachira.jpg"
-const DanNjuguna = "DanNjuguna.jpg"
+const ElvisSitati = "team/Elvis.jpg"
+const MaxmillanOchango = "team/maxmillan.png"
+const AntonyGakuru = "team/AntonyGakuru.jpeg"
+const KarenKurgat = "team/karen.jpg"
+const SharonWangui = "team/sharon.jpg"
+const UrbanusMulobi = "team/UrbanusMulobi.jpg"
+const TimothyMabango = "team/timothy.jpg"
+const JoeSila = "team/JoeSila.jpg"
+const JeremyWachira = "team/JeremyWachira.jpg"
+const KilonzoMutie = "team/kilonzo.jpg"
+const SandraKimiring = "team/sandra.jpg"
+const CollinsOmondi = "team/collins.jpg"
+const AbigaelZawadi = "team/abigael.jpg"
+const JanJuma = "team/jan.jpg"
+const LennoxMatwere = "team/lennox.jpg"
+const MonicahNgari = "team/MonicahNgari.jpg"
+
+const EugeneRaburu = "team/EugeneRaburu.png"
+const Muliro = "team/Muliro.jpg"
+const IanKibet = "team/IanKibet.png"
+const ImmanuelNduthu = "team/Immanuel.png"
+
+const teamMembers = [
+  {
+    name: "Elvis Sitati",
+    position: "Founder & Chief Executive Officer",
+    linkedinUsername: "elvis-sitati-2a282b79",
+    email: "elvis.sitati@uamuzi.org",
+    imageName: ElvisSitati,
+  },
+  {
+    name: "Maxmillan Ochango",
+    position: "Chief Operations Officer",
+    linkedinUsername: "maxmillan-ochango-5000",
+    imageName: MaxmillanOchango,
+  },
+  {
+    name: "Antony Gakuru",
+    position: "Chief Technology Officer",
+    linkedinUsername: "muriithigakuru",
+    imageName: AntonyGakuru,
+  },
+  {
+    name: "Karen Kurgat",
+    position: "Legal",
+    linkedinUsername: "karen-kurgat-a4b9511b9",
+    imageName: KarenKurgat,
+  },
+  {
+    name: "Sharon Wangui",
+    position: "Administration and Programs",
+    linkedinUsername: "sharon-wangui-799a67209",
+    imageName: SharonWangui,
+  },
+  {
+    name: "Urbanus Mulobi",
+    position: "Finance",
+    linkedinUsername: "urbanus-mulobi-acca-668910102",
+    imageName: UrbanusMulobi,
+  },
+
+  {
+    name: "Timothy Mabango",
+    position: "Partnerships",
+    linkedinUsername: "mabango-timothy-capm",
+    imageName: TimothyMabango,
+  },
+
+  {
+    name: "Joe Sila",
+    position: "Marketing and Communication",
+    linkedinUsername: "joe-sila-34823a267",
+    imageName: JoeSila,
+  },
+  {
+    name: "Jeremy Wachira",
+    position: "Volunteers Coordinator",
+    linkedinUsername: "jeremy-wachira-610a221b1",
+    imageName: JeremyWachira,
+  },
+  {
+    name: "Kilonzo Mutie",
+    position: "Research",
+    linkedinUsername: "kilonzo-mutie-39b3ab21a",
+    imageName: KilonzoMutie,
+  },
+  {
+    name: "Sandra Kimiring",
+    position: "Hub",
+    linkedinUsername: "sandra-kimiring",
+    imageName: SandraKimiring,
+  },
+  {
+    name: "Collins Omondi",
+    position: "Lead Frontend ",
+    linkedinUsername: "c-o-m-o-n",
+    imageName: CollinsOmondi,
+  },
+  {
+    name: "Abigael Zawadi",
+    position: "Lead Machine Learning",
+    linkedinUsername: "abigael-zawadi-b21b9124b",
+    imageName: AbigaelZawadi,
+  },
+
+  {
+    name: "Jan Juma",
+    position: "Lead Cloud and DevOps",
+    linkedinUsername: "jan-juma-4a1595229",
+    imageName: JanJuma,
+  },
+  {
+    name: "Lenox Matwere",
+    position: "Lead Blockchain",
+    linkedinUsername: "lennox-matwere",
+    imageName: LennoxMatwere,
+  },
+  {
+    name: "Monicah Ngari",
+    position: "Lead Blockchain",
+    linkedinUsername: "monicah-ngari-96459321b",
+    imageName: MonicahNgari,
+  },
+]
+
 const TeamPage = () => (
   <Layout>
     <div className="container">
@@ -32,115 +140,16 @@ const TeamPage = () => (
       </p>
 
       <div className="team py-4">
-        <ImageDisplay
-          imageName={Elvis}
-          fullName={"Elvis Sitati"}
-          position={"Founder & Chief Executive Officer"}
-          linkedinUsername={"elvis-sitati-2a282b79"}
-          email={"elvis.sitati@uamuzi.org"}
-        />
-        {/* <ImageDisplay
-          imageName={KarenKurgat}
-          fullName={"Karen Kurgat"}
-          position={"Leagal"}
-          linkedinUsername={"karen-kurgat-a4b9511b9"}
-        /> */}
-        <ImageDisplay
-          imageName={SharonWangui}
-          fullName={"Sharon Wangui"}
-          position={"Administration and Programs"}
-          linkedinUsername={"sharon-wangui-799a67209"}
-        />
-        <ImageDisplay
-          imageName={ImmanuelNduthu}
-          fullName={"Immanuel Nduthu"}
-          position={"Finance"}
-          linkedinUsername={"immanuel-nduthu-792535307"}
-        />
-        <ImageDisplay
-          imageName={TimothyMabango}
-          fullName={"Timothy Mabango"}
-          position={"Partnership and Resource Mobilizatio"}
-          linkedinUsername={"mabango-timothy-capm-972343186"}
-        />
-        <ImageDisplay
-          imageName={JoeSila}
-          fullName={"Joe Sila"}
-          position={"Marketing and Communication"}
-          linkedinUsername={"joe-sila-34823a267"}
-        />
-        <ImageDisplay
-          imageName={JeremyWachira}
-          fullName={"Jeremy Wachira"}
-          position={"Volunteer Coordinator"}
-          linkedinUsername={"jeremy-wachira-610a221b1"}
-        />
-        <ImageDisplay
-          imageName={AntonyGakuru}
-          fullName={"Antony Gakuru"}
-          position={"Technology"}
-          linkedinUsername={"muriithigakuru"}
-        />
-        <ImageDisplay
-          imageName={EugeneRaburu}
-          fullName={"Eugene Raburu"}
-          position={"Hub"}
-          linkedinUsername={"eugene-raburu-kf"}
-        />
-        <ImageDisplay
-          imageName={CollinsOmondi}
-          fullName={"Collins Omondi"}
-          position={"Lead Frontend"}
-          linkedinUsername={"c-o-m-o-n"}
-        />
-        <ImageDisplay
-          imageName={MonicahNgari}
-          fullName={"Monicah Ngari"}
-          position={"Frontend"}
-          linkedinUsername={"monicah-ngari-96459321b"}
-        />
-        <ImageDisplay
-          imageName={Muliro}
-          fullName={"Michael Muliro"}
-          position={"Backend"}
-          linkedinUsername={"michael-muliro-064365124"}
-        />
-        <ImageDisplay
-          imageName={IanKibet}
-          fullName={"Ian Kibet"}
-          position={"Artificial Intelligence and Machine Learning"}
-          linkedinUsername={"ian-kibet-"}
-        />
-        <ImageDisplay
-          imageName={JanJuma}
-          fullName={"Jan Juma"}
-          position={"Cloud and DevOps"}
-          linkedinUsername={"jan-juma-4a1595229"}
-        />
-        <ImageDisplay
-          imageName={TimothyMurkomen}
-          fullName={"Timothy Murkomen,"}
-          position={"Cyber Security and Blockchain"}
-          linkedinUsername={"timoo20"}
-        />
-        <ImageDisplay
-          imageName={TrizahNabwire}
-          fullName={"Trizah Nabwire,"}
-          position={"UI/UX Designer"}
-          linkedinUsername={"nabwiretrizah"}
-        />
-        <ImageDisplay
-          imageName={DennisWachira}
-          fullName={"Dennis Wachira,"}
-          position={"Engineering Academy"}
-          linkedinUsername={"dennis-wachira-451786258"}
-        />
-        <ImageDisplay
-          imageName={DanNjuguna}
-          fullName={"Dan Njuguna"}
-          position={"EMachine Learning"}
-          linkedinUsername={"http://dan-njuguna-9a9986269"}
-        />
+        {teamMembers.map(member => (
+          <ImageDisplay
+            key={member.name}
+            imageName={member.imageName}
+            fullName={member.name}
+            position={member.position}
+            linkedinUsername={member.linkedinUsername}
+            email={member.email}
+          />
+        ))}
       </div>
     </div>
   </Layout>
