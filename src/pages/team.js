@@ -65,13 +65,6 @@ const TeamPage = () => (
           position={"Marketing and Communication"}
           linkedinUsername={"joe-sila-34823a267"}
         />
-
-        {/* <ImageDisplay
-          imageName={JoeSila}
-          fullName={"Joe Sila"}
-          position={"Marketing and Communication"}
-          linkedinUsername={"joe-sila-34823a267"}
-        /> */}
         <ImageDisplay
           imageName={JeremyWachira}
           fullName={"Jeremy Wachira"}
@@ -90,20 +83,6 @@ const TeamPage = () => (
           position={"Hub"}
           linkedinUsername={"eugene-raburu-kf"}
         />
-
-        {/* <ImageDisplay
-          imageName={DennisWachira}
-          fullName={"Dennis Wachira"}
-          position={"Engineering Academy"}
-          linkedinUsername={"dennis-wachira-451786258"}
-        /> */}
-
-          {/* <ImageDisplay
-            imageName={RodgersBiwott}
-            fullName={"Rodgers Biwott"}
-            position={"Lead Cloud and DevOps"}
-            linkedinUsername={"rodgersbiwott"}
-          /> */}
         <ImageDisplay
           imageName={CollinsOmondi}
           fullName={"Collins Omondi"}
