@@ -24,7 +24,7 @@ function LandingTeam() {
           <div className="team-inner m-0 p-0 position-relative">
             <StaticImage
               className="team-img"
-              src="../../images/team/Elvis.jpg"
+              src="../../images/team/ElvisSitati.jpg"
               placeholder="blurred"
             />
             <div className="long-purple-line position-absolute"></div>
@@ -56,7 +56,7 @@ function LandingTeam() {
           <div className="team-inner m-0 p-0 position-relative">
             <StaticImage
               className="team-img"
-              src="../../images/team/maxmillan.png"
+              src="../../images/team/MaxmillanOchango.png"
               placeholder="blurred"
             />
             <div className="long-purple-line position-absolute"></div>
@@ -96,7 +96,9 @@ function LandingTeam() {
 
             <div className="team-member-info text-center py-2">
               <p className="text-capitalize fw-bold">Antony Gakuru</p>
-              <p className="primary-color text-capitalize">Chief Technology Officer </p>
+              <p className="primary-color text-capitalize">
+                Chief Technology Officer{" "}
+              </p>
               <span className="primary-color">
                 <a
                   href="https://www.linkedin.com/in/muriithigakuru/"
@@ -115,8 +117,9 @@ function LandingTeam() {
           <div className="team-inner m-0 p-0 position-relative">
             <StaticImage
               className="team-img"
-              src="../../images/team/sharon.jpg"
+              src="../../images/team/SharonWangui.jpg"
               placeholder="blurred"
+              alt="Sharon Wangui"
             />
             <div className="long-purple-line position-absolute"></div>
             <div className="short-grey-line position-absolute"></div>
@@ -144,17 +147,16 @@ function LandingTeam() {
           <div className="team-inner m-0 p-0 position-relative">
             <StaticImage
               className="team-img"
-              src="../../images/team/timothy.jpg"
+              src="../../images/team/TimothyMabango.jpg"
               placeholder="blurred"
+              alt="Timothy Mabango"
             />
             <div className="long-purple-line position-absolute"></div>
             <div className="short-grey-line position-absolute"></div>
 
             <div className="team-member-info text-center py-2">
               <p className="text-capitalize fw-bold">Timothy Mabango</p>
-              <p className="primary-color text-capitalize">
-                Partnerships
-              </p>
+              <p className="primary-color text-capitalize">Partnerships</p>
               <span className="primary-color">
                 <a
                   href="https://www.linkedin.com/in/mabango-timothy-capm/"
