@@ -21,11 +21,6 @@ const JanJuma = "team/JanJuma.jpg"
 const LennoxMatwere = "team/LennoxMatwere.jpg"
 const MonicahNgari = "team/MonicahNgari.jpg"
 
-const EugeneRaburu = "team/EugeneRaburu.png"
-const Muliro = "team/Muliro.jpg"
-const IanKibet = "team/IanKibet.png"
-const ImmanuelNduthu = "team/Immanuel.png"
-
 const teamMembers = [
   {
     name: "Elvis Sitati",
