@@ -16,7 +16,7 @@ const JeremyWachira = "team/JeremyWachira.jpg"
 const KilonzoMutie = "team/KilonzoMutie.jpg"
 const SandraKimiring = "team/SandraKimiring.jpg"
 const CollinsOmondi = "team/CollinsOmondi.jpg"
-const AbigaelZawadi = "team/AbigaelZawadi.jpg"
+const AbigaelZawadi = "team/AbigaelZawadi.png"
 const JanJuma = "team/JanJuma.jpg"
 const LennoxMatwere = "team/LennoxMatwere.jpg"
 const MonicahNgari = "team/MonicahNgari.jpg"
@@ -123,7 +123,7 @@ const teamMembers = [
   },
   {
     name: "Monicah Ngari",
-    position: "Lead Blockchain",
+    position: "Frontend",
     linkedinUsername: "monicah-ngari-96459321b",
     imageName: MonicahNgari,
   },
