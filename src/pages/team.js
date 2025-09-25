@@ -116,7 +116,7 @@ const teamMembers = [
     imageName: JanJuma,
   },
   {
-    name: "Lenox Matwere",
+    name: "Lennox Matwere",
     position: "Lead Blockchain",
     linkedinUsername: "lennox-matwere",
     imageName: LennoxMatwere,
