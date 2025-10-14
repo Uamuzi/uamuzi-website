@@ -30,7 +30,7 @@ const teamMembers = [
     imageName: ElvisSitati,
   },
   {
-    name: "Maxmillan Ochango",
+    name: "Maxmillian Ochango",
     position: "Chief Operations Officer",
     linkedinUsername: "maxmillan-ochango-5000",
     imageName: MaxmillanOchango,

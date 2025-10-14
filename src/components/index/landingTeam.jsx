@@ -63,7 +63,7 @@ function LandingTeam() {
             <div className="short-grey-line position-absolute"></div>
 
             <div className="team-member-info text-center py-2">
-              <p className="text-capitalize fw-bold">Maxmillan Ochango</p>
+              <p className="text-capitalize fw-bold">Maxmillian Ochango</p>
               <p className="primary-color text-capitalize">
                 Chief Operations Officer
               </p>
