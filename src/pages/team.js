@@ -81,7 +81,7 @@ const teamMembers = [
   },
   {
     name: "Kilonzo Mutie",
-    position: "Research",
+    position: "Research & Development",
     linkedinUsername: "kilonzo-mutie-39b3ab21a",
     imageName: KilonzoMutie,
   },
