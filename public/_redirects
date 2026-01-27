@@ -1,6 +1,0 @@
-
-## Created with gatsby-plugin-netlify
-/using-dsg/  /.netlify/functions/__dsg  200
-/page-data/using-dsg/page-data.json  /.netlify/functions/__dsg  200
-/using-ssr/  /.netlify/functions/__ssr  200
-/page-data/using-ssr/page-data.json  /.netlify/functions/__ssr  200
