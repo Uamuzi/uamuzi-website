@@ -9,6 +9,18 @@
  */
 module.exports = {
   pathPrefix: "/uamuzi-website",
+
+  animation: {
+        marquee: 'marquee 25s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
+
+      
   siteMetadata: {
     title: `Uamuzi Foundation`,
     description: `Uamuzi Foundation is a philanthropic organization, under the umbrella of Uamuzi Group, advocating for social justice with a specific focus on the youth who deserve equal economic, political and social rights.`,
