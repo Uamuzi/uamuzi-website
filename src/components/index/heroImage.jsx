@@ -30,7 +30,7 @@ function HeroImage({imgStyle, imageName}) {
     return <div>Image not found</div>;
   }
 
-  return <Img style={imgStyle}  fluid={image.node.childImageSharp.fluid} alt="Your image description" />;
+  return <Img style={imgStyle}  fluid={image.node.childImageSharp.fluid} alt="hero section" />;
 
   
 }

@@ -1,7 +1,7 @@
 {
   "name": "uamuzi",
   "private": true,
-  "description": "Uamuzi Foundation website",
+  "description": "Uamuzi Foundation Website",
   "version": "0.1.0",
   "author": "Antony Gakuru <antony123muriithi@gmail.com>",
   "dependencies": {
@@ -25,8 +25,11 @@
     "reactstrap": "^9.2.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
     "gh-pages": "^5.0.0",
+    "postcss": "^8.5.6",
     "prettier": "^2.8.7",
+    "tailwindcss": "^4.1.12",
     "webpack-cli": "^5.1.4"
   },
   "keywords": [
