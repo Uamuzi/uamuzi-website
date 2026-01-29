@@ -288,3 +288,6 @@
 .drop-link{
     text-decoration: none;
 }
+.ck-editor__editable {
+    min-height: 400px;
+}

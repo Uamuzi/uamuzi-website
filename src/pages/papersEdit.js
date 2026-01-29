@@ -56,7 +56,7 @@ function PapersEdit() {
   return (
   <Layout>
     <ToastContainer />
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="contact_form">
       <input
         type="text"
         placeholder="Article title"
