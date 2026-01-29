@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Antony Gakuru <antony123muriithi@gmail.com>",
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^41.4.2",
+    "@ckeditor/ckeditor5-react": "^11.0.1",
     "bootstrap": "^5.2.3",
     "boxicons": "^2.1.4",
     "gatsby": "^5.8.1",
@@ -16,6 +18,8 @@
     "gatsby-plugin-sharp": "^5.13.0",
     "gatsby-source-filesystem": "^5.13.0",
     "gatsby-transformer-sharp": "^5.13.0",
+    "install": "^0.13.0",
+    "npm": "^11.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
