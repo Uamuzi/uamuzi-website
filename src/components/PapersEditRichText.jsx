@@ -10,24 +10,44 @@ function PapersEditRichText({ value, onChange }) {
         toolbar: [
           "heading",
           "|",
+
           "bold",
           "italic",
+          "underline",
+          "strikethrough",
+          "code",
+          "subscript",
+          "superscript",
+
+          "|",
           "link",
+          "blockQuote",
+          "codeBlock",
+
+          "|",
           "bulletedList",
           "numberedList",
-          "blockQuote",
+          "outdent",
+          "indent",
+
+          "|",
+          "alignment:left",
+          "alignment:center",
+          "alignment:right",
+          "alignment:justify",
+
+          "|",
+          "insertTable",
+
           "|",
           "undo",
           "redo",
         ],
-        removePlugins: [
-          "Image",
-          "ImageToolbar",
-          "ImageUpload",
-          "ImageCaption",
-          "ImageStyle",
-          "ImageResize",
-        ],
+        image: {
+          upload: {
+            types: [],
+          },
+        },
       }}
       data={value}
       onChange={(event, editor) => onChange(editor.getData())}
