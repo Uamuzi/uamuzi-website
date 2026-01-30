@@ -1,8 +1,26 @@
-import React from "react"
-import { CKEditor } from "@ckeditor/ckeditor5-react"
-import ClassicEditor from "@ckeditor/ckeditor5-build-classic"
+import React, {useEffect, useState } from "react"
 
 function PapersEditRichText({ value, onChange }) {
+  const [Editor, setEditor] = useState(null)
+
+  useEffect(() => {
+    // wait to load editor in client
+    Promise.all([
+      import("@ckeditor/ckeditor5-react"),
+      import("@ckeditor/ckeditor5-build-classic"),
+    ]).then(([ckeditor, classicEditor]) => {
+      setEditor({
+        CKEditor: ckeditor.CKEditor,
+        ClassicEditor: classicEditor.default,
+      })
+    })
+  }, [])
+
+  if (!Editor) {
+    return <p>loading editor</p>
+  }
+
+  const { CKEditor, ClassicEditor } = Editor
   return (
     <CKEditor
       editor={ClassicEditor}
@@ -50,7 +68,7 @@ function PapersEditRichText({ value, onChange }) {
         },
       }}
       data={value}
-      onChange={(event, editor) => onChange(editor.getData())}
+      onChange={(_, editor) => onChange(editor.getData())}
     />
   )
 }
