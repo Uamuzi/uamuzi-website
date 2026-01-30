@@ -4,6 +4,7 @@ function PapersEditRichText({ value, onChange }) {
   const [Editor, setEditor] = useState(null)
 
   useEffect(() => {
+    // wait to load editor in client
     Promise.all([
       import("@ckeditor/ckeditor5-react"),
       import("@ckeditor/ckeditor5-build-classic"),
