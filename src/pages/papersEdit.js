@@ -18,7 +18,7 @@ function PapersEdit() {
     setLoading(true)
 
     try {
-      const res = await fetch("https:uamuzi.site/api/v1/blogs", {
+      const res = await fetch("https://uamuzi.site/api/v1/blogs", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
