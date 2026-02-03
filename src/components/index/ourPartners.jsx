@@ -6,8 +6,7 @@ import HadithiFest from "../../images/Hadithi_Fest.png";
 import Naturel from "../../images/Naturel2.png";
 import IEBC from "../../images/IEBC.png";
 import YDC from "../../images/YDC.webp";
-import { motion } from "framer-motion";
-
+import Marquee from "react-fast-marquee";
 
 
 const partnerImages = [
@@ -79,7 +78,7 @@ function OurPartners() {
 
     <div className="partner-container border-2 border-green-500 bg-yellow-500">
         <p className="h4 text-capitalize fw-bold">Our Partners</p>
-    <motion.div className='partner-image-container'  variants={marqueeVariants} animate="animate">
+    <Marquee className='partner-image-container'  >
 
 {/* Render images twice for a perfect loop */}
 {[...partnerImages, ...partnerImages].map((partner, index) => (
@@ -88,8 +87,9 @@ function OurPartners() {
       <img src={partner.image} alt={`${partner.name} logo`} className="pt-3" width={partner.width} height={partner.height} style={{ objectFit: "contain" }} />
     </a>
   </div>
+
 ))}
-    </motion.div>
+    </Marquee>
     </div>
   )
 }
