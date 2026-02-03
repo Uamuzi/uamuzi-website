@@ -151,20 +151,24 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
-
+    width: 100%;
+    overflow: hidden; /* Clip the moving logos */
 }
 
 .partner-image-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; /* Flow from left */
     align-items: center;
+    flex-wrap: nowrap; /* Keep in one row for marquee */
 }
 .partner-image{
+    /* border: 2px solid red; */
     /* border: 2px solid grey; */
     /* background-color:grey; */
     padding:10px;
     border-radius:10px;
-    margin:2px;
+    margin:0 20px; /* Spacing between logos */
+    flex-shrink: 0; /* Keep natural width */
 }
 @media (max-width: 768px) {
     .become-a-leader-img {
@@ -175,10 +179,9 @@
         top: -70px;
     }
 .partner-image-container{
-    flex-direction:column;
-    justify-content: center;
+    flex-direction: row; /* Keep horizontal on mobile */
+    justify-content: flex-start;
     align-items: center;
-    
 }
 }
 .tech-image {
