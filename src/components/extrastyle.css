@@ -291,3 +291,8 @@
 .ck-editor__editable {
     min-height: 400px;
 }
+.center-blog-editor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
