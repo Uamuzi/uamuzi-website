@@ -9,14 +9,12 @@
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
 
-  // 1️⃣ DSG page
   createPage({
     path: "/using-dsg",
     component: require.resolve("./src/templates/using-dsg.js"),
     defer: true,
   })
 
-  // 2️⃣ Blog pages from slugs
   const result = await graphql(`
     {
       allBlogs {
