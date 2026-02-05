@@ -57,7 +57,7 @@ function PapersEdit() {
       <ToastContainer />
       <div className="pt-2"></div>
       <h3 className="text-center fw-bold">Write your articles</h3>
-      <div className="w-full d-flex justify-center items-center">
+      <div className="w-full center-blog-editor">
         <form onSubmit={handleSubmit} className="contact_form">
           <input
             type="text"
