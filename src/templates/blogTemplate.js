@@ -15,6 +15,9 @@ const BlogTemplate = ({ pageContext }) => {
           <h6 className="fw-bold my-4">
             by <i>{blog.author}</i>
           </h6>
+          <p className="">
+            <i>{timeAgo(blog.created_at)}</i>
+          </p>
           <div dangerouslySetInnerHTML={{ __html: blog.body }} />
         </div>
       </div>
