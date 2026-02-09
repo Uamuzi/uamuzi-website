@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from "react"
+import Layout from "../../components/layout"
+import Seo from "../../components/seo"
 
 const BlogPage = ({ params }) => {
   const { slug } = params
+  const [blogId, filteredSlug] = slug.split("/");
   const [blog, setBlog] = useState(null)
   const [error, setError] = useState(false)
 
   useEffect(() => {
-    fetch(`https://uamuzi.site/api/v1/blogs/${slug}`)
+    fetch(`https://uamuzi.site/api/v1/blogs/${blogId}`)
       .then(res => {
         if (!res.ok) throw new Error()
         return res.json()

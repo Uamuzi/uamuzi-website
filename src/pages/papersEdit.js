@@ -46,7 +46,7 @@ function PapersEdit() {
         setTitle("")
         setBody("")
         setAuthor("")
-        setBlogUrls([...blogUrls, `${BASE_URL}/${blog.slug}`])
+        setBlogUrls([...blogUrls, `${BASE_URL}/${blog.id}/${blog.slug}`])
       }
     } catch (err) {
       console.error(err)
