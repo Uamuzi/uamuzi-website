@@ -11,7 +11,7 @@ const BlogTemplate = ({ pageContext }) => {
     <Layout>
       <div className="w-100 mt-4 d-flex justify-content-center align-items-center">
         <div className="px-8 w-75 align-self-center ">
-          <h1 className="fw-bold">{blog.title}</h1>
+          <h2 className="fw-bold">{blog.title}</h2>
           <h6 className="fw-bold my-4">
             by <i>{blog.author}</i>
           </h6>
