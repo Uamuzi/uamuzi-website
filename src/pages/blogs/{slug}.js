@@ -48,10 +48,16 @@ const BlogPage = ({ params }) => {
         <div className="w-100 mt-4 d-flex justify-content-center align-items-center">
           <div className="px-8 w-75 align-self-center ">
             <h2 className="fw-bold">{blog.title}</h2>
-            <h6 className="fw-bold my-4">
+            <p
+              className="mt-4 p-0 mb-0 font-light"
+              style={{ color: "gray", fontWeight: 400 }}
+            >
               by <i>{blog.author}</i>
-            </h6>
-            <p className="">
+            </p>
+            <p
+              className="mb-4 mt-0 p-0"
+              style={{ color: "#8067AD", fontSize: "14px" }}
+            >
               <i>{timeAgo(blog.created_at)}</i>
             </p>
             <div dangerouslySetInnerHTML={{ __html: blog.body }} />
