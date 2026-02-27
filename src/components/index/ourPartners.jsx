@@ -4,51 +4,92 @@ import ebu from "../../images/ebu.png";
 import GillianNeky from "../../images/GillianNeky-xs.webp";
 import HadithiFest from "../../images/Hadithi_Fest.png";
 import Naturel from "../../images/Naturel2.png";
-import GDCLogo from "../../images/GDCLogo.jpg";
+import IEBC from "../../images/IEBC.png";
+import YDC from "../../images/YDC.webp";
+import Marquee from "react-fast-marquee";
+
+
+const partnerImages = [
+  {
+    name: "ebulux",
+    image: ebu,
+    link: "https://ebulux.lu/civic-education/",
+    width: 300,
+    height: 80,
+  },
+  {
+    name: "YDC",
+    image: YDC,
+    link: "https://youthdemocracycohort.com/",
+    width: 250,
+    height: 100,
+  },
+  {
+    name: "IEBC",
+    image: IEBC,
+    link: "https://www.iebc.or.ke/",
+    width: 250,
+    height: 100,
+  },
+  {
+    name: "microsoft",
+    image: MS_Startups_FH,
+    link: "https://www.microsoft.com/en-us/startups",
+    width: 250,
+    height: 100,
+  },
+  {
+    name: "Gillian Neky",
+    image: GillianNeky,
+    link: "https://nekyadvocates.com/",
+    width: 150,
+    height: 150,
+  },
+  {
+    name: "HadithiFest",
+    image: HadithiFest,
+    link: "https://www.instagram.com/hadithifest/",
+    width: 200,
+    height: 140,
+  },
+  {
+    name: "Naturel",
+    image: Naturel,
+    link: "https://www.instagram.com/naturel_still_water/",
+    width: 200,
+    height: 110,
+  },
+]
 
 
 function OurPartners() {
+
+  const marqueeVariants = {
+     animate: {
+       x: ["-50%", "0%"],
+       transition: {
+         x: { repeat: Infinity, duration: 25, ease: "linear" },
+       },
+     }
+  }
+
+
   return (
-    <div className="partner-container">
+
+    <div className="partner-container border-2 border-green-500 bg-yellow-500">
         <p className="h4 text-capitalize fw-bold">Our Partners</p>
-    <div className='partner-image-container '>
+    <Marquee className='partner-image-container'  >
 
-        <div className='partner-image'>
-        <a href="https://globaldemocracycoalition.org/" target="_blank" rel="noopener noreferrer">
-          <img src={GDCLogo} alt="GDC logo"  className=' w-1/2' />
-        </a>
-        </div>
-        <div className='partner-image'>
-        <a href="https://ebulux.lu/civic-education/" target="_blank" rel="noopener noreferrer">
-          <img src={ebu} alt="ebu logo"  className='pt-3 w-4' />
-        </a>
-        </div>
-        <div className='partner-image'>
-        <a href="https://www.microsoft.com/en-us/startups" target="_blank" rel="noopener noreferrer">
-          <img src={MS_Startups_FH} alt="microsoft logo" width={250} height={150} className='py-3 ' />
-        </a>
-        </div>
+{/* Render images twice for a perfect loop */}
+{[...partnerImages, ...partnerImages].map((partner, index) => (
+  <div key={index} className="partner-image">
+    <a href={partner.link} target="_blank" rel="noopener noreferrer">
+      <img src={partner.image} alt={`${partner.name} logo`} className="pt-3" width={partner.width} height={partner.height} style={{ objectFit: "contain" }} />
+    </a>
+  </div>
 
-
-        <div className='partner-image'>
-        <a  href="https://nekyadvocates.com/" target="_blank" rel="noopener noreferrer">
-          <img src={GillianNeky} alt="Gillian Neky logo" width={120} height={120} className='py-3 my-4' />
-        </a>
-        </div>
-
-        <div className='partner-image'>
-        <a  href="https://www.instagram.com/hadithifest/" target="_blank" rel="noopener noreferrer">
-        <img src={HadithiFest} alt="HadithiFest Neky logo" width={150} height={150} className='py-3 ' />
-        </a>
-        </div>
-
-        <div className='partner-image'>
-        <a  href="https://www.instagram.com/naturel_still_water/" target="_blank" rel="noopener noreferrer">
-           <img src={Naturel} alt="Naturel Neky logo" width={150} height={100} className='py-3 my-4 ' />
-        </a>
-        </div>
-
-    </div>
+))}
+    </Marquee>
     </div>
   )
 }
