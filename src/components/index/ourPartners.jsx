@@ -1,12 +1,14 @@
 import React from 'react';
 import MS_Startups_FH from "../../images/MS_Startups_FH.png";
 import ebu from "../../images/ebu.png";
-import GillianNeky from "../../images/GillianNeky-xs.webp";
+import GillianNeky from "../../images/gillian-nicky-logo-colored.png";
 import HadithiFest from "../../images/Hadithi_Fest.png";
 import Naturel from "../../images/Naturel2.png";
 import IEBC from "../../images/IEBC.png";
 import YDC from "../../images/YDC.webp";
 import Marquee from "react-fast-marquee";
+import OIDP from "../../images/logo-oidp.png";
+import VAR from "../../images/var-logo-nobg.png";
 
 
 const partnerImages = [
@@ -59,6 +61,20 @@ const partnerImages = [
     width: 200,
     height: 110,
   },
+  {
+    name: "OIDP",
+    image: OIDP,
+    link: "https://www.oidp.net/",
+    width: 250,
+    height: 100,
+  },
+  {
+    name: "VAR",
+    image: VAR,
+    link: "https://www.var3738.org/",
+    width: 250,
+    height: 100,
+  }
 ]
 
 
@@ -76,9 +92,9 @@ function OurPartners() {
 
   return (
 
-    <div className="partner-container border-2 border-green-500 bg-yellow-500">
+    <div className="partner-container">
         <p className="h4 text-capitalize fw-bold">Our Partners</p>
-    <Marquee className='partner-image-container'  >
+    <Marquee className='partner-image-container' pauseOnHover={true} >
 
 {/* Render images twice for a perfect loop */}
 {[...partnerImages, ...partnerImages].map((partner, index) => (
