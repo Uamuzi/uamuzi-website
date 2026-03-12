@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import MS_Startups_FH from "../../images/MS_Startups_FH.png";
 import ebu from "../../images/ebu.png";
 import GillianNeky from "../../images/gillian-nicky-logo-colored.png";
@@ -6,9 +6,9 @@ import HadithiFest from "../../images/Hadithi_Fest.png";
 import Naturel from "../../images/Naturel2.png";
 import IEBC from "../../images/IEBC.png";
 import YDC from "../../images/YDC.webp";
-import Marquee from "react-fast-marquee";
 import OIDP from "../../images/logo-oidp.png";
 import VAR from "../../images/var-logo-nobg.png";
+import { motion, useMotionValue, useAnimationFrame, useTransform } from 'framer-motion';
 
 
 const partnerImages = [
@@ -77,37 +77,83 @@ const partnerImages = [
   }
 ]
 
+// Simple wrap function for infinite loop
+const wrap = (min, max, v) => {
+  const rangeSize = max - min;
+  return ((((v - min) % rangeSize) + rangeSize) % rangeSize) + min;
+};
 
 function OurPartners() {
+  const baseX = useMotionValue(0);
+  const contentRef = useRef(null);
+  const [isHovered, setIsHovered] = useState(false);
+  const [isDragging, setIsDragging] = useState(false);
 
-  const marqueeVariants = {
-     animate: {
-       x: ["-50%", "0%"],
-       transition: {
-         x: { repeat: Infinity, duration: 25, ease: "linear" },
-       },
-     }
-  }
+  // Auto-scroll speed
+  const speed = 0.025;
+  const REPETITIONS = 4;
 
+  useAnimationFrame((t, delta) => {
+    if (!isHovered && !isDragging) {
+      // Move left continuously
+      let moveBy = speed * (delta / 16); // Normalize by ~60fps
+      baseX.set(baseX.get() - moveBy);
+    }
+  });
+
+  // Transform baseX into a wrapped percentage for infinite scroll
+  // Wrapping at -100/REPETITIONS ensures we jump back exactly one set
+  const x = useTransform(baseX, (v) => `${wrap(-100 / REPETITIONS, 0, v)}%`);
 
   return (
-
-    <div className="partner-container">
-        <p className="h4 text-capitalize fw-bold">Our Partners</p>
-    <Marquee className='partner-image-container' pauseOnHover={true} >
-
-{/* Render images twice for a perfect loop */}
-{[...partnerImages, ...partnerImages].map((partner, index) => (
-  <div key={index} className="partner-image">
-    <a href={partner.link} target="_blank" rel="noopener noreferrer">
-      <img src={partner.image} alt={`${partner.name} logo`} className="pt-3" width={partner.width} height={partner.height} style={{ objectFit: "contain" }} />
-    </a>
-  </div>
-
-))}
-    </Marquee>
+    <div className="partner-container overflow-hidden">
+      <p className="h4 text-capitalize fw-bold">Our Partners</p>
+      <div 
+        className="partner-image-container relative flex cursor-grab active:cursor-grabbing w-full overflow-hidden"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        <motion.div 
+          ref={contentRef}
+          className="flex flex-row flex-nowrap"
+          style={{ x, display: 'flex', flexDirection: 'row', width: 'max-content' }}
+          drag="x"
+          dragMomentum={false}
+          onDragStart={() => setIsDragging(true)}
+          onDragEnd={() => setIsDragging(false)}
+          onDrag={(e, info) => {
+            if (contentRef.current) {
+              const fullWidth = contentRef.current.scrollWidth;
+              // Convert pixel delta to percentage of total width
+              const deltaPercentage = (info.delta.x / fullWidth) * 100;
+              baseX.set(baseX.get() + deltaPercentage);
+            }
+          }}
+        >
+          {/* Multiple repetitions ensure a seamless loop on any screen width */}
+          {[...Array(REPETITIONS)].flatMap(() => partnerImages).map((partner, index) => (
+            <div key={index} className="partner-image">
+              <a 
+                href={partner.link} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                onClick={(e) => isDragging && e.preventDefault()} // Prevent click if dragging
+              >
+                <img 
+                  src={partner.image} 
+                  alt={`${partner.name} logo`} 
+                  className="pt-3" 
+                  width={partner.width} 
+                  height={partner.height} 
+                  style={{ objectFit: "contain", pointerEvents: "none" }} 
+                />
+              </a>
+            </div>
+          ))}
+        </motion.div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default OurPartners
