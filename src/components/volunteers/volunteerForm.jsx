@@ -51,7 +51,8 @@ function VolunteerForm() {
     const [email, setEmail] = useState("")
     const [phoneNumber, setPhoneNumber] = useState("")
     
-    const prodURL = "https://uamuzi.online"
+//     const prodURL = "https://uamuzi.online"
+    const prodURL = "https://uamuzi.site"
     const prodMailerURL = "https://uamuzi.site"
 
     // Fetch Counties on Mount
