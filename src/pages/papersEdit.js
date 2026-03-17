@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 
@@ -12,6 +11,8 @@ function PapersEdit() {
   const [author, setAuthor] = useState("")
   const [body, setBody] = useState("")
   const [loading, setLoading] = useState(false)
+  const [blogUrls, setBlogUrls] = useState([])
+  const BASE_URL = "https://uamuzi.org/blogs"
 
   const handleSubmit = async e => {
     e.preventDefault()
@@ -38,12 +39,14 @@ function PapersEdit() {
         })
         throw error
       } else {
-        toast.success(`Article has been created successfully`, {
+        const blog = await res.json();
+        toast.success(`Article has been created successfull at\n${BASE_URL}/${blog.slug}`, {
           position: toast.POSITION.TOP_RIGHT,
         })
         setTitle("")
         setBody("")
         setAuthor("")
+        setBlogUrls([...blogUrls, `${BASE_URL}/${blog.id}/${blog.slug}`])
       }
     } catch (err) {
       console.error(err)
@@ -81,6 +84,13 @@ function PapersEdit() {
           <button className="join mt-2" type="submit" disabled={loading}>
             {loading ? "Saving..." : "Create Article"}
           </button>
+
+
+          {
+            blogUrls && blogUrls.map(url => {
+              return <a href={url} className="my-4" style={{color: "#8067ad"}}>{url}</a>
+            })
+          }
         </form>
       </div>
     </Layout>
