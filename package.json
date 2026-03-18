@@ -10,15 +10,15 @@
     "bootstrap": "^5.2.3",
     "boxicons": "^2.1.4",
     "framer-motion": "^12.29.2",
-    "gatsby": "^5.8.1",
+    "gatsby": "^5.16.1",
     "gatsby-cli": "^5.8.0",
     "gatsby-image": "^3.11.0",
-    "gatsby-plugin-image": "^3.8.0",
+    "gatsby-plugin-image": "^3.16.0",
     "gatsby-plugin-manifest": "^5.8.0",
     "gatsby-plugin-netlify": "^5.1.1",
-    "gatsby-plugin-sharp": "^5.13.0",
+    "gatsby-plugin-sharp": "^5.16.0",
     "gatsby-source-filesystem": "^5.13.0",
-    "gatsby-transformer-sharp": "^5.13.0",
+    "gatsby-transformer-sharp": "^5.16.0",
     "install": "^0.13.0",
     "npm": "^11.8.0",
     "react": "^18.2.0",
@@ -36,6 +36,11 @@
     "prettier": "^2.8.7",
     "tailwindcss": "^4.1.12",
     "webpack-cli": "^5.1.4"
+  },
+  "overrides": {
+    "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
+      "react": "^18.2.0"
+    }
   },
   "keywords": [
     "gatsby"
