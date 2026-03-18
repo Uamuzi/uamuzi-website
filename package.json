@@ -7,6 +7,8 @@
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^41.4.2",
     "@ckeditor/ckeditor5-react": "^11.0.1",
+    "ajv": "^8.18.0",
+    "ajv-keywords": "^5.1.0",
     "bootstrap": "^5.2.3",
     "boxicons": "^2.1.4",
     "framer-motion": "^12.29.2",
