@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react"
 import Layout from "../components/layout"
-import Seo from "../components/seo";
-import { render } from 'react-dom';
+import Seo from "../components/seo"
+import { render } from "react-dom"
 
 function MobilePolicy() {
   const htmlString = `
@@ -61,12 +61,15 @@ word-break: break-word !important;
       <div style="color: #595959;font-size: 14px;font-family: Arial;padding-top:16px;">
       This privacy policy was created using Termly's <a style="color: rgb(48, 48, 241) !important;" href="https://termly.io/products/privacy-policy-generator/">Privacy Policy Generator</a>.
       </div>
-  `;
+  `
 
   return (
     <Layout>
-      <section className='px-5 py-5'>
-        <div dangerouslySetInnerHTML={{ __html: htmlString }} className='px-5' />
+      <section className="px-5 py-5">
+        <div
+          dangerouslySetInnerHTML={{ __html: htmlString }}
+          className="px-5"
+        />
       </section>
     </Layout>
   )
