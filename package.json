@@ -10,7 +10,7 @@
     "bootstrap": "^5.2.3",
     "boxicons": "^2.1.4",
     "framer-motion": "^12.29.2",
-    "gatsby": "^5.8.1",
+    "gatsby": "^5.16.1",
     "gatsby-cli": "^5.8.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-image": "^3.8.0",
