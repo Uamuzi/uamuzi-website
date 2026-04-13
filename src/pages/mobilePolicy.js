@@ -4,6 +4,7 @@ import Seo from "../components/seo"
 import { render } from "react-dom"
 
 function MobilePolicy() {
+  console.log("MobilePolicy component rendering")
   const htmlString = `
   <style>
   [data-custom-class='body'], [data-custom-class='body'] * {
@@ -63,16 +64,21 @@ word-break: break-word !important;
       </div>
   `
 
-  return (
-    <Layout>
-      <section className="px-5 py-5">
-        <div
-          dangerouslySetInnerHTML={{ __html: htmlString }}
-          className="px-5"
-        />
-      </section>
-    </Layout>
-  )
+  try {
+    return (
+      <Layout>
+        <section className="px-5 py-5">
+          <div
+            dangerouslySetInnerHTML={{ __html: htmlString }}
+            className="px-5"
+          />
+        </section>
+      </Layout>
+    )
+  } catch (error) {
+    console.error("MobilePolicy render error:", error)
+    return <div>Error loading policy: {error.message}</div>
+  }
 }
 
 export const Head = () => <Seo title="Mobile Policy" />
