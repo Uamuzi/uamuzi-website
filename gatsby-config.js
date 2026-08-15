@@ -48,5 +48,30 @@ module.exports = {
         icon: `src/images/uamuzi-favlogo.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-FVGKK2Y011",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // anonymize: true,
+        respectDNT: true,
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        pageTransitionDelay: 0,
+        // Enables Google Optimize using your container Id
+        // optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+        // Enables Google Optimize Experiment ID
+        // experimentId: "YOUR_GOOGLE_EXPERIMENT_ID",
+        // Set Variation ID. 0 for original 1,2,3....
+        // variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
+        // Defers execution of google analytics script after page load
+        defer: false,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "uamuzi.org",
+        // defaults to false
+        enableWebVitalsTracking: true,
+      },
+    },
   ],
 }
